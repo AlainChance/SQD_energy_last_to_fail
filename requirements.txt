@@ -1,0 +1,10 @@
+# Versions used for the paper (Python 3.13.11)
+numpy==2.3.0
+scipy==1.17.1
+matplotlib==3.11.1
+pyscf==2.12.1
+qiskit==2.5.0
+qiskit-addon-sqd==0.12.1
+ffsim==0.0.69
+qiskit-ibm-runtime==0.48.0
+# mpi4py (for the sbd experiments) lives in the conda environment described in replication/sbd_fork/build/sqd_hpc_addon_install.md

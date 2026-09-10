@@ -1,0 +1,407 @@
+2026-09-08 03:28:42 stretched-N2 experiment starts (IBM grid)
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[    128 s] FCI E = -109.102886691 (19079424 dets, 128 s)
+[    149 s] LUCJ (1 rep) energy -108.993261127; 50000 noise-free samples, 142 unique
+[    151 s] R=1.0975 lucj iteration 1: D = 2809, E = -109.052719403; {'N_electrons': 14.0, 'r2': 39.412704, 'x2': 24.419869, 'y2': 7.496195, 'Theta_xx': -1.868657, 'Theta_yy': 0.934662, 'rho_N': 192.767461, 'S2': 0.0149}
+[    153 s] R=1.0975 lucj iteration 2: D = 2809, E = -109.052719403; {'N_electrons': 14.0, 'r2': 39.412704, 'x2': 24.419869, 'y2': 7.496195, 'Theta_xx': -1.868657, 'Theta_yy': 0.934662, 'rho_N': 192.767461, 'S2': 0.0149}
+[    153 s] FINAL R=1.0975 lucj: E = -109.052719403, 2 iterations, 4 s
+R=1.0975 lucj rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      1 s] IBM archive label 1.00 (R = 1.0975 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] 100000 IBM hardware shots (100000 unique) relabelled to our orbital order
+[     61 s] R=1.0975 ibm_hardware iteration 1: D = 1196836, E = -108.953526960; {'N_electrons': 14.0, 'r2': 39.839447, 'x2': 24.491052, 'y2': 7.686253, 'Theta_xx': -1.76206, 'Theta_yy': 0.862946, 'rho_N': 192.725284, 'S2': 0.028092}
+[    177 s] R=1.0975 ibm_hardware iteration 2: D = 1803649, E = -109.095075336; {'N_electrons': 14.0, 'r2': 39.574537, 'x2': 24.496111, 'y2': 7.537957, 'Theta_xx': -1.902103, 'Theta_yy': 0.952936, 'rho_N': 192.70831, 'S2': 0.004047}
+[    324 s] R=1.0975 ibm_hardware iteration 3: D = 2310400, E = -109.099983723; {'N_electrons': 14.0, 'r2': 39.60023, 'x2': 24.508651, 'y2': 7.544409, 'Theta_xx': -1.908067, 'Theta_yy': 0.956105, 'rho_N': 192.708784, 'S2': 0.001473}
+[    503 s] R=1.0975 ibm_hardware iteration 4: D = 2499561, E = -109.101304423; {'N_electrons': 14.0, 'r2': 39.601389, 'x2': 24.50818, 'y2': 7.54615, 'Theta_xx': -1.906781, 'Theta_yy': 0.954072, 'rho_N': 192.705897, 'S2': 0.000791}
+[    698 s] R=1.0975 ibm_hardware iteration 5: D = 2886601, E = -109.102000899; {'N_electrons': 14.0, 'r2': 39.602835, 'x2': 24.508936, 'y2': 7.547119, 'Theta_xx': -1.907192, 'Theta_yy': 0.953342, 'rho_N': 192.705339, 'S2': 0.0005}
+[    884 s] R=1.0975 ibm_hardware iteration 6: D = 3027600, E = -109.102327417; {'N_electrons': 14.0, 'r2': 39.603889, 'x2': 24.510775, 'y2': 7.54673, 'Theta_xx': -1.909424, 'Theta_yy': 0.954452, 'rho_N': 192.704865, 'S2': 0.000289}
+[   1068 s] R=1.0975 ibm_hardware iteration 7: D = 3083536, E = -109.102523420; {'N_electrons': 14.0, 'r2': 39.605763, 'x2': 24.512871, 'y2': 7.546541, 'Theta_xx': -1.91163, 'Theta_yy': 0.955673, 'rho_N': 192.704421, 'S2': 0.000188}
+[   1261 s] R=1.0975 ibm_hardware iteration 8: D = 3294225, E = -109.102584400; {'N_electrons': 14.0, 'r2': 39.605833, 'x2': 24.51303, 'y2': 7.546484, 'Theta_xx': -1.911834, 'Theta_yy': 0.955793, 'rho_N': 192.704368, 'S2': 0.000153}
+[   1453 s] R=1.0975 ibm_hardware iteration 9: D = 3279721, E = -109.102636322; {'N_electrons': 14.0, 'r2': 39.605244, 'x2': 24.512607, 'y2': 7.546325, 'Theta_xx': -1.911494, 'Theta_yy': 0.955736, 'rho_N': 192.704734, 'S2': 0.000124}
+[   1648 s] R=1.0975 ibm_hardware iteration 10: D = 3367225, E = -109.102664580; {'N_electrons': 14.0, 'r2': 39.605347, 'x2': 24.512704, 'y2': 7.546352, 'Theta_xx': -1.911588, 'Theta_yy': 0.955747, 'rho_N': 192.704673, 'S2': 0.000112}
+[   1648 s] FINAL R=1.0975 ibm_hardware: E = -109.102664580, 10 iterations, 1646 s
+R=1.0975 ibm_hardware rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      1 s] 50000 uniformly random strings + 5 random in-sector seeds
+[     22 s] R=1.0975 random5 iteration 1: D = 214369, E = -105.978619617; {'N_electrons': 14.0, 'r2': 46.492264, 'x2': 23.65557, 'y2': 11.496605, 'Theta_xx': 2.817572, 'Theta_yy': -1.526173, 'rho_N': 192.099712, 'S2': 0.248953}
+[    199 s] R=1.0975 random5 iteration 2: D = 1646089, E = -109.016104112; {'N_electrons': 14.0, 'r2': 39.621353, 'x2': 24.408848, 'y2': 7.656612, 'Theta_xx': -1.747801, 'Theta_yy': 0.798362, 'rho_N': 192.758558, 'S2': 0.017916}
+[    326 s] R=1.0975 random5 iteration 3: D = 2190400, E = -109.096846195; {'N_electrons': 14.0, 'r2': 39.590934, 'x2': 24.501025, 'y2': 7.546438, 'Theta_xx': -1.901276, 'Theta_yy': 0.948413, 'rho_N': 192.710204, 'S2': 0.003337}
+[    485 s] R=1.0975 random5 iteration 4: D = 2621161, E = -109.100676459; {'N_electrons': 14.0, 'r2': 39.603252, 'x2': 24.509754, 'y2': 7.547326, 'Theta_xx': -1.908211, 'Theta_yy': 0.95324, 'rho_N': 192.706222, 'S2': 0.001119}
+[    654 s] R=1.0975 random5 iteration 5: D = 2941225, E = -109.102120052; {'N_electrons': 14.0, 'r2': 39.604913, 'x2': 24.511099, 'y2': 7.547287, 'Theta_xx': -1.909398, 'Theta_yy': 0.954129, 'rho_N': 192.705062, 'S2': 0.000362}
+[    836 s] R=1.0975 random5 iteration 6: D = 3204100, E = -109.102438737; {'N_electrons': 14.0, 'r2': 39.60483, 'x2': 24.512019, 'y2': 7.546528, 'Theta_xx': -1.910819, 'Theta_yy': 0.955225, 'rho_N': 192.704523, 'S2': 0.000219}
+[   1020 s] R=1.0975 random5 iteration 7: D = 3286969, E = -109.102592672; {'N_electrons': 14.0, 'r2': 39.604716, 'x2': 24.511915, 'y2': 7.546468, 'Theta_xx': -1.910719, 'Theta_yy': 0.95526, 'rho_N': 192.70459, 'S2': 0.000145}
+[   1210 s] R=1.0975 random5 iteration 8: D = 3426201, E = -109.102657090; {'N_electrons': 14.0, 'r2': 39.605275, 'x2': 24.512718, 'y2': 7.546347, 'Theta_xx': -1.911645, 'Theta_yy': 0.95572, 'rho_N': 192.704623, 'S2': 0.000113}
+[   1408 s] R=1.0975 random5 iteration 9: D = 3594816, E = -109.102695036; {'N_electrons': 14.0, 'r2': 39.605466, 'x2': 24.512843, 'y2': 7.546325, 'Theta_xx': -1.911736, 'Theta_yy': 0.955847, 'rho_N': 192.704656, 'S2': 9.4e-05}
+[   1605 s] R=1.0975 random5 iteration 10: D = 3545689, E = -109.102725992; {'N_electrons': 14.0, 'r2': 39.605689, 'x2': 24.512961, 'y2': 7.546377, 'Theta_xx': -1.911802, 'Theta_yy': 0.955881, 'rho_N': 192.704596, 'S2': 7.7e-05}
+[   1605 s] FINAL R=1.0975 random5: E = -109.102725992, 10 iterations, 1604 s
+R=1.0975 random5 rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[     20 s] LUCJ (1 rep) energy -108.993261127; 50000 noise-free samples, 142 unique
+[     22 s] R=1.0975 ccsdocc iteration 1: D = 2809, E = -109.052719403; {'N_electrons': 14.0, 'r2': 39.412704, 'x2': 24.419869, 'y2': 7.496195, 'Theta_xx': -1.868657, 'Theta_yy': 0.934662, 'rho_N': 192.767461, 'S2': 0.0149}
+[     24 s] R=1.0975 ccsdocc iteration 2: D = 2809, E = -109.052719403; {'N_electrons': 14.0, 'r2': 39.412704, 'x2': 24.419869, 'y2': 7.496195, 'Theta_xx': -1.868657, 'Theta_yy': 0.934662, 'rho_N': 192.767461, 'S2': 0.0149}
+[     24 s] FINAL R=1.0975 ccsdocc: E = -109.052719403, 2 iterations, 4 s
+R=1.0975 ccsdocc rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[     20 s] LUCJ (1 rep) energy -108.993261127; 50000 noise-free samples, 142 unique
+[     20 s] top-5000 CCSD determinants -> 606 alpha x 606 beta strings forced in
+[     50 s] R=1.0975 ccsdconf iteration 1: D = 374544, E = -109.099179574; {'N_electrons': 14.0, 'r2': 39.598981, 'x2': 24.506397, 'y2': 7.546293, 'Theta_xx': -1.90531, 'Theta_yy': 0.952654, 'rho_N': 192.706204, 'S2': 0.001452}
+[     80 s] R=1.0975 ccsdconf iteration 2: D = 374544, E = -109.099179574; {'N_electrons': 14.0, 'r2': 39.598981, 'x2': 24.506397, 'y2': 7.546293, 'Theta_xx': -1.90531, 'Theta_yy': 0.952654, 'rho_N': 192.706204, 'S2': 0.001452}
+[     80 s] FINAL R=1.0975 ccsdconf: E = -109.099179574, 2 iterations, 60 s
+R=1.0975 ccsdconf rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      2 s] 50000 uniformly random in-sector strings
+[    148 s] R=1.0975 allvalid iteration 1: D = 2537649, E = -108.982974857; {'N_electrons': 14.0, 'r2': 39.739423, 'x2': 24.469388, 'y2': 7.634565, 'Theta_xx': -1.779576, 'Theta_yy': 0.890467, 'rho_N': 192.757885, 'S2': 0.037978}
+[    303 s] R=1.0975 allvalid iteration 2: D = 3312400, E = -109.036965593; {'N_electrons': 14.0, 'r2': 39.7037, 'x2': 24.492493, 'y2': 7.643495, 'Theta_xx': -1.832095, 'Theta_yy': 0.85921, 'rho_N': 192.728473, 'S2': 0.019766}
+[    503 s] R=1.0975 allvalid iteration 3: D = 4072324, E = -109.067113800; {'N_electrons': 14.0, 'r2': 39.594052, 'x2': 24.500784, 'y2': 7.550328, 'Theta_xx': -1.899355, 'Theta_yy': 0.944137, 'rho_N': 192.70492, 'S2': 0.010726}
+[    719 s] R=1.0975 allvalid iteration 4: D = 4443664, E = -109.082841601; {'N_electrons': 14.0, 'r2': 39.598817, 'x2': 24.495088, 'y2': 7.554181, 'Theta_xx': -1.888429, 'Theta_yy': 0.940739, 'rho_N': 192.706992, 'S2': 0.008229}
+[    967 s] R=1.0975 allvalid iteration 5: D = 4862025, E = -109.096448069; {'N_electrons': 14.0, 'r2': 39.5732, 'x2': 24.480184, 'y2': 7.546223, 'Theta_xx': -1.87888, 'Theta_yy': 0.939868, 'rho_N': 192.711486, 'S2': 0.003335}
+[   1229 s] R=1.0975 allvalid iteration 6: D = 5031049, E = -109.100011258; {'N_electrons': 14.0, 'r2': 39.590317, 'x2': 24.496324, 'y2': 7.547335, 'Theta_xx': -1.894533, 'Theta_yy': 0.946759, 'rho_N': 192.710383, 'S2': 0.001718}
+[   1501 s] R=1.0975 allvalid iteration 7: D = 5234944, E = -109.101398263; {'N_electrons': 14.0, 'r2': 39.597394, 'x2': 24.504362, 'y2': 7.546727, 'Theta_xx': -1.903052, 'Theta_yy': 0.951209, 'rho_N': 192.709837, 'S2': 0.000862}
+[   1778 s] R=1.0975 allvalid iteration 8: D = 5484964, E = -109.102087256; {'N_electrons': 14.0, 'r2': 39.59646, 'x2': 24.505267, 'y2': 7.546169, 'Theta_xx': -1.904877, 'Theta_yy': 0.951579, 'rho_N': 192.708747, 'S2': 0.000474}
+[   2057 s] R=1.0975 allvalid iteration 9: D = 5569600, E = -109.102457676; {'N_electrons': 14.0, 'r2': 39.596766, 'x2': 24.503893, 'y2': 7.54655, 'Theta_xx': -1.902662, 'Theta_yy': 0.951161, 'rho_N': 192.708501, 'S2': 0.000243}
+[   2345 s] R=1.0975 allvalid iteration 10: D = 5640625, E = -109.102664735; {'N_electrons': 14.0, 'r2': 39.605553, 'x2': 24.51317, 'y2': 7.546186, 'Theta_xx': -1.912183, 'Theta_yy': 0.9561, 'rho_N': 192.704584, 'S2': 0.000121}
+[   2345 s] FINAL R=1.0975 allvalid: E = -109.102664735, 10 iterations, 2343 s
+R=1.0975 allvalid rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[    579 s] FCI E = -108.847747273 (19079424 dets, 578 s)
+[    599 s] LUCJ (1 rep) energy -108.342496602; 50000 noise-free samples, 384 unique
+[    604 s] R=2.195 lucj iteration 1: D = 6889, E = -108.750964563; {'N_electrons': 14.0, 'r2': 84.884878, 'x2': 68.584462, 'y2': 8.154276, 'Theta_xx': -0.215075, 'Theta_yy': 0.101435, 'rho_N': 193.310603, 'S2': 0.081313}
+[    610 s] R=2.195 lucj iteration 2: D = 6889, E = -108.750964563; {'N_electrons': 14.0, 'r2': 84.884878, 'x2': 68.584462, 'y2': 8.154276, 'Theta_xx': -0.215075, 'Theta_yy': 0.101435, 'rho_N': 193.310603, 'S2': 0.081313}
+[    610 s] FINAL R=2.195 lucj: E = -108.750964563, 2 iterations, 11 s
+R=2.195 lucj rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[      2 s] IBM archive label 2.00 (R = 2.1950 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] 100000 IBM hardware shots (99999 unique) relabelled to our orbital order
+[    143 s] R=2.195 ibm_hardware iteration 1: D = 1378276, E = -108.469519132; {'N_electrons': 14.0, 'r2': 86.184296, 'x2': 69.29459, 'y2': 8.451685, 'Theta_xx': -0.630559, 'Theta_yy': 0.305031, 'rho_N': 193.337827, 'S2': 0.691801}
+[    378 s] R=2.195 ibm_hardware iteration 2: D = 1697809, E = -108.816779733; {'N_electrons': 14.0, 'r2': 85.018821, 'x2': 68.758423, 'y2': 8.124003, 'Theta_xx': -0.409045, 'Theta_yy': 0.213817, 'rho_N': 193.273496, 'S2': 0.011617}
+[    681 s] R=2.195 ibm_hardware iteration 3: D = 2449225, E = -108.832222621; {'N_electrons': 14.0, 'r2': 84.941573, 'x2': 68.717013, 'y2': 8.12089, 'Theta_xx': -0.385554, 'Theta_yy': 0.179862, 'rho_N': 193.213136, 'S2': 0.00766}
+[   1048 s] R=2.195 ibm_hardware iteration 4: D = 3052009, E = -108.840690061; {'N_electrons': 14.0, 'r2': 84.953941, 'x2': 68.734951, 'y2': 8.110733, 'Theta_xx': -0.406277, 'Theta_yy': 0.201282, 'rho_N': 193.163053, 'S2': 0.004525}
+[   1472 s] R=2.195 ibm_hardware iteration 5: D = 3636649, E = -108.844245023; {'N_electrons': 14.0, 'r2': 84.964471, 'x2': 68.748221, 'y2': 8.10848, 'Theta_xx': -0.420918, 'Theta_yy': 0.209926, 'rho_N': 193.153654, 'S2': 0.002364}
+[   1949 s] R=2.195 ibm_hardware iteration 6: D = 3924361, E = -108.845356750; {'N_electrons': 14.0, 'r2': 84.973084, 'x2': 68.757539, 'y2': 8.108013, 'Theta_xx': -0.430587, 'Theta_yy': 0.214933, 'rho_N': 193.147961, 'S2': 0.001529}
+[   2461 s] R=2.195 ibm_hardware iteration 7: D = 4268356, E = -108.846121359; {'N_electrons': 14.0, 'r2': 84.969203, 'x2': 68.752581, 'y2': 8.108922, 'Theta_xx': -0.425091, 'Theta_yy': 0.211629, 'rho_N': 193.145686, 'S2': 0.001047}
+[   2997 s] R=2.195 ibm_hardware iteration 8: D = 4511376, E = -108.846616566; {'N_electrons': 14.0, 'r2': 84.969387, 'x2': 68.752719, 'y2': 8.108668, 'Theta_xx': -0.425207, 'Theta_yy': 0.212102, 'rho_N': 193.144464, 'S2': 0.000687}
+[   3551 s] R=2.195 ibm_hardware iteration 9: D = 4648336, E = -108.846904138; {'N_electrons': 14.0, 'r2': 84.967939, 'x2': 68.75233, 'y2': 8.108072, 'Theta_xx': -0.425347, 'Theta_yy': 0.212272, 'rho_N': 193.142992, 'S2': 0.000491}
+[   4124 s] R=2.195 ibm_hardware iteration 10: D = 4761124, E = -108.847079661; {'N_electrons': 14.0, 'r2': 84.967083, 'x2': 68.751875, 'y2': 8.107748, 'Theta_xx': -0.425092, 'Theta_yy': 0.212331, 'rho_N': 193.142486, 'S2': 0.00039}
+[   4124 s] FINAL R=2.195 ibm_hardware: E = -108.847079661, 10 iterations, 4121 s
+R=2.195 ibm_hardware rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[      2 s] 50000 uniformly random strings + 5 random in-sector seeds
+[     28 s] R=2.195 random5 iteration 1: D = 214369, E = -106.992965541; {'N_electrons': 14.0, 'r2': 89.323318, 'x2': 73.156741, 'y2': 8.147607, 'Theta_xx': -4.854274, 'Theta_yy': 2.330659, 'rho_N': 189.307136, 'S2': 0.013579}
+[    384 s] R=2.195 random5 iteration 2: D = 1582564, E = -108.660456798; {'N_electrons': 14.0, 'r2': 85.965522, 'x2': 69.082901, 'y2': 8.454778, 'Theta_xx': -0.422411, 'Theta_yy': 0.191004, 'rho_N': 193.353907, 'S2': 0.042913}
+[    638 s] R=2.195 random5 iteration 3: D = 1874161, E = -108.820818476; {'N_electrons': 14.0, 'r2': 84.981137, 'x2': 68.751839, 'y2': 8.127553, 'Theta_xx': -0.418011, 'Theta_yy': 0.189649, 'rho_N': 193.230895, 'S2': 0.013226}
+[    947 s] R=2.195 random5 iteration 4: D = 2468041, E = -108.835904884; {'N_electrons': 14.0, 'r2': 84.943576, 'x2': 68.733526, 'y2': 8.121801, 'Theta_xx': -0.409322, 'Theta_yy': 0.179497, 'rho_N': 193.159175, 'S2': 0.00683}
+[   1303 s] R=2.195 random5 iteration 5: D = 2951524, E = -108.842328528; {'N_electrons': 14.0, 'r2': 84.941868, 'x2': 68.735563, 'y2': 8.101464, 'Theta_xx': -0.413231, 'Theta_yy': 0.209148, 'rho_N': 193.151577, 'S2': 0.003344}
+[   1700 s] R=2.195 random5 iteration 6: D = 3429904, E = -108.844885232; {'N_electrons': 14.0, 'r2': 84.966604, 'x2': 68.747702, 'y2': 8.109962, 'Theta_xx': -0.419072, 'Theta_yy': 0.20877, 'rho_N': 193.148382, 'S2': 0.001772}
+[   2151 s] R=2.195 random5 iteration 7: D = 3845521, E = -108.845701554; {'N_electrons': 14.0, 'r2': 84.969725, 'x2': 68.749608, 'y2': 8.110832, 'Theta_xx': -0.42037, 'Theta_yy': 0.209025, 'rho_N': 193.146932, 'S2': 0.001309}
+[   2629 s] R=2.195 random5 iteration 8: D = 4120900, E = -108.846323067; {'N_electrons': 14.0, 'r2': 84.966769, 'x2': 68.748292, 'y2': 8.109465, 'Theta_xx': -0.419874, 'Theta_yy': 0.209598, 'rho_N': 193.145427, 'S2': 0.000902}
+[   3146 s] R=2.195 random5 iteration 9: D = 4343056, E = -108.846649902; {'N_electrons': 14.0, 'r2': 84.968282, 'x2': 68.751133, 'y2': 8.108405, 'Theta_xx': -0.42338, 'Theta_yy': 0.211944, 'rho_N': 193.143566, 'S2': 0.000694}
+[   3685 s] R=2.195 random5 iteration 10: D = 4639716, E = -108.846987275; {'N_electrons': 14.0, 'r2': 84.969683, 'x2': 68.7535, 'y2': 8.108068, 'Theta_xx': -0.42623, 'Theta_yy': 0.21315, 'rho_N': 193.142375, 'S2': 0.000438}
+[   3686 s] FINAL R=2.195 random5: E = -108.846987275, 10 iterations, 3684 s
+R=2.195 random5 rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[      2 s] IBM archive label 2.00 (R = 2.1950 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] 100000 IBM hardware shots (99999 unique) relabelled to our orbital order
+[    209 s] R=2.195 ccsdocc iteration 1: D = 1343281, E = -108.807866466; {'N_electrons': 14.0, 'r2': 84.833358, 'x2': 68.570098, 'y2': 8.159194, 'Theta_xx': -0.21929, 'Theta_yy': 0.068298, 'rho_N': 193.312935, 'S2': 0.014465}
+[    497 s] R=2.195 ccsdocc iteration 2: D = 2146225, E = -108.832986089; {'N_electrons': 14.0, 'r2': 84.838454, 'x2': 68.665124, 'y2': 8.082983, 'Theta_xx': -0.35928, 'Theta_yy': 0.185163, 'rho_N': 193.198655, 'S2': 0.008967}
+[    853 s] R=2.195 ccsdocc iteration 3: D = 2920681, E = -108.841240176; {'N_electrons': 14.0, 'r2': 84.956221, 'x2': 68.749585, 'y2': 8.102846, 'Theta_xx': -0.427089, 'Theta_yy': 0.214252, 'rho_N': 193.162463, 'S2': 0.004045}
+[   1264 s] R=2.195 ccsdocc iteration 4: D = 3617604, E = -108.843720650; {'N_electrons': 14.0, 'r2': 84.962276, 'x2': 68.754007, 'y2': 8.103738, 'Theta_xx': -0.430694, 'Theta_yy': 0.215942, 'rho_N': 193.154321, 'S2': 0.002461}
+[   1726 s] R=2.195 ccsdocc iteration 5: D = 3908529, E = -108.845443963; {'N_electrons': 14.0, 'r2': 84.966631, 'x2': 68.750022, 'y2': 8.108387, 'Theta_xx': -0.422539, 'Theta_yy': 0.211146, 'rho_N': 193.15082, 'S2': 0.001433}
+[   2210 s] R=2.195 ccsdocc iteration 6: D = 4064256, E = -108.846191699; {'N_electrons': 14.0, 'r2': 84.967903, 'x2': 68.752112, 'y2': 8.107805, 'Theta_xx': -0.425038, 'Theta_yy': 0.212654, 'rho_N': 193.146465, 'S2': 0.000934}
+[   2743 s] R=2.195 ccsdocc iteration 7: D = 4477456, E = -108.846682234; {'N_electrons': 14.0, 'r2': 84.964932, 'x2': 68.748759, 'y2': 8.108534, 'Theta_xx': -0.421495, 'Theta_yy': 0.210076, 'rho_N': 193.144315, 'S2': 0.000649}
+[   3303 s] R=2.195 ccsdocc iteration 8: D = 4796100, E = -108.846937022; {'N_electrons': 14.0, 'r2': 84.964895, 'x2': 68.749069, 'y2': 8.108296, 'Theta_xx': -0.421977, 'Theta_yy': 0.210415, 'rho_N': 193.143167, 'S2': 0.000492}
+[   3868 s] R=2.195 ccsdocc iteration 9: D = 4897369, E = -108.847126011; {'N_electrons': 14.0, 'r2': 84.965049, 'x2': 68.750214, 'y2': 8.107693, 'Theta_xx': -0.423618, 'Theta_yy': 0.211395, 'rho_N': 193.142202, 'S2': 0.000359}
+[   4456 s] R=2.195 ccsdocc iteration 10: D = 5094049, E = -108.847233020; {'N_electrons': 14.0, 'r2': 84.965382, 'x2': 68.75042, 'y2': 8.107732, 'Theta_xx': -0.423761, 'Theta_yy': 0.211504, 'rho_N': 193.141876, 'S2': 0.000283}
+[   4456 s] FINAL R=2.195 ccsdocc: E = -108.847233020, 10 iterations, 4454 s
+R=2.195 ccsdocc rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[      2 s] IBM archive label 2.00 (R = 2.1950 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] 100000 IBM hardware shots (99999 unique) relabelled to our orbital order
+[      2 s] top-5000 CCSD determinants -> 606 alpha x 606 beta strings forced in
+[    272 s] R=2.195 ccsdconf iteration 1: D = 2414916, E = -108.796668182; {'N_electrons': 14.0, 'r2': 85.058751, 'x2': 68.718717, 'y2': 8.170359, 'Theta_xx': -0.329522, 'Theta_yy': 0.164247, 'rho_N': 193.193769, 'S2': 0.02961}
+[    584 s] R=2.195 ccsdconf iteration 2: D = 2540836, E = -108.833998890; {'N_electrons': 14.0, 'r2': 84.931442, 'x2': 68.692429, 'y2': 8.11252, 'Theta_xx': -0.353744, 'Theta_yy': 0.187352, 'rho_N': 193.198071, 'S2': 0.005562}
+[    958 s] R=2.195 ccsdconf iteration 3: D = 3048516, E = -108.840527741; {'N_electrons': 14.0, 'r2': 84.960418, 'x2': 68.738271, 'y2': 8.106655, 'Theta_xx': -0.408019, 'Theta_yy': 0.210637, 'rho_N': 193.172529, 'S2': 0.003578}
+[   1369 s] R=2.195 ccsdconf iteration 4: D = 3549456, E = -108.843103330; {'N_electrons': 14.0, 'r2': 84.952246, 'x2': 68.739568, 'y2': 8.105293, 'Theta_xx': -0.41405, 'Theta_yy': 0.208595, 'rho_N': 193.161558, 'S2': 0.002585}
+[   1831 s] R=2.195 ccsdconf iteration 5: D = 3956121, E = -108.844869378; {'N_electrons': 14.0, 'r2': 84.943883, 'x2': 68.731078, 'y2': 8.105458, 'Theta_xx': -0.405497, 'Theta_yy': 0.204166, 'rho_N': 193.154066, 'S2': 0.001675}
+[   2341 s] R=2.195 ccsdconf iteration 6: D = 4272489, E = -108.846077959; {'N_electrons': 14.0, 'r2': 84.96749, 'x2': 68.750037, 'y2': 8.108933, 'Theta_xx': -0.422132, 'Theta_yy': 0.210756, 'rho_N': 193.146977, 'S2': 0.001001}
+[   2879 s] R=2.195 ccsdconf iteration 7: D = 4490161, E = -108.846591800; {'N_electrons': 14.0, 'r2': 84.969833, 'x2': 68.75353, 'y2': 8.108148, 'Theta_xx': -0.4262, 'Theta_yy': 0.213105, 'rho_N': 193.145341, 'S2': 0.000685}
+[   3431 s] R=2.195 ccsdconf iteration 8: D = 4761124, E = -108.846864169; {'N_electrons': 14.0, 'r2': 84.969675, 'x2': 68.754385, 'y2': 8.107897, 'Theta_xx': -0.427561, 'Theta_yy': 0.213403, 'rho_N': 193.144367, 'S2': 0.000517}
+[   4003 s] R=2.195 ccsdconf iteration 9: D = 5035536, E = -108.847101324; {'N_electrons': 14.0, 'r2': 84.969236, 'x2': 68.754547, 'y2': 8.107381, 'Theta_xx': -0.428024, 'Theta_yy': 0.213957, 'rho_N': 193.142914, 'S2': 0.000363}
+[   4592 s] R=2.195 ccsdconf iteration 10: D = 5107600, E = -108.847197573; {'N_electrons': 14.0, 'r2': 84.96845, 'x2': 68.753908, 'y2': 8.107266, 'Theta_xx': -0.427459, 'Theta_yy': 0.213737, 'rho_N': 193.141999, 'S2': 0.00031}
+[   4593 s] FINAL R=2.195 ccsdconf: E = -108.847197573, 10 iterations, 4590 s
+R=2.195 ccsdconf rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[      3 s] 50000 uniformly random in-sector strings
+[    252 s] R=2.195 allvalid iteration 1: D = 2601769, E = -108.523672544; {'N_electrons': 14.0, 'r2': 85.92134, 'x2': 68.676143, 'y2': 8.670826, 'Theta_xx': 0.165634, 'Theta_yy': -0.155159, 'rho_N': 193.376369, 'S2': 0.138009}
+[    716 s] R=2.195 allvalid iteration 2: D = 3319684, E = -108.699158848; {'N_electrons': 14.0, 'r2': 85.82003, 'x2': 68.896076, 'y2': 8.456821, 'Theta_xx': -0.214921, 'Theta_yy': 0.115194, 'rho_N': 193.347228, 'S2': 0.058734}
+[   1271 s] R=2.195 allvalid iteration 3: D = 4072324, E = -108.733971150; {'N_electrons': 14.0, 'r2': 85.637232, 'x2': 68.989614, 'y2': 8.256274, 'Theta_xx': -0.446626, 'Theta_yy': 0.324616, 'rho_N': 193.30268, 'S2': 0.044927}
+[   1800 s] R=2.195 allvalid iteration 4: D = 4840000, E = -108.802214369; {'N_electrons': 14.0, 'r2': 85.302567, 'x2': 68.885925, 'y2': 8.218708, 'Theta_xx': -0.458425, 'Theta_yy': 0.213633, 'rho_N': 193.241065, 'S2': 0.035816}
+[   2398 s] R=2.195 allvalid iteration 5: D = 5513104, E = -108.823449098; {'N_electrons': 14.0, 'r2': 85.30177, 'x2': 68.922769, 'y2': 8.203925, 'Theta_xx': -0.514089, 'Theta_yy': 0.235408, 'rho_N': 193.223471, 'S2': 0.011307}
+[   3069 s] R=2.195 allvalid iteration 6: D = 6190144, E = -108.832466589; {'N_electrons': 14.0, 'r2': 85.176214, 'x2': 68.853495, 'y2': 8.19044, 'Theta_xx': -0.472957, 'Theta_yy': 0.192858, 'rho_N': 193.196553, 'S2': 0.009242}
+[   3790 s] R=2.195 allvalid iteration 7: D = 6760000, E = -108.839225505; {'N_electrons': 14.0, 'r2': 84.997656, 'x2': 68.785138, 'y2': 8.104979, 'Theta_xx': -0.459701, 'Theta_yy': 0.231769, 'rho_N': 193.184998, 'S2': 0.006263}
+[   4576 s] R=2.195 allvalid iteration 8: D = 7246864, E = -108.843339182; {'N_electrons': 14.0, 'r2': 85.018933, 'x2': 68.795775, 'y2': 8.109464, 'Theta_xx': -0.465018, 'Theta_yy': 0.235682, 'rho_N': 193.156878, 'S2': 0.003795}
+[   5402 s] R=2.195 allvalid iteration 9: D = 7579009, E = -108.845694237; {'N_electrons': 14.0, 'r2': 84.999217, 'x2': 68.783971, 'y2': 8.105642, 'Theta_xx': -0.457169, 'Theta_yy': 0.231557, 'rho_N': 193.147264, 'S2': 0.001689}
+[   6243 s] R=2.195 allvalid iteration 10: D = 7817616, E = -108.846747229; {'N_electrons': 14.0, 'r2': 84.971316, 'x2': 68.760633, 'y2': 8.104627, 'Theta_xx': -0.436113, 'Theta_yy': 0.219128, 'rho_N': 193.141186, 'S2': 0.000666}
+[   6244 s] FINAL R=2.195 allvalid: E = -108.846747229, 10 iterations, 6241 s
+R=2.195 allvalid rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      7 s] CCSD E = -108.46577685195241 (converged False)
+[   2549 s] FCI E = -108.839808569 (19079424 dets, 2542 s)
+[   2569 s] LUCJ (1 rep) energy -108.342730838; 50000 noise-free samples, 293 unique
+[   2575 s] R=2.7437 lucj iteration 1: D = 6241, E = -108.709202000; {'N_electrons': 14.0, 'r2': 118.256264, 'x2': 102.142729, 'y2': 8.071806, 'Theta_xx': 0.003076, 'Theta_yy': -0.024095, 'rho_N': 193.375799, 'S2': 0.105633}
+[   2580 s] R=2.7437 lucj iteration 2: D = 6241, E = -108.709202000; {'N_electrons': 14.0, 'r2': 118.256264, 'x2': 102.142729, 'y2': 8.071806, 'Theta_xx': 0.003076, 'Theta_yy': -0.024095, 'rho_N': 193.375799, 'S2': 0.105633}
+[   2580 s] FINAL R=2.7437 lucj: E = -108.709202000, 2 iterations, 10 s
+R=2.7437 lucj rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      6 s] CCSD E = -108.46577685195241 (converged False)
+[      7 s] IBM archive label 2.50 (R = 2.7437 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      8 s] 100000 IBM hardware shots (99997 unique) relabelled to our orbital order
+[    161 s] R=2.7437 ibm_hardware iteration 1: D = 1313316, E = -108.429194268; {'N_electrons': 14.0, 'r2': 119.716204, 'x2': 102.658536, 'y2': 8.490051, 'Theta_xx': -0.040665, 'Theta_yy': 0.078507, 'rho_N': 193.369906, 'S2': 0.03468}
+[    420 s] R=2.7437 ibm_hardware iteration 2: D = 1833316, E = -108.800661632; {'N_electrons': 14.0, 'r2': 118.711922, 'x2': 102.487879, 'y2': 8.106102, 'Theta_xx': -0.286821, 'Theta_yy': 0.15229, 'rho_N': 193.251529, 'S2': 0.015485}
+[    733 s] R=2.7437 ibm_hardware iteration 3: D = 2393209, E = -108.822935233; {'N_electrons': 14.0, 'r2': 118.449116, 'x2': 102.22018, 'y2': 8.097879, 'Theta_xx': -0.016675, 'Theta_yy': 0.03322, 'rho_N': 193.139992, 'S2': 0.008439}
+[   1106 s] R=2.7437 ibm_hardware iteration 4: D = 2992900, E = -108.830787768; {'N_electrons': 14.0, 'r2': 118.312865, 'x2': 102.195284, 'y2': 8.056806, 'Theta_xx': -0.047457, 'Theta_yy': 0.026705, 'rho_N': 193.115726, 'S2': 0.005565}
+[   1526 s] R=2.7437 ibm_hardware iteration 5: D = 3385600, E = -108.834575716; {'N_electrons': 14.0, 'r2': 118.315424, 'x2': 102.192781, 'y2': 8.059598, 'Theta_xx': -0.042422, 'Theta_yy': 0.023796, 'rho_N': 193.105656, 'S2': 0.00329}
+[   1990 s] R=2.7437 ibm_hardware iteration 6: D = 3802500, E = -108.836580453; {'N_electrons': 14.0, 'r2': 118.328739, 'x2': 102.202928, 'y2': 8.062304, 'Theta_xx': -0.050985, 'Theta_yy': 0.026395, 'rho_N': 193.098121, 'S2': 0.002057}
+[   2485 s] R=2.7437 ibm_hardware iteration 7: D = 4141225, E = -108.837763285; {'N_electrons': 14.0, 'r2': 118.335879, 'x2': 102.205336, 'y2': 8.064923, 'Theta_xx': -0.051027, 'Theta_yy': 0.026036, 'rho_N': 193.096518, 'S2': 0.001267}
+[   3031 s] R=2.7437 ibm_hardware iteration 8: D = 4414201, E = -108.838400607; {'N_electrons': 14.0, 'r2': 118.339411, 'x2': 102.208622, 'y2': 8.065072, 'Theta_xx': -0.05419, 'Theta_yy': 0.027579, 'rho_N': 193.094125, 'S2': 0.000825}
+[   3589 s] R=2.7437 ibm_hardware iteration 9: D = 4648336, E = -108.838665967; {'N_electrons': 14.0, 'r2': 118.338652, 'x2': 102.207723, 'y2': 8.065159, 'Theta_xx': -0.053221, 'Theta_yy': 0.027068, 'rho_N': 193.093015, 'S2': 0.000657}
+[   4180 s] R=2.7437 ibm_hardware iteration 10: D = 4870849, E = -108.838902049; {'N_electrons': 14.0, 'r2': 118.340155, 'x2': 102.208907, 'y2': 8.065263, 'Theta_xx': -0.054245, 'Theta_yy': 0.027664, 'rho_N': 193.092517, 'S2': 0.000534}
+[   4181 s] FINAL R=2.7437 ibm_hardware: E = -108.838902049, 10 iterations, 4173 s
+R=2.7437 ibm_hardware rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      6 s] CCSD E = -108.46577685195241 (converged False)
+[      7 s] 50000 uniformly random strings + 5 random in-sector seeds
+[     48 s] R=2.7437 random5 iteration 1: D = 214369, E = -107.069127419; {'N_electrons': 14.0, 'r2': 121.821071, 'x2': 105.618918, 'y2': 8.051662, 'Theta_xx': -3.428804, 'Theta_yy': 1.788523, 'rho_N': 189.041074, 'S2': 0.001486}
+[    432 s] R=2.7437 random5 iteration 2: D = 1454436, E = -108.584597882; {'N_electrons': 14.0, 'r2': 119.249151, 'x2': 102.458343, 'y2': 8.442028, 'Theta_xx': 0.026098, 'Theta_yy': -0.082985, 'rho_N': 193.325801, 'S2': 0.168303}
+[    669 s] R=2.7437 random5 iteration 3: D = 1737124, E = -108.805969413; {'N_electrons': 14.0, 'r2': 118.357521, 'x2': 102.180689, 'y2': 8.109879, 'Theta_xx': -0.003236, 'Theta_yy': -0.030576, 'rho_N': 193.202985, 'S2': 0.015612}
+[    973 s] R=2.7437 random5 iteration 4: D = 2365444, E = -108.823743940; {'N_electrons': 14.0, 'r2': 118.309376, 'x2': 102.151813, 'y2': 8.09985, 'Theta_xx': 0.016005, 'Theta_yy': -0.039605, 'rho_N': 193.138198, 'S2': 0.009284}
+[   1318 s] R=2.7437 random5 iteration 5: D = 2812329, E = -108.830490486; {'N_electrons': 14.0, 'r2': 118.300971, 'x2': 102.20361, 'y2': 8.050081, 'Theta_xx': -0.065893, 'Theta_yy': 0.030845, 'rho_N': 193.110957, 'S2': 0.005781}
+[   1706 s] R=2.7437 random5 iteration 6: D = 3290596, E = -108.834099970; {'N_electrons': 14.0, 'r2': 118.301079, 'x2': 102.185067, 'y2': 8.058619, 'Theta_xx': -0.038023, 'Theta_yy': 0.018091, 'rho_N': 193.104311, 'S2': 0.003652}
+[   2132 s] R=2.7437 random5 iteration 7: D = 3655744, E = -108.835773794; {'N_electrons': 14.0, 'r2': 118.310102, 'x2': 102.185003, 'y2': 8.062843, 'Theta_xx': -0.033417, 'Theta_yy': 0.016268, 'rho_N': 193.102822, 'S2': 0.00261}
+[   2595 s] R=2.7437 random5 iteration 8: D = 3976036, E = -108.836970918; {'N_electrons': 14.0, 'r2': 118.327531, 'x2': 102.199566, 'y2': 8.063642, 'Theta_xx': -0.046546, 'Theta_yy': 0.023784, 'rho_N': 193.099933, 'S2': 0.001762}
+[   3098 s] R=2.7437 random5 iteration 9: D = 4218916, E = -108.837716255; {'N_electrons': 14.0, 'r2': 118.33441, 'x2': 102.204272, 'y2': 8.06422, 'Theta_xx': -0.050166, 'Theta_yy': 0.026357, 'rho_N': 193.097359, 'S2': 0.001254}
+[   3626 s] R=2.7437 random5 iteration 10: D = 4549689, E = -108.838272869; {'N_electrons': 14.0, 'r2': 118.33643, 'x2': 102.206166, 'y2': 8.064237, 'Theta_xx': -0.051996, 'Theta_yy': 0.027341, 'rho_N': 193.093766, 'S2': 0.000908}
+[   3626 s] FINAL R=2.7437 random5: E = -108.838272869, 10 iterations, 3619 s
+R=2.7437 random5 rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      5 s] CCSD E = -108.46577685195241 (converged False)
+[      6 s] IBM archive label 2.50 (R = 2.7437 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      7 s] 100000 IBM hardware shots (99997 unique) relabelled to our orbital order
+[    400 s] R=2.7437 ccsdocc iteration 1: D = 1758276, E = -108.737317947; {'N_electrons': 14.0, 'r2': 118.906993, 'x2': 102.533625, 'y2': 8.08568, 'Theta_xx': -0.257904, 'Theta_yy': 0.280458, 'rho_N': 193.318104, 'S2': 0.066888}
+[    706 s] R=2.7437 ccsdocc iteration 2: D = 2316484, E = -108.821778152; {'N_electrons': 14.0, 'r2': 118.227676, 'x2': 102.149296, 'y2': 8.0448, 'Theta_xx': -0.021069, 'Theta_yy': 0.002119, 'rho_N': 193.186106, 'S2': 0.009489}
+[   1077 s] R=2.7437 ccsdocc iteration 3: D = 2961841, E = -108.832283165; {'N_electrons': 14.0, 'r2': 118.328241, 'x2': 102.213428, 'y2': 8.057542, 'Theta_xx': -0.066984, 'Theta_yy': 0.033289, 'rho_N': 193.123017, 'S2': 0.005072}
+[   1499 s] R=2.7437 ccsdocc iteration 4: D = 3418801, E = -108.835513890; {'N_electrons': 14.0, 'r2': 118.324797, 'x2': 102.201057, 'y2': 8.062875, 'Theta_xx': -0.050149, 'Theta_yy': 0.023567, 'rho_N': 193.110162, 'S2': 0.002734}
+[   1972 s] R=2.7437 ccsdocc iteration 5: D = 3976036, E = -108.836813525; {'N_electrons': 14.0, 'r2': 118.340269, 'x2': 102.212504, 'y2': 8.064643, 'Theta_xx': -0.059585, 'Theta_yy': 0.028651, 'rho_N': 193.10281, 'S2': 0.001882}
+[   2486 s] R=2.7437 ccsdocc iteration 6: D = 4124961, E = -108.837764665; {'N_electrons': 14.0, 'r2': 118.340046, 'x2': 102.208654, 'y2': 8.065744, 'Theta_xx': -0.05392, 'Theta_yy': 0.026888, 'rho_N': 193.098147, 'S2': 0.001216}
+[   3014 s] R=2.7437 ccsdocc iteration 7: D = 4549689, E = -108.838293112; {'N_electrons': 14.0, 'r2': 118.341388, 'x2': 102.209775, 'y2': 8.065632, 'Theta_xx': -0.054931, 'Theta_yy': 0.027727, 'rho_N': 193.095775, 'S2': 0.000882}
+[   3562 s] R=2.7437 ccsdocc iteration 8: D = 4618201, E = -108.838656563; {'N_electrons': 14.0, 'r2': 118.338735, 'x2': 102.207317, 'y2': 8.065752, 'Theta_xx': -0.05257, 'Theta_yy': 0.026221, 'rho_N': 193.093125, 'S2': 0.000661}
+[   4147 s] R=2.7437 ccsdocc iteration 9: D = 4937284, E = -108.838920390; {'N_electrons': 14.0, 'r2': 118.342, 'x2': 102.211008, 'y2': 8.065647, 'Theta_xx': -0.056474, 'Theta_yy': 0.028012, 'rho_N': 193.091721, 'S2': 0.000483}
+[   4735 s] R=2.7437 ccsdocc iteration 10: D = 5026564, E = -108.839049266; {'N_electrons': 14.0, 'r2': 118.341371, 'x2': 102.210372, 'y2': 8.065627, 'Theta_xx': -0.055835, 'Theta_yy': 0.027726, 'rho_N': 193.091168, 'S2': 0.000405}
+[   4735 s] FINAL R=2.7437 ccsdocc: E = -108.839049266, 10 iterations, 4727 s
+R=2.7437 ccsdocc rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      5 s] CCSD E = -108.46577685195241 (converged False)
+[      6 s] IBM archive label 2.50 (R = 2.7437 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      7 s] 100000 IBM hardware shots (99997 unique) relabelled to our orbital order
+[      7 s] top-5000 CCSD determinants -> 606 alpha x 606 beta strings forced in
+[    319 s] R=2.7437 ccsdconf iteration 1: D = 2515396, E = -108.755028813; {'N_electrons': 14.0, 'r2': 118.470202, 'x2': 102.203761, 'y2': 8.138134, 'Theta_xx': 0.018496, 'Theta_yy': -0.01662, 'rho_N': 193.20509, 'S2': 0.101978}
+[    639 s] R=2.7437 ccsdconf iteration 2: D = 2496400, E = -108.820095642; {'N_electrons': 14.0, 'r2': 118.272024, 'x2': 102.169487, 'y2': 8.046081, 'Theta_xx': -0.029182, 'Theta_yy': 0.022373, 'rho_N': 193.193989, 'S2': 0.008787}
+[   1026 s] R=2.7437 ccsdconf iteration 3: D = 3171961, E = -108.829287833; {'N_electrons': 14.0, 'r2': 118.306065, 'x2': 102.191505, 'y2': 8.061212, 'Theta_xx': -0.045187, 'Theta_yy': 0.016695, 'rho_N': 193.130038, 'S2': 0.006485}
+[   1447 s] R=2.7437 ccsdconf iteration 4: D = 3474496, E = -108.833355742; {'N_electrons': 14.0, 'r2': 118.308559, 'x2': 102.190943, 'y2': 8.06015, 'Theta_xx': -0.043098, 'Theta_yy': 0.019535, 'rho_N': 193.116506, 'S2': 0.004005}
+[   1898 s] R=2.7437 ccsdconf iteration 5: D = 3904576, E = -108.836251881; {'N_electrons': 14.0, 'r2': 118.342474, 'x2': 102.21788, 'y2': 8.06296, 'Theta_xx': -0.066546, 'Theta_yy': 0.032278, 'rho_N': 193.107915, 'S2': 0.002427}
+[   2409 s] R=2.7437 ccsdconf iteration 6: D = 4293184, E = -108.837700002; {'N_electrons': 14.0, 'r2': 118.352712, 'x2': 102.222884, 'y2': 8.065077, 'Theta_xx': -0.068933, 'Theta_yy': 0.034221, 'rho_N': 193.097357, 'S2': 0.001402}
+[   2965 s] R=2.7437 ccsdconf iteration 7: D = 4507129, E = -108.838376984; {'N_electrons': 14.0, 'r2': 118.349979, 'x2': 102.218117, 'y2': 8.066084, 'Theta_xx': -0.063149, 'Theta_yy': 0.031344, 'rho_N': 193.094793, 'S2': 0.000887}
+[   3555 s] R=2.7437 ccsdconf iteration 8: D = 4726276, E = -108.838727018; {'N_electrons': 14.0, 'r2': 118.347511, 'x2': 102.215574, 'y2': 8.066319, 'Theta_xx': -0.060568, 'Theta_yy': 0.029758, 'rho_N': 193.092772, 'S2': 0.000654}
+[   4162 s] R=2.7437 ccsdconf iteration 9: D = 4968441, E = -108.839006465; {'N_electrons': 14.0, 'r2': 118.346329, 'x2': 102.213975, 'y2': 8.066382, 'Theta_xx': -0.05876, 'Theta_yy': 0.029073, 'rho_N': 193.091555, 'S2': 0.000442}
+[   4765 s] R=2.7437 ccsdconf iteration 10: D = 5049009, E = -108.839157394; {'N_electrons': 14.0, 'r2': 118.34534, 'x2': 102.212939, 'y2': 8.066348, 'Theta_xx': -0.057701, 'Theta_yy': 0.02863, 'rho_N': 193.091002, 'S2': 0.00035}
+[   4766 s] FINAL R=2.7437 ccsdconf: E = -108.839157394, 10 iterations, 4759 s
+R=2.7437 ccsdconf rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      5 s] CCSD E = -108.46577685195241 (converged False)
+[      7 s] 50000 uniformly random in-sector strings
+[    324 s] R=2.7437 allvalid iteration 1: D = 2579236, E = -108.508407218; {'N_electrons': 14.0, 'r2': 119.424995, 'x2': 102.629843, 'y2': 6.234985, 'Theta_xx': -0.14323, 'Theta_yy': 3.315501, 'rho_N': 193.349729, 'S2': 0.00931}
+[   1092 s] R=2.7437 allvalid iteration 2: D = 3305124, E = -108.631850737; {'N_electrons': 14.0, 'r2': 119.050505, 'x2': 102.305544, 'y2': 8.432099, 'Theta_xx': 0.155974, 'Theta_yy': -0.167414, 'rho_N': 193.323337, 'S2': 0.084901}
+[   1676 s] R=2.7437 allvalid iteration 3: D = 4276624, E = -108.740930801; {'N_electrons': 14.0, 'r2': 118.830738, 'x2': 102.407256, 'y2': 8.190764, 'Theta_xx': -0.106477, 'Theta_yy': 0.084705, 'rho_N': 193.267269, 'S2': 0.094079}
+[   2227 s] R=2.7437 allvalid iteration 4: D = 4669921, E = -108.790565455; {'N_electrons': 14.0, 'r2': 118.547005, 'x2': 102.217754, 'y2': 8.176703, 'Theta_xx': 0.035908, 'Theta_yy': -0.036071, 'rho_N': 193.225191, 'S2': 0.039826}
+[   2844 s] R=2.7437 allvalid iteration 5: D = 5550736, E = -108.821907499; {'N_electrons': 14.0, 'r2': 118.3662, 'x2': 102.14917, 'y2': 8.082184, 'Theta_xx': 0.048382, 'Theta_yy': 0.015306, 'rho_N': 193.16255, 'S2': 0.012624}
+[   3527 s] R=2.7437 allvalid iteration 6: D = 6350400, E = -108.828051579; {'N_electrons': 14.0, 'r2': 118.362075, 'x2': 102.183788, 'y2': 8.065574, 'Theta_xx': -0.005608, 'Theta_yy': 0.038158, 'rho_N': 193.140502, 'S2': 0.008492}
+[   4274 s] R=2.7437 allvalid iteration 7: D = 6697744, E = -108.833638915; {'N_electrons': 14.0, 'r2': 118.332432, 'x2': 102.197978, 'y2': 8.057645, 'Theta_xx': -0.041714, 'Theta_yy': 0.03523, 'rho_N': 193.121099, 'S2': 0.004329}
+[   5020 s] R=2.7437 allvalid iteration 8: D = 7507600, E = -108.837362896; {'N_electrons': 14.0, 'r2': 118.369858, 'x2': 102.22945, 'y2': 8.065688, 'Theta_xx': -0.070209, 'Theta_yy': 0.041878, 'rho_N': 193.09825, 'S2': 0.001899}
+[   5806 s] R=2.7437 allvalid iteration 9: D = 7761796, E = -108.838296488; {'N_electrons': 14.0, 'r2': 118.34929, 'x2': 102.219303, 'y2': 8.064959, 'Theta_xx': -0.065272, 'Theta_yy': 0.032688, 'rho_N': 193.092841, 'S2': 0.001144}
+[   6605 s] R=2.7437 allvalid iteration 10: D = 7711729, E = -108.838914927; {'N_electrons': 14.0, 'r2': 118.347536, 'x2': 102.216835, 'y2': 8.065351, 'Theta_xx': -0.062447, 'Theta_yy': 0.031223, 'rho_N': 193.090972, 'S2': 0.000594}
+[   6606 s] FINAL R=2.7437 allvalid: E = -108.838914927, 10 iterations, 6599 s
+R=2.7437 allvalid rc=0
+2026-09-08 19:03:17 stretched-N2 experiment done
+2026-09-08 19:03:27 re-running R=1.0975 ccsdocc and ccsdconf with the hardware pairing
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      1 s] IBM archive label 1.00 (R = 1.0975 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] 100000 IBM hardware shots (100000 unique) relabelled to our orbital order
+[    106 s] R=1.0975 ccsdocc iteration 1: D = 1444804, E = -109.088103825; {'N_electrons': 14.0, 'r2': 39.592767, 'x2': 24.499809, 'y2': 7.547922, 'Theta_xx': -1.898535, 'Theta_yy': 0.947104, 'rho_N': 192.71615, 'S2': 0.006685}
+[    236 s] R=1.0975 ccsdocc iteration 2: D = 1993744, E = -109.097441404; {'N_electrons': 14.0, 'r2': 39.590309, 'x2': 24.507424, 'y2': 7.544539, 'Theta_xx': -1.911186, 'Theta_yy': 0.950949, 'rho_N': 192.705782, 'S2': 0.002737}
+[    397 s] R=1.0975 ccsdocc iteration 3: D = 2334784, E = -109.100992523; {'N_electrons': 14.0, 'r2': 39.600705, 'x2': 24.510224, 'y2': 7.545201, 'Theta_xx': -1.910189, 'Theta_yy': 0.955154, 'rho_N': 192.705279, 'S2': 0.000894}
+[    563 s] R=1.0975 ccsdocc iteration 4: D = 2755600, E = -109.101828118; {'N_electrons': 14.0, 'r2': 39.602598, 'x2': 24.510906, 'y2': 7.545682, 'Theta_xx': -1.910265, 'Theta_yy': 0.955378, 'rho_N': 192.705024, 'S2': 0.000504}
+[    740 s] R=1.0975 ccsdocc iteration 5: D = 2883204, E = -109.102135762; {'N_electrons': 14.0, 'r2': 39.603055, 'x2': 24.510885, 'y2': 7.54606, 'Theta_xx': -1.910005, 'Theta_yy': 0.95504, 'rho_N': 192.704855, 'S2': 0.000355}
+[    923 s] R=1.0975 ccsdocc iteration 6: D = 3157729, E = -109.102348851; {'N_electrons': 14.0, 'r2': 39.602311, 'x2': 24.510666, 'y2': 7.545703, 'Theta_xx': -1.910048, 'Theta_yy': 0.955204, 'rho_N': 192.704911, 'S2': 0.000256}
+[   1110 s] R=1.0975 ccsdocc iteration 7: D = 3154176, E = -109.102508050; {'N_electrons': 14.0, 'r2': 39.604967, 'x2': 24.512628, 'y2': 7.546068, 'Theta_xx': -1.911663, 'Theta_yy': 0.955984, 'rho_N': 192.70508, 'S2': 0.000189}
+[   1298 s] R=1.0975 ccsdocc iteration 8: D = 3200521, E = -109.102605884; {'N_electrons': 14.0, 'r2': 39.605065, 'x2': 24.512656, 'y2': 7.546148, 'Theta_xx': -1.911657, 'Theta_yy': 0.955913, 'rho_N': 192.704736, 'S2': 0.000141}
+[   1490 s] R=1.0975 ccsdocc iteration 9: D = 3312400, E = -109.102669444; {'N_electrons': 14.0, 'r2': 39.605254, 'x2': 24.512835, 'y2': 7.546155, 'Theta_xx': -1.911831, 'Theta_yy': 0.955997, 'rho_N': 192.704805, 'S2': 0.000107}
+[   1685 s] R=1.0975 ccsdocc iteration 10: D = 3415104, E = -109.102705344; {'N_electrons': 14.0, 'r2': 39.605608, 'x2': 24.513075, 'y2': 7.546247, 'Theta_xx': -1.912013, 'Theta_yy': 0.956036, 'rho_N': 192.704751, 'S2': 8.7e-05}
+[   1685 s] FINAL R=1.0975 ccsdocc: E = -109.102705344, 10 iterations, 1683 s
+R=1.0975 ccsdocc (fixed) rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      1 s] IBM archive label 1.00 (R = 1.0975 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] 100000 IBM hardware shots (100000 unique) relabelled to our orbital order
+[      2 s] top-5000 CCSD determinants -> 606 alpha x 606 beta strings forced in
+[    130 s] R=1.0975 ccsdconf iteration 1: D = 2244004, E = -109.098591101; {'N_electrons': 14.0, 'r2': 39.600971, 'x2': 24.508904, 'y2': 7.5461, 'Theta_xx': -1.908076, 'Theta_yy': 0.953937, 'rho_N': 192.706318, 'S2': 0.00196}
+[    284 s] R=1.0975 ccsdconf iteration 2: D = 2157961, E = -109.100213034; {'N_electrons': 14.0, 'r2': 39.600521, 'x2': 24.508658, 'y2': 7.545724, 'Theta_xx': -1.907932, 'Theta_yy': 0.954277, 'rho_N': 192.705872, 'S2': 0.00121}
+[    444 s] R=1.0975 ccsdconf iteration 3: D = 2452356, E = -109.101529171; {'N_electrons': 14.0, 'r2': 39.60228, 'x2': 24.509793, 'y2': 7.546072, 'Theta_xx': -1.908755, 'Theta_yy': 0.954635, 'rho_N': 192.705516, 'S2': 0.000619}
+[    617 s] R=1.0975 ccsdconf iteration 4: D = 2825761, E = -109.101955581; {'N_electrons': 14.0, 'r2': 39.601643, 'x2': 24.510156, 'y2': 7.545809, 'Theta_xx': -1.909618, 'Theta_yy': 0.95471, 'rho_N': 192.704879, 'S2': 0.000437}
+[    798 s] R=1.0975 ccsdconf iteration 5: D = 3024121, E = -109.102221863; {'N_electrons': 14.0, 'r2': 39.603477, 'x2': 24.512286, 'y2': 7.54555, 'Theta_xx': -1.911896, 'Theta_yy': 0.956016, 'rho_N': 192.7044, 'S2': 0.000316}
+[    981 s] R=1.0975 ccsdconf iteration 6: D = 3118756, E = -109.102411232; {'N_electrons': 14.0, 'r2': 39.603547, 'x2': 24.512102, 'y2': 7.545863, 'Theta_xx': -1.911585, 'Theta_yy': 0.955582, 'rho_N': 192.704539, 'S2': 0.000233}
+[   1184 s] R=1.0975 ccsdconf iteration 7: D = 3297856, E = -109.102530758; {'N_electrons': 14.0, 'r2': 39.604584, 'x2': 24.512757, 'y2': 7.546185, 'Theta_xx': -1.912049, 'Theta_yy': 0.955618, 'rho_N': 192.704386, 'S2': 0.000183}
+[   1382 s] R=1.0975 ccsdconf iteration 8: D = 3308761, E = -109.102640284; {'N_electrons': 14.0, 'r2': 39.604911, 'x2': 24.51233, 'y2': 7.546292, 'Theta_xx': -1.911245, 'Theta_yy': 0.95562, 'rho_N': 192.704745, 'S2': 0.000124}
+[   1580 s] R=1.0975 ccsdconf iteration 9: D = 3455881, E = -109.102680484; {'N_electrons': 14.0, 'r2': 39.605026, 'x2': 24.512445, 'y2': 7.546308, 'Theta_xx': -1.91136, 'Theta_yy': 0.955654, 'rho_N': 192.704615, 'S2': 0.000103}
+[   1779 s] R=1.0975 ccsdconf iteration 10: D = 3493161, E = -109.102698731; {'N_electrons': 14.0, 'r2': 39.60495, 'x2': 24.512296, 'y2': 7.546352, 'Theta_xx': -1.911175, 'Theta_yy': 0.95555, 'rho_N': 192.704648, 'S2': 9.3e-05}
+[   1779 s] FINAL R=1.0975 ccsdconf: E = -109.102698731, 10 iterations, 1777 s
+R=1.0975 ccsdconf (fixed) rc=0
+2026-09-08 20:01:13 stretched-N2 fix done
+2026-09-09 00:32:22 matched-shot hardware seed (50000 shots) start
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      1 s] IBM archive label 1.00 (R = 1.0975 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] matched-shot subsample: 50000 of 100000 archive shots kept (seed 3124)
+[      2 s] 100000 IBM hardware shots (100000 unique) relabelled to our orbital order
+[     28 s] R=1.0975 hw50k iteration 1: D = 312481, E = -108.920200701; {'N_electrons': 14.0, 'r2': 39.809155, 'x2': 24.450779, 'y2': 7.67672, 'Theta_xx': -1.716796, 'Theta_yy': 0.862101, 'rho_N': 192.762516, 'S2': 0.015793}
+[    144 s] R=1.0975 hw50k iteration 2: D = 1507984, E = -109.092111329; {'N_electrons': 14.0, 'r2': 39.577697, 'x2': 24.503683, 'y2': 7.536567, 'Theta_xx': -1.911882, 'Theta_yy': 0.9566, 'rho_N': 192.710311, 'S2': 0.00456}
+[    276 s] R=1.0975 hw50k iteration 3: D = 2172676, E = -109.098639041; {'N_electrons': 14.0, 'r2': 39.596873, 'x2': 24.51379, 'y2': 7.543155, 'Theta_xx': -1.917455, 'Theta_yy': 0.956307, 'rho_N': 192.70738, 'S2': 0.002021}
+[    433 s] R=1.0975 hw50k iteration 4: D = 2560000, E = -109.100987595; {'N_electrons': 14.0, 'r2': 39.595167, 'x2': 24.510321, 'y2': 7.545147, 'Theta_xx': -1.913103, 'Theta_yy': 0.952465, 'rho_N': 192.705903, 'S2': 0.000862}
+[    605 s] R=1.0975 hw50k iteration 5: D = 2745649, E = -109.101861844; {'N_electrons': 14.0, 'r2': 39.603903, 'x2': 24.511327, 'y2': 7.546363, 'Theta_xx': -1.910244, 'Theta_yy': 0.95501, 'rho_N': 192.705563, 'S2': 0.000489}
+[    791 s] R=1.0975 hw50k iteration 6: D = 2992900, E = -109.102081729; {'N_electrons': 14.0, 'r2': 39.602955, 'x2': 24.510866, 'y2': 7.545815, 'Theta_xx': -1.910027, 'Theta_yy': 0.955358, 'rho_N': 192.704872, 'S2': 0.000393}
+[    970 s] R=1.0975 hw50k iteration 7: D = 3052009, E = -109.102347923; {'N_electrons': 14.0, 'r2': 39.605223, 'x2': 24.513374, 'y2': 7.545773, 'Theta_xx': -1.912655, 'Theta_yy': 0.956554, 'rho_N': 192.704443, 'S2': 0.00027}
+[   1158 s] R=1.0975 hw50k iteration 8: D = 3150625, E = -109.102481165; {'N_electrons': 14.0, 'r2': 39.606153, 'x2': 24.513443, 'y2': 7.546403, 'Theta_xx': -1.912294, 'Theta_yy': 0.956074, 'rho_N': 192.704673, 'S2': 0.000197}
+[   1341 s] R=1.0975 hw50k iteration 9: D = 3258025, E = -109.102583361; {'N_electrons': 14.0, 'r2': 39.605638, 'x2': 24.513142, 'y2': 7.546309, 'Theta_xx': -1.9121, 'Theta_yy': 0.955959, 'rho_N': 192.704542, 'S2': 0.000147}
+[   1530 s] R=1.0975 hw50k iteration 10: D = 3308761, E = -109.102616891; {'N_electrons': 14.0, 'r2': 39.605714, 'x2': 24.5133, 'y2': 7.546249, 'Theta_xx': -1.912299, 'Theta_yy': 0.956086, 'rho_N': 192.704571, 'S2': 0.00013}
+[   1530 s] FINAL R=1.0975 hw50k: E = -109.102616891, 10 iterations, 1528 s
+R=1.0975 hw50k rc=0
+[      0 s] N2 R = 2.195 A, 6-31g: RHF E = -108.218585051 (conv True); active (10e,16o), sector 19079424
+[      1 s] CCSD E = -108.9193759069617 (converged True)
+[      2 s] IBM archive label 2.00 (R = 2.1950 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      2 s] matched-shot subsample: 50000 of 100000 archive shots kept (seed 4221)
+[      2 s] 100000 IBM hardware shots (99999 unique) relabelled to our orbital order
+[     35 s] R=2.195 hw50k iteration 1: D = 399424, E = -108.257723525; {'N_electrons': 14.0, 'r2': 85.99127, 'x2': 71.155417, 'y2': 8.573933, 'Theta_xx': -3.518312, 'Theta_yy': 0.025146, 'rho_N': 193.481702, 'S2': 0.013037}
+[    259 s] R=2.195 hw50k iteration 2: D = 1610361, E = -108.761446011; {'N_electrons': 14.0, 'r2': 85.251154, 'x2': 68.848594, 'y2': 8.206991, 'Theta_xx': -0.428135, 'Theta_yy': 0.205501, 'rho_N': 193.268949, 'S2': 0.060516}
+[    562 s] R=2.195 hw50k iteration 3: D = 2418025, E = -108.832018638; {'N_electrons': 14.0, 'r2': 84.901809, 'x2': 68.700969, 'y2': 8.106968, 'Theta_xx': -0.38137, 'Theta_yy': 0.180863, 'rho_N': 193.208615, 'S2': 0.007958}
+[    923 s] R=2.195 hw50k iteration 4: D = 3048516, E = -108.840190711; {'N_electrons': 14.0, 'r2': 84.951889, 'x2': 68.742654, 'y2': 8.108112, 'Theta_xx': -0.418858, 'Theta_yy': 0.204188, 'rho_N': 193.164977, 'S2': 0.004052}
+[   1333 s] R=2.195 hw50k iteration 5: D = 3418801, E = -108.843383594; {'N_electrons': 14.0, 'r2': 84.980058, 'x2': 68.753573, 'y2': 8.117556, 'Theta_xx': -0.421152, 'Theta_yy': 0.204106, 'rho_N': 193.155204, 'S2': 0.002536}
+[   1785 s] R=2.195 hw50k iteration 6: D = 3884841, E = -108.845046454; {'N_electrons': 14.0, 'r2': 84.963188, 'x2': 68.749555, 'y2': 8.106184, 'Theta_xx': -0.42356, 'Theta_yy': 0.212729, 'rho_N': 193.148534, 'S2': 0.001671}
+[   2285 s] R=2.195 hw50k iteration 7: D = 4157521, E = -108.845846331; {'N_electrons': 14.0, 'r2': 84.964541, 'x2': 68.752168, 'y2': 8.105453, 'Theta_xx': -0.426803, 'Theta_yy': 0.214502, 'rho_N': 193.144657, 'S2': 0.001149}
+[   2812 s] R=2.195 hw50k iteration 8: D = 4524129, E = -108.846553811; {'N_electrons': 14.0, 'r2': 84.96819, 'x2': 68.753433, 'y2': 8.107715, 'Theta_xx': -0.426875, 'Theta_yy': 0.212934, 'rho_N': 193.144598, 'S2': 0.000688}
+[   3356 s] R=2.195 hw50k iteration 9: D = 4622500, E = -108.846819144; {'N_electrons': 14.0, 'r2': 84.967288, 'x2': 68.75291, 'y2': 8.107419, 'Theta_xx': -0.426542, 'Theta_yy': 0.212926, 'rho_N': 193.144044, 'S2': 0.000541}
+[   3919 s] R=2.195 hw50k iteration 10: D = 4910656, E = -108.847016778; {'N_electrons': 14.0, 'r2': 84.966941, 'x2': 68.752924, 'y2': 8.107308, 'Theta_xx': -0.426737, 'Theta_yy': 0.212919, 'rho_N': 193.143097, 'S2': 0.000413}
+[   3920 s] FINAL R=2.195 hw50k: E = -108.847016778, 10 iterations, 3917 s
+R=2.195 hw50k rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      5 s] CCSD E = -108.46577685195241 (converged False)
+[      6 s] IBM archive label 2.50 (R = 2.7437 A): orbital permutation ours->IBM [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[      6 s] matched-shot subsample: 50000 of 100000 archive shots kept (seed 4770)
+[      6 s] 100000 IBM hardware shots (99997 unique) relabelled to our orbital order
+[     48 s] R=2.7437 hw50k iteration 1: D = 355216, E = -108.378950069; {'N_electrons': 14.0, 'r2': 119.769121, 'x2': 102.50578, 'y2': 8.581136, 'Theta_xx': 0.214928, 'Theta_yy': -0.031661, 'rho_N': 193.399293, 'S2': 0.117087}
+[    272 s] R=2.7437 hw50k iteration 2: D = 1468944, E = -108.723181518; {'N_electrons': 14.0, 'r2': 118.532312, 'x2': 102.205193, 'y2': 8.168267, 'Theta_xx': 0.047404, 'Theta_yy': -0.030764, 'rho_N': 193.261413, 'S2': 0.076989}
+[    557 s] R=2.7437 hw50k iteration 3: D = 2220100, E = -108.815839234; {'N_electrons': 14.0, 'r2': 118.32745, 'x2': 102.119896, 'y2': 8.109671, 'Theta_xx': 0.072918, 'Theta_yy': -0.0453, 'rho_N': 193.180954, 'S2': 0.011575}
+[    902 s] R=2.7437 hw50k iteration 4: D = 2815684, E = -108.829342037; {'N_electrons': 14.0, 'r2': 118.313434, 'x2': 102.221281, 'y2': 8.046666, 'Theta_xx': -0.086167, 'Theta_yy': 0.042199, 'rho_N': 193.124036, 'S2': 0.005979}
+[   1294 s] R=2.7437 hw50k iteration 5: D = 3330625, E = -108.833245111; {'N_electrons': 14.0, 'r2': 118.337176, 'x2': 102.223947, 'y2': 8.055692, 'Theta_xx': -0.078295, 'Theta_yy': 0.040532, 'rho_N': 193.11112, 'S2': 0.00397}
+[   1728 s] R=2.7437 hw50k iteration 6: D = 3837681, E = -108.835871921; {'N_electrons': 14.0, 'r2': 118.349797, 'x2': 102.232804, 'y2': 8.058858, 'Theta_xx': -0.085271, 'Theta_yy': 0.042094, 'rho_N': 193.104672, 'S2': 0.00252}
+[   2205 s] R=2.7437 hw50k iteration 7: D = 4186116, E = -108.837490423; {'N_electrons': 14.0, 'r2': 118.357689, 'x2': 102.227807, 'y2': 8.064768, 'Theta_xx': -0.073829, 'Theta_yy': 0.037174, 'rho_N': 193.098017, 'S2': 0.001505}
+[   2714 s] R=2.7437 hw50k iteration 8: D = 4426816, E = -108.838257501; {'N_electrons': 14.0, 'r2': 118.351481, 'x2': 102.220137, 'y2': 8.065136, 'Theta_xx': -0.065428, 'Theta_yy': 0.033518, 'rho_N': 193.095546, 'S2': 0.000926}
+[   3245 s] R=2.7437 hw50k iteration 9: D = 4678569, E = -108.838677510; {'N_electrons': 14.0, 'r2': 118.348014, 'x2': 102.216259, 'y2': 8.065391, 'Theta_xx': -0.061344, 'Theta_yy': 0.031401, 'rho_N': 193.093641, 'S2': 0.000648}
+[   3801 s] R=2.7437 hw50k iteration 10: D = 4959529, E = -108.838884515; {'N_electrons': 14.0, 'r2': 118.347864, 'x2': 102.216429, 'y2': 8.065261, 'Theta_xx': -0.061674, 'Theta_yy': 0.031522, 'rho_N': 193.09271, 'S2': 0.000529}
+[   3801 s] FINAL R=2.7437 hw50k: E = -108.838884515, 10 iterations, 3795 s
+R=2.7437 hw50k rc=0
+2026-09-09 03:06:36 matched-shot done
+2026-09-09 19:27:53 evolved seeds start (t = 4)
+[      2 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[     17 s] CCSD E = -109.09351641836315 (converged True)
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/n2_stretch_prior.py:201: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  t0 = time.time(); vec = expm_multiply(-1j * args.evolve_t * _LO(lin.shape, matvec=_mv, dtype=complex), v0); t_ev = time.time() - t0
+2026-09-09 19:29:17 evolved seeds start (t = 4)
+[      3 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[     18 s] CCSD E = -109.09351641836315 (converged True)
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/n2_stretch_prior.py:205: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  t0 = time.time(); vec = expm_multiply(-1j * args.evolve_t * lin, v0); t_ev = time.time() - t0
+[   9378 s] evolved state t = 4.0: 9344 s; <H> = -108.867774413 (HF -108.867774413); 50000 exact samples, 2146 unique
+[   9402 s] R=1.0975 evolved iteration 1: D = 232324, E = -109.098177219; {'N_electrons': 14.0, 'r2': 39.593231, 'x2': 24.502082, 'y2': 7.546473, 'Theta_xx': -1.901713, 'Theta_yy': 0.949509, 'rho_N': 192.709832, 'S2': 0.002002}
+[   9434 s] R=1.0975 evolved iteration 2: D = 332929, E = -109.099746334; {'N_electrons': 14.0, 'r2': 39.595227, 'x2': 24.506767, 'y2': 7.545297, 'Theta_xx': -1.907742, 'Theta_yy': 0.95227, 'rho_N': 192.707128, 'S2': 0.001337}
+[   9470 s] R=1.0975 evolved iteration 3: D = 389376, E = -109.100238082; {'N_electrons': 14.0, 'r2': 39.5976, 'x2': 24.50875, 'y2': 7.545364, 'Theta_xx': -1.90953, 'Theta_yy': 0.953357, 'rho_N': 192.706859, 'S2': 0.001129}
+[   9507 s] R=1.0975 evolved iteration 4: D = 443556, E = -109.100497728; {'N_electrons': 14.0, 'r2': 39.599549, 'x2': 24.509312, 'y2': 7.546262, 'Theta_xx': -1.909399, 'Theta_yy': 0.952985, 'rho_N': 192.707028, 'S2': 0.001038}
+[   9547 s] R=1.0975 evolved iteration 5: D = 462400, E = -109.100598675; {'N_electrons': 14.0, 'r2': 39.599792, 'x2': 24.509368, 'y2': 7.546261, 'Theta_xx': -1.909362, 'Theta_yy': 0.953107, 'rho_N': 192.706923, 'S2': 0.000992}
+[   9588 s] R=1.0975 evolved iteration 6: D = 469225, E = -109.100668527; {'N_electrons': 14.0, 'r2': 39.600824, 'x2': 24.509503, 'y2': 7.546403, 'Theta_xx': -1.909048, 'Theta_yy': 0.95341, 'rho_N': 192.706882, 'S2': 0.00098}
+[   9629 s] R=1.0975 evolved iteration 7: D = 481636, E = -109.100732446; {'N_electrons': 14.0, 'r2': 39.60078, 'x2': 24.50924, 'y2': 7.546461, 'Theta_xx': -1.908675, 'Theta_yy': 0.953301, 'rho_N': 192.706685, 'S2': 0.000962}
+[   9671 s] R=1.0975 evolved iteration 8: D = 495616, E = -109.100777522; {'N_electrons': 14.0, 'r2': 39.600836, 'x2': 24.509288, 'y2': 7.54648, 'Theta_xx': -1.90872, 'Theta_yy': 0.953301, 'rho_N': 192.706666, 'S2': 0.000944}
+[   9714 s] R=1.0975 evolved iteration 9: D = 508369, E = -109.100786604; {'N_electrons': 14.0, 'r2': 39.600832, 'x2': 24.50935, 'y2': 7.546414, 'Theta_xx': -1.908815, 'Theta_yy': 0.953398, 'rho_N': 192.706622, 'S2': 0.000939}
+[   9714 s] FINAL R=1.0975 evolved: E = -109.100786604, 9 iterations, 336 s
+R=1.0975 evolved rc=0
+[      0 s] N2 R = 1.0975 A, 6-31g: RHF E = -108.867774413 (conv True); active (10e,16o), sector 19079424
+[      0 s] CCSD E = -109.09351641836315 (converged True)
+[      1 s] evolved samples loaded from cache (50000 shots, t = 4.0, <H> = -108.867774413)
+[      1 s] evolved state t = 4.0: 9344 s; <H> = -108.867774413 (HF -108.867774413); 50000 exact samples, 2146 unique
+[      2 s] bit-flip channel p = 0.14562 (hardware valid fraction 0.006499762700281941); noisy samples valid fraction 0.06036, unique 41429
+[     29 s] R=1.0975 evolved_noisy iteration 1: D = 294849, E = -109.092542937; {'N_electrons': 14.0, 'r2': 39.586341, 'x2': 24.496712, 'y2': 7.543877, 'Theta_xx': -1.897103, 'Theta_yy': 0.949957, 'rho_N': 192.705052, 'S2': 0.005015}
+[     73 s] R=1.0975 evolved_noisy iteration 2: D = 423801, E = -109.099262232; {'N_electrons': 14.0, 'r2': 39.595776, 'x2': 24.505705, 'y2': 7.545307, 'Theta_xx': -1.905875, 'Theta_yy': 0.95253, 'rho_N': 192.703616, 'S2': 0.00155}
+[    123 s] R=1.0975 evolved_noisy iteration 3: D = 532900, E = -109.100291770; {'N_electrons': 14.0, 'r2': 39.599939, 'x2': 24.508185, 'y2': 7.545754, 'Theta_xx': -1.907514, 'Theta_yy': 0.953941, 'rho_N': 192.705165, 'S2': 0.001116}
+[    178 s] R=1.0975 evolved_noisy iteration 4: D = 632025, E = -109.100898090; {'N_electrons': 14.0, 'r2': 39.600069, 'x2': 24.507466, 'y2': 7.546008, 'Theta_xx': -1.90637, 'Theta_yy': 0.953625, 'rho_N': 192.706335, 'S2': 0.000833}
+[    239 s] R=1.0975 evolved_noisy iteration 5: D = 702244, E = -109.101100868; {'N_electrons': 14.0, 'r2': 39.60085, 'x2': 24.508089, 'y2': 7.546398, 'Theta_xx': -1.906914, 'Theta_yy': 0.953431, 'rho_N': 192.706206, 'S2': 0.00074}
+[    302 s] R=1.0975 evolved_noisy iteration 6: D = 767376, E = -109.101197129; {'N_electrons': 14.0, 'r2': 39.601465, 'x2': 24.508736, 'y2': 7.546395, 'Theta_xx': -1.907577, 'Theta_yy': 0.953743, 'rho_N': 192.705962, 'S2': 0.000695}
+[    368 s] R=1.0975 evolved_noisy iteration 7: D = 801025, E = -109.101367793; {'N_electrons': 14.0, 'r2': 39.601942, 'x2': 24.509102, 'y2': 7.546369, 'Theta_xx': -1.907887, 'Theta_yy': 0.95402, 'rho_N': 192.705717, 'S2': 0.000634}
+[    436 s] R=1.0975 evolved_noisy iteration 8: D = 850084, E = -109.101529287; {'N_electrons': 14.0, 'r2': 39.602313, 'x2': 24.509641, 'y2': 7.546175, 'Theta_xx': -1.908511, 'Theta_yy': 0.954496, 'rho_N': 192.705406, 'S2': 0.000574}
+[    505 s] R=1.0975 evolved_noisy iteration 9: D = 859329, E = -109.101596157; {'N_electrons': 14.0, 'r2': 39.602749, 'x2': 24.51012, 'y2': 7.546113, 'Theta_xx': -1.909011, 'Theta_yy': 0.954808, 'rho_N': 192.705372, 'S2': 0.000548}
+[    579 s] R=1.0975 evolved_noisy iteration 10: D = 883600, E = -109.101672790; {'N_electrons': 14.0, 'r2': 39.602872, 'x2': 24.510307, 'y2': 7.546029, 'Theta_xx': -1.90923, 'Theta_yy': 0.954995, 'rho_N': 192.705208, 'S2': 0.000521}
+[    579 s] FINAL R=1.0975 evolved_noisy: E = -109.101672790, 10 iterations, 577 s
+R=1.0975 evolved_noisy rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      6 s] CCSD E = -108.46577685195241 (converged False)
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/n2_stretch_prior.py:205: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  t0 = time.time(); vec = expm_multiply(-1j * args.evolve_t * lin, v0); t_ev = time.time() - t0
+[  11353 s] evolved state t = 4.0: 11330 s; <H> = -108.038392091 (HF -108.038392091); 50000 exact samples, 4764 unique
+[  11425 s] R=2.7437 evolved iteration 1: D = 260100, E = -108.807731355; {'N_electrons': 14.0, 'r2': 118.36416, 'x2': 102.191069, 'y2': 8.063687, 'Theta_xx': -0.015486, 'Theta_yy': 0.042031, 'rho_N': 193.225906, 'S2': 0.017957}
+[  11507 s] R=2.7437 evolved iteration 2: D = 422500, E = -108.817928815; {'N_electrons': 14.0, 'r2': 118.28414, 'x2': 102.147818, 'y2': 8.056892, 'Theta_xx': 0.009381, 'Theta_yy': 0.012213, 'rho_N': 193.183914, 'S2': 0.015264}
+[  11602 s] R=2.7437 evolved iteration 3: D = 544644, E = -108.822672149; {'N_electrons': 14.0, 'r2': 118.266556, 'x2': 102.136947, 'y2': 8.059289, 'Theta_xx': 0.016894, 'Theta_yy': -0.000175, 'rho_N': 193.160679, 'S2': 0.012464}
+[  11716 s] R=2.7437 evolved iteration 4: D = 644809, E = -108.825683997; {'N_electrons': 14.0, 'r2': 118.245337, 'x2': 102.139145, 'y2': 8.056029, 'Theta_xx': 0.002988, 'Theta_yy': -0.005894, 'rho_N': 193.151839, 'S2': 0.011052}
+[  11834 s] R=2.7437 evolved iteration 5: D = 749956, E = -108.827333016; {'N_electrons': 14.0, 'r2': 118.247173, 'x2': 102.13893, 'y2': 8.057659, 'Theta_xx': 0.004229, 'Theta_yy': -0.007421, 'rho_N': 193.149116, 'S2': 0.01001}
+[  11969 s] R=2.7437 evolved iteration 6: D = 811801, E = -108.828603503; {'N_electrons': 14.0, 'r2': 118.250421, 'x2': 102.146581, 'y2': 8.051635, 'Theta_xx': -0.005623, 'Theta_yy': 0.003239, 'rho_N': 193.141463, 'S2': 0.009059}
+[  12107 s] R=2.7437 evolved iteration 7: D = 894916, E = -108.829329770; {'N_electrons': 14.0, 'r2': 118.258819, 'x2': 102.151997, 'y2': 8.053324, 'Theta_xx': -0.009548, 'Theta_yy': 0.004904, 'rho_N': 193.1381, 'S2': 0.008488}
+[  12252 s] R=2.7437 evolved iteration 8: D = 938961, E = -108.830110688; {'N_electrons': 14.0, 'r2': 118.263367, 'x2': 102.155562, 'y2': 8.053204, 'Theta_xx': -0.012622, 'Theta_yy': 0.007359, 'rho_N': 193.136509, 'S2': 0.00777}
+[  12402 s] R=2.7437 evolved iteration 9: D = 972196, E = -108.830664070; {'N_electrons': 14.0, 'r2': 118.27113, 'x2': 102.162893, 'y2': 8.053349, 'Theta_xx': -0.019737, 'Theta_yy': 0.011023, 'rho_N': 193.135122, 'S2': 0.007367}
+[  12556 s] R=2.7437 evolved iteration 10: D = 1016064, E = -108.831016173; {'N_electrons': 14.0, 'r2': 118.280018, 'x2': 102.169984, 'y2': 8.054563, 'Theta_xx': -0.025929, 'Theta_yy': 0.013646, 'rho_N': 193.131788, 'S2': 0.007171}
+[  12556 s] FINAL R=2.7437 evolved: E = -108.831016173, 10 iterations, 1203 s
+R=2.7437 evolved rc=0
+[      0 s] N2 R = 2.7437 A, 6-31g: RHF E = -108.038392091 (conv True); active (10e,16o), sector 19079424
+[      5 s] CCSD E = -108.46577685195241 (converged False)
+[      6 s] evolved samples loaded from cache (50000 shots, t = 4.0, <H> = -108.038392091)
+[      6 s] evolved state t = 4.0: 11330 s; <H> = -108.038392091 (HF -108.038392091); 50000 exact samples, 4764 unique
+[      7 s] bit-flip channel p = 0.14429 (hardware valid fraction 0.006830699338629103); noisy samples valid fraction 0.06370, unique 46488
+[     86 s] R=2.7437 evolved_noisy iteration 1: D = 450241, E = -108.806773057; {'N_electrons': 14.0, 'r2': 118.153968, 'x2': 102.110317, 'y2': 8.015811, 'Theta_xx': 0.000546, 'Theta_yy': 0.008749, 'rho_N': 193.242915, 'S2': 0.016853}
+[    193 s] R=2.7437 evolved_noisy iteration 2: D = 600625, E = -108.819781429; {'N_electrons': 14.0, 'r2': 118.233097, 'x2': 102.176764, 'y2': 8.028828, 'Theta_xx': -0.05956, 'Theta_yy': 0.028787, 'rho_N': 193.176872, 'S2': 0.012993}
+[    324 s] R=2.7437 evolved_noisy iteration 3: D = 801025, E = -108.825471820; {'N_electrons': 14.0, 'r2': 118.260588, 'x2': 102.188501, 'y2': 8.035459, 'Theta_xx': -0.06342, 'Theta_yy': 0.032588, 'rho_N': 193.159619, 'S2': 0.008948}
+[    475 s] R=2.7437 evolved_noisy iteration 4: D = 996004, E = -108.829302428; {'N_electrons': 14.0, 'r2': 118.300848, 'x2': 102.207287, 'y2': 8.046995, 'Theta_xx': -0.071469, 'Theta_yy': 0.035413, 'rho_N': 193.151425, 'S2': 0.006529}
+[    643 s] R=2.7437 evolved_noisy iteration 5: D = 1181569, E = -108.831196979; {'N_electrons': 14.0, 'r2': 118.311067, 'x2': 102.203563, 'y2': 8.054202, 'Theta_xx': -0.060773, 'Theta_yy': 0.029711, 'rho_N': 193.144482, 'S2': 0.00524}
+[    825 s] R=2.7437 evolved_noisy iteration 6: D = 1299600, E = -108.833078551; {'N_electrons': 14.0, 'r2': 118.3252, 'x2': 102.201726, 'y2': 8.062477, 'Theta_xx': -0.050953, 'Theta_yy': 0.024365, 'rho_N': 193.12414, 'S2': 0.003905}
+[   1019 s] R=2.7437 evolved_noisy iteration 7: D = 1394761, E = -108.833858891; {'N_electrons': 14.0, 'r2': 118.334591, 'x2': 102.20813, 'y2': 8.063407, 'Theta_xx': -0.055862, 'Theta_yy': 0.027667, 'rho_N': 193.117169, 'S2': 0.003451}
+[   1221 s] R=2.7437 evolved_noisy iteration 8: D = 1466521, E = -108.834693199; {'N_electrons': 14.0, 'r2': 118.343084, 'x2': 102.207446, 'y2': 8.067877, 'Theta_xx': -0.050589, 'Theta_yy': 0.025208, 'rho_N': 193.116512, 'S2': 0.002907}
+[   1431 s] R=2.7437 evolved_noisy iteration 9: D = 1557504, E = -108.835186666; {'N_electrons': 14.0, 'r2': 118.347615, 'x2': 102.213242, 'y2': 8.066918, 'Theta_xx': -0.057018, 'Theta_yy': 0.028912, 'rho_N': 193.11469, 'S2': 0.002612}
+[   1652 s] R=2.7437 evolved_noisy iteration 10: D = 1687401, E = -108.835626678; {'N_electrons': 14.0, 'r2': 118.347217, 'x2': 102.213121, 'y2': 8.066851, 'Theta_xx': -0.057036, 'Theta_yy': 0.028814, 'rho_N': 193.111518, 'S2': 0.002391}
+[   1652 s] FINAL R=2.7437 evolved_noisy: E = -108.835626678, 10 iterations, 1645 s
+R=2.7437 evolved_noisy rc=0
+2026-09-10 02:17:42 evolved seeds done

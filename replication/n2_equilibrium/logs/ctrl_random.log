@@ -1,0 +1,15 @@
+[      0 s] RHF E = -108.929838386 (SQD_Alain notebook: -108.929838); active 26 orbitals, nelec (5, 5), ecore -76.236888
+[      0 s] RHF properties: {'E': np.float64(-108.929838), 'N_electrons': 14.0, 'r2': 35.604289, 'x2': 21.067793, 'y2': 7.268248, 'Theta_xx': -1.300818, 'Theta_yy': 0.650409, 'rho_N': 197.19089}
+[      0 s] CCSD E = -109.217788419 (notebook -109.217788), CCSD(T) E = -109.226934298; properties: {'N_electrons': 14.0, 'r2': 35.538971, 'x2': 21.166051, 'y2': 7.18646, 'Theta_xx': -1.480864, 'Theta_yy': 0.740432, 'rho_N': 197.124144}
+[     99 s] SCI cutoff 0.001: E = -109.219708599 (notebook 'exact' -109.226902), dets = 774400, 99 s; {'N_electrons': 14.0, 'r2': 35.559597, 'x2': 21.164358, 'y2': 7.197618, 'Theta_xx': -1.468011, 'Theta_yy': 0.734008, 'rho_N': 197.126554}
+[    100 s] SCI solver: spin_sq = 0.0 (penalty H + lambda (S^2 - s(s+1))^2 via pyscf fix_spin_ when not None), max_cycle = 200
+[    100 s] bit array: 50000 shots x 52 bits
+[    100 s] CONTROL: hardware samples replaced by 50000 uniformly random 52-bit strings, 5 of them uniformly random in-sector (5, 5) strings
+[    101 s] SQD spb=1000 iteration 1: D = 100, E = -91.988542025; {'N_electrons': 14.0, 'r2': 49.448599, 'x2': 22.715097, 'y2': 15.538239, 'Theta_xx': 3.150382, 'Theta_yy': -4.832423, 'rho_N': 188.137402, 'S2': 0.0}
+[   1055 s] SQD spb=1000 iteration 2: D = 2598544, E = -105.696153308; {'N_electrons': 14.0, 'r2': 38.87685, 'x2': 16.34101, 'y2': 12.549689, 'Theta_xx': 7.425638, 'Theta_yy': -5.635471, 'rho_N': 193.19508, 'S2': 0.002799}
+[   3327 s] SQD spb=1000 iteration 3: D = 2812329, E = -108.960279628; {'N_electrons': 14.0, 'r2': 35.658855, 'x2': 21.066522, 'y2': 7.296738, 'Theta_xx': -1.271629, 'Theta_yy': 0.634957, 'rho_N': 197.172337, 'S2': 0.011813}
+[   4852 s] SQD spb=1000 iteration 4: D = 3229209, E = -109.173517162; {'N_electrons': 14.0, 'r2': 35.554979, 'x2': 21.151494, 'y2': 7.198797, 'Theta_xx': -1.451025, 'Theta_yy': 0.729931, 'rho_N': 197.113467, 'S2': 0.02798}
+[   6853 s] SQD spb=1000 iteration 5: D = 4165681, E = -109.197816023; {'N_electrons': 14.0, 'r2': 35.551239, 'x2': 21.149443, 'y2': 7.199567, 'Theta_xx': -1.449819, 'Theta_yy': 0.726905, 'rho_N': 197.127575, 'S2': 0.010548}
+[   9195 s] SQD spb=1000 iteration 6: D = 5438224, E = -109.206033969; {'N_electrons': 14.0, 'r2': 35.559367, 'x2': 21.153462, 'y2': 7.20041, 'Theta_xx': -1.451782, 'Theta_yy': 0.729705, 'rho_N': 197.129828, 'S2': 0.00747}
+[   9196 s] SQD spb=1000 FINAL: D = 5438224, E = -109.206033969, 9096 s; {'N_electrons': 14.0, 'r2': 35.559367, 'x2': 21.153462, 'y2': 7.20041, 'Theta_xx': -1.451782, 'Theta_yy': 0.729705, 'rho_N': 197.129828}
+[   9196 s] done

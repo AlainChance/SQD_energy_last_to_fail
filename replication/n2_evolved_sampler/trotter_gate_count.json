@@ -1,0 +1,232 @@
+{
+ "LUCJ 1 layer": {
+  "all-to-all": {
+   "cz": 1712,
+   "two_qubit_depth": 156,
+   "total_depth": 750,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.013842662086479501,
+    "Nighthawk (assumed 2.0e-3)": 0.03258184655015926
+   },
+   "transpile_s": 0.20008325576782227
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 5705,
+   "two_qubit_depth": 1157,
+   "total_depth": 3079,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 6.395506605921808e-07,
+    "Nighthawk (assumed 2.0e-3)": 1.1084087907148492e-05
+   },
+   "transpile_s": 0.46682167053222656
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 4009,
+   "two_qubit_depth": 856,
+   "total_depth": 2617,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 4.43898374937601e-05,
+    "Nighthawk (assumed 2.0e-3)": 0.0003294783209383593
+   },
+   "transpile_s": 0.3648843765258789
+  }
+ },
+ "Trotter tol 0.01 (33 terms) t=1.0 1 step o1": {
+  "all-to-all": {
+   "cz": 72712,
+   "two_qubit_depth": 6990,
+   "total_depth": 32248,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 1.1322675987839154e-79,
+    "Nighthawk (assumed 2.0e-3)": 6.968820265971465e-64
+   },
+   "transpile_s": 7.881950855255127
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 330044,
+   "two_qubit_depth": 74732,
+   "total_depth": 199115,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 2.1253185335652874e-287
+   },
+   "transpile_s": 21.049675464630127
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 221000,
+   "two_qubit_depth": 60136,
+   "total_depth": 175487,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 1.127973114998866e-240,
+    "Nighthawk (assumed 2.0e-3)": 1.1011310236205293e-192
+   },
+   "transpile_s": 16.040207147598267
+  },
+  "df_terms": 33
+ },
+ "Trotter tol 0.01 (33 terms) t=4.0 1 step o1": {
+  "all-to-all": {
+   "cz": 72712,
+   "two_qubit_depth": 6990,
+   "total_depth": 32248,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 1.1322675987839154e-79,
+    "Nighthawk (assumed 2.0e-3)": 6.968820265971465e-64
+   },
+   "transpile_s": 8.024022340774536
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 330044,
+   "two_qubit_depth": 74732,
+   "total_depth": 199115,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 2.1253185335652874e-287
+   },
+   "transpile_s": 20.935973167419434
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 221000,
+   "two_qubit_depth": 60136,
+   "total_depth": 175487,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 1.127973114998866e-240,
+    "Nighthawk (assumed 2.0e-3)": 1.1011310236205293e-192
+   },
+   "transpile_s": 16.15024447441101
+  },
+  "df_terms": 33
+ },
+ "Trotter tol 0.0001 (81 terms) t=1.0 1 step o1": {
+  "all-to-all": {
+   "cz": 150328,
+   "two_qubit_depth": 15270,
+   "total_depth": 69827,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 6.0736227215628074e-164,
+    "Nighthawk (assumed 2.0e-3)": 2.6715188870489236e-131
+   },
+   "transpile_s": 16.92802333831787
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 791392,
+   "two_qubit_depth": 176910,
+   "total_depth": 454380,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 48.64249587059021
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 520042,
+   "two_qubit_depth": 137155,
+   "total_depth": 386537,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 37.94163966178894
+  },
+  "df_terms": 81
+ },
+ "Trotter tol 0.0001 (81 terms) t=4.0 1 step o1": {
+  "all-to-all": {
+   "cz": 150328,
+   "two_qubit_depth": 15270,
+   "total_depth": 69827,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 6.0736227215628074e-164,
+    "Nighthawk (assumed 2.0e-3)": 2.6715188870489236e-131
+   },
+   "transpile_s": 19.17494559288025
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 791392,
+   "two_qubit_depth": 176910,
+   "total_depth": 454380,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 68.24515438079834
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 520042,
+   "two_qubit_depth": 137155,
+   "total_depth": 386537,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 49.613951206207275
+  },
+  "df_terms": 81
+ },
+ "Trotter tol 1e-08 (121 terms) t=1.0 1 step o1": {
+  "all-to-all": {
+   "cz": 200708,
+   "two_qubit_depth": 20500,
+   "total_depth": 92760,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 1.2135503934751922e-218,
+    "Nighthawk (assumed 2.0e-3)": 4.647787379353452e-175
+   },
+   "transpile_s": 32.03221869468689
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 1157530,
+   "two_qubit_depth": 256972,
+   "total_depth": 642274,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 72.28564763069153
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 753734,
+   "two_qubit_depth": 194904,
+   "total_depth": 531531,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 49.62524771690369
+  },
+  "df_terms": 121
+ },
+ "Trotter tol 1e-08 (121 terms) t=4.0 1 step o1": {
+  "all-to-all": {
+   "cz": 200764,
+   "two_qubit_depth": 20500,
+   "total_depth": 92769,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 1.055010028639134e-218,
+    "Nighthawk (assumed 2.0e-3)": 4.155327616593492e-175
+   },
+   "transpile_s": 30.301488637924194
+  },
+  "heavy-hex (FakeFez, 156 q)": {
+   "cz": 1157586,
+   "two_qubit_depth": 256982,
+   "total_depth": 642369,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 97.02704930305481
+  },
+  "square 12x10 (Nighthawk-like)": {
+   "cz": 753790,
+   "two_qubit_depth": 194923,
+   "total_depth": 531670,
+   "survival": {
+    "Heron r2 (median CZ 2.5e-3)": 0.0,
+    "Nighthawk (assumed 2.0e-3)": 0.0
+   },
+   "transpile_s": 79.56129026412964
+  },
+  "df_terms": 121
+ }
+}

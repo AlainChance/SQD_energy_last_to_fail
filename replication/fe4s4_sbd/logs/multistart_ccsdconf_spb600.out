@@ -1,0 +1,7 @@
+== ccsdconf_spb600 it3 b1: 2077 strings, D = 4313929
+   start HF: unpaired = 0
+HF                                 start E -326.5474 -> E -326.742796, <S^2> 0.0673 (1338 s)
+   start open-shell pair 1 (18 unpaired): unpaired = 18
+open-shell pair 1 (18 unpaired)    start E -324.3247 -> E -324.596337, <S^2> 8.7180 (1028 s)
+   start open-shell pair 2 (18 unpaired): unpaired = 18
+open-shell pair 2 (18 unpaired)    start E -324.4832 -> E -324.707461, <S^2> 8.0490 (1222 s)

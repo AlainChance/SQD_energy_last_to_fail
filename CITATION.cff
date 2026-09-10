@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it and the pre-print it accompanies."
+type: software
+title: "SQD_energy_last_to_fail — replication package for 'The energy is the last thing to fail: properties, spin and controls for sample-based quantum diagonalization, from N₂ to an iron–sulfur cluster'"
+authors:
+  - family-names: "Chancé"
+    given-names: "Alain"
+    orcid: "https://orcid.org/0009-0004-3619-2267"
+    affiliation: "MOLKET SAS"
+license: MIT
+version: 1.0.0
+date-released: "2026-09-10"
+doi: 10.5281/zenodo.22690380
+repository-code: "https://github.com/AlainChance/SQD_energy_last_to_fail"
+preferred-citation:
+  type: article
+  title: "The energy is the last thing to fail: properties, spin and controls for sample-based quantum diagonalization, from N₂ to an iron–sulfur cluster"
+  authors:
+    - family-names: "Chancé"
+      given-names: "Alain"
+      orcid: "https://orcid.org/0009-0004-3619-2267"
+      affiliation: "MOLKET SAS"
+  year: 2026
+  doi: 10.5281/zenodo.22690163
+  notes: "Preprint (Zenodo)"

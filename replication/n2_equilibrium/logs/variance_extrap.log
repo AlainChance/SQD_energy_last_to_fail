@@ -1,0 +1,118 @@
+2026-09-08 02:43:47 controls finished; variance estimation starts
+[      0 s] ctrl_random iteration 1: D = 100 (10 x 10), E = -91.988542
+[      2 s]   batch 1/4: sigma2 = 3.346e-01 (classes 7.50e-02 1.35e-01 1.25e-01); |A*|=378 |B*|=370; E_elec=-15.751654, internal residual 0.0e+00; 2 s
+[      4 s]   batch 2/4: sigma2 = 7.720e-01 (classes 5.65e-02 4.87e-01 2.29e-01); |A*|=369 |B*|=358; E_elec=-15.751654, internal residual 0.0e+00; 2 s
+[      6 s]   batch 3/4: sigma2 = 7.114e-01 (classes 2.06e-01 2.48e-01 2.57e-01); |A*|=358 |B*|=362; E_elec=-15.751654, internal residual 0.0e+00; 2 s
+[      8 s]   batch 4/4: sigma2 = 5.272e-01 (classes 1.47e-01 1.03e-01 2.77e-01); |A*|=363 |B*|=365; E_elec=-15.751654, internal residual 0.0e+00; 2 s
+[      8 s] ctrl_random iteration 2: D = 2598544 (1612 x 1612), E = -105.696153
+[     35 s]   batch 1/4: sigma2 = 6.699e-01 (classes 6.61e-02 1.50e-01 4.53e-01); |A*|=348 |B*|=342; E_elec=-29.459265, internal residual 5.8e-05; 26 s
+[     61 s]   batch 2/4: sigma2 = 6.357e-01 (classes 1.12e-01 1.00e-01 4.24e-01); |A*|=353 |B*|=333; E_elec=-29.459265, internal residual 5.8e-05; 26 s
+[     87 s]   batch 3/4: sigma2 = 6.787e-01 (classes 1.23e-01 1.20e-01 4.36e-01); |A*|=336 |B*|=348; E_elec=-29.459265, internal residual 5.8e-05; 27 s
+[    113 s]   batch 4/4: sigma2 = 2.189e+00 (classes 1.05e-01 2.64e-01 1.82e+00); |A*|=348 |B*|=351; E_elec=-29.459265, internal residual 5.8e-05; 26 s
+[    113 s] ctrl_random iteration 3: D = 2812329 (1677 x 1677), E = -108.960280
+[    139 s]   batch 1/4: sigma2 = 1.171e+00 (classes 2.18e-01 2.08e-01 7.46e-01); |A*|=323 |B*|=333; E_elec=-32.723392, internal residual 2.6e-04; 26 s
+[    166 s]   batch 2/4: sigma2 = 5.676e-01 (classes 2.11e-01 2.16e-01 1.41e-01); |A*|=323 |B*|=334; E_elec=-32.723392, internal residual 2.6e-04; 27 s
+[    192 s]   batch 3/4: sigma2 = 8.576e-01 (classes 9.36e-02 1.83e-01 5.81e-01); |A*|=316 |B*|=347; E_elec=-32.723392, internal residual 2.6e-04; 26 s
+[    219 s]   batch 4/4: sigma2 = 5.393e-01 (classes 1.55e-01 1.67e-01 2.17e-01); |A*|=329 |B*|=320; E_elec=-32.723392, internal residual 2.6e-04; 26 s
+[    219 s] ctrl_random iteration 4: D = 3229209 (1797 x 1797), E = -109.173517
+[    246 s]   batch 1/4: sigma2 = 2.253e-01 (classes 9.35e-02 1.06e-01 2.56e-02); |A*|=250 |B*|=266; E_elec=-32.936629, internal residual 8.2e-04; 27 s
+[    273 s]   batch 2/4: sigma2 = 1.355e-01 (classes 3.37e-02 8.75e-02 1.44e-02); |A*|=241 |B*|=238; E_elec=-32.936629, internal residual 8.2e-04; 27 s
+[    300 s]   batch 3/4: sigma2 = 3.355e-01 (classes 1.31e-01 1.07e-01 9.83e-02); |A*|=254 |B*|=246; E_elec=-32.936629, internal residual 8.2e-04; 27 s
+[    327 s]   batch 4/4: sigma2 = 1.962e-01 (classes 1.01e-01 7.12e-02 2.44e-02); |A*|=252 |B*|=241; E_elec=-32.936629, internal residual 8.2e-04; 27 s
+[    327 s] ctrl_random iteration 5: D = 4165681 (2041 x 2041), E = -109.197816
+[    357 s]   batch 1/4: sigma2 = 1.098e-01 (classes 4.61e-02 5.23e-02 1.14e-02); |A*|=223 |B*|=199; E_elec=-32.960928, internal residual 4.0e-04; 30 s
+[    388 s]   batch 2/4: sigma2 = 1.554e-01 (classes 6.36e-02 7.60e-02 1.58e-02); |A*|=230 |B*|=204; E_elec=-32.960928, internal residual 4.0e-04; 31 s
+[    418 s]   batch 3/4: sigma2 = 1.489e-01 (classes 6.05e-02 7.50e-02 1.34e-02); |A*|=222 |B*|=225; E_elec=-32.960928, internal residual 4.0e-04; 31 s
+[    448 s]   batch 4/4: sigma2 = 2.967e-01 (classes 1.04e-01 1.21e-01 7.16e-02); |A*|=210 |B*|=195; E_elec=-32.960928, internal residual 4.0e-04; 30 s
+[    449 s] ctrl_random iteration 6: D = 5438224 (2332 x 2332), E = -109.206034
+[    484 s]   batch 1/4: sigma2 = 1.329e-01 (classes 6.57e-02 6.00e-02 7.16e-03); |A*|=188 |B*|=173; E_elec=-32.969146, internal residual 2.7e-04; 35 s
+[    520 s]   batch 2/4: sigma2 = 1.157e-01 (classes 3.73e-02 6.65e-02 1.19e-02); |A*|=170 |B*|=180; E_elec=-32.969146, internal residual 2.7e-04; 36 s
+[    555 s]   batch 3/4: sigma2 = 1.512e-01 (classes 5.43e-02 8.78e-02 9.10e-03); |A*|=195 |B*|=174; E_elec=-32.969146, internal residual 2.7e-04; 36 s
+[    591 s]   batch 4/4: sigma2 = 1.164e-01 (classes 5.30e-02 5.08e-02 1.25e-02); |A*|=171 |B*|=175; E_elec=-32.969146, internal residual 2.7e-04; 35 s
+[    591 s] ctrl_random: done, 6 points
+[    591 s] ctrl_ccsdocc iteration 1: D = 2486929 (1577 x 1577), E = -109.174994
+[    614 s]   batch 1/4: sigma2 = 2.008e-01 (classes 7.98e-02 9.30e-02 2.80e-02); |A*|=297 |B*|=289; E_elec=-32.938106, internal residual 7.4e-04; 24 s
+[    638 s]   batch 2/4: sigma2 = 1.465e-01 (classes 5.75e-02 6.15e-02 2.75e-02); |A*|=274 |B*|=272; E_elec=-32.938106, internal residual 7.4e-04; 23 s
+[    661 s]   batch 3/4: sigma2 = 1.710e-01 (classes 7.68e-02 7.17e-02 2.25e-02); |A*|=274 |B*|=269; E_elec=-32.938106, internal residual 7.4e-04; 23 s
+[    684 s]   batch 4/4: sigma2 = 1.787e-01 (classes 7.77e-02 7.32e-02 2.79e-02); |A*|=271 |B*|=267; E_elec=-32.938106, internal residual 7.4e-04; 23 s
+[    684 s] ctrl_ccsdocc iteration 2: D = 3880900 (1970 x 1970), E = -109.191846
+[    713 s]   batch 1/4: sigma2 = 1.506e-01 (classes 6.32e-02 7.03e-02 1.71e-02); |A*|=228 |B*|=230; E_elec=-32.954958, internal residual 5.1e-04; 29 s
+[    742 s]   batch 2/4: sigma2 = 1.084e-01 (classes 3.91e-02 4.89e-02 2.04e-02); |A*|=219 |B*|=216; E_elec=-32.954958, internal residual 5.1e-04; 29 s
+[    772 s]   batch 3/4: sigma2 = 1.202e-01 (classes 5.68e-02 4.74e-02 1.59e-02); |A*|=233 |B*|=217; E_elec=-32.954958, internal residual 5.1e-04; 29 s
+[    800 s]   batch 4/4: sigma2 = 1.262e-01 (classes 5.44e-02 5.68e-02 1.50e-02); |A*|=220 |B*|=212; E_elec=-32.954958, internal residual 5.1e-04; 29 s
+[    801 s] ctrl_ccsdocc iteration 3: D = 4756761 (2181 x 2181), E = -109.202373
+[    833 s]   batch 1/4: sigma2 = 1.437e-01 (classes 5.60e-02 7.10e-02 1.66e-02); |A*|=191 |B*|=200; E_elec=-32.965484, internal residual 3.5e-04; 32 s
+[    865 s]   batch 2/4: sigma2 = 8.977e-02 (classes 5.82e-02 2.51e-02 6.43e-03); |A*|=185 |B*|=176; E_elec=-32.965484, internal residual 3.5e-04; 32 s
+[    897 s]   batch 3/4: sigma2 = 1.434e-01 (classes 6.67e-02 5.87e-02 1.81e-02); |A*|=207 |B*|=183; E_elec=-32.965484, internal residual 3.5e-04; 32 s
+[    929 s]   batch 4/4: sigma2 = 1.262e-01 (classes 5.66e-02 5.89e-02 1.08e-02); |A*|=197 |B*|=185; E_elec=-32.965484, internal residual 3.5e-04; 32 s
+[    929 s] ctrl_ccsdocc iteration 4: D = 5943844 (2438 x 2438), E = -109.208212
+[    966 s]   batch 1/4: sigma2 = 1.033e-01 (classes 4.20e-02 5.26e-02 8.78e-03); |A*|=177 |B*|=176; E_elec=-32.971324, internal residual 2.7e-04; 37 s
+[   1003 s]   batch 2/4: sigma2 = 8.546e-02 (classes 4.19e-02 3.84e-02 5.24e-03); |A*|=165 |B*|=158; E_elec=-32.971324, internal residual 2.7e-04; 37 s
+[   1040 s]   batch 3/4: sigma2 = 9.555e-02 (classes 6.08e-02 3.01e-02 4.67e-03); |A*|=167 |B*|=162; E_elec=-32.971324, internal residual 2.7e-04; 37 s
+[   1077 s]   batch 4/4: sigma2 = 7.333e-02 (classes 2.97e-02 3.75e-02 6.07e-03); |A*|=157 |B*|=172; E_elec=-32.971324, internal residual 2.7e-04; 37 s
+[   1077 s] ctrl_ccsdocc iteration 5: D = 6832996 (2614 x 2614), E = -109.213253
+[   1117 s]   batch 1/4: sigma2 = 7.599e-02 (classes 4.30e-02 2.84e-02 4.56e-03); |A*|=140 |B*|=159; E_elec=-32.976365, internal residual 2.0e-04; 40 s
+[   1157 s]   batch 2/4: sigma2 = 5.695e-02 (classes 1.26e-02 4.02e-02 4.15e-03); |A*|=142 |B*|=158; E_elec=-32.976365, internal residual 2.0e-04; 40 s
+[   1197 s]   batch 3/4: sigma2 = 1.171e-01 (classes 9.40e-02 1.82e-02 4.90e-03); |A*|=148 |B*|=128; E_elec=-32.976365, internal residual 2.0e-04; 40 s
+[   1237 s]   batch 4/4: sigma2 = 8.398e-02 (classes 4.26e-02 3.84e-02 2.98e-03); |A*|=138 |B*|=146; E_elec=-32.976365, internal residual 2.0e-04; 40 s
+[   1238 s] ctrl_ccsdocc iteration 6: D = 7772944 (2788 x 2788), E = -109.217124
+[   1281 s]   batch 1/4: sigma2 = 4.539e-02 (classes 2.66e-02 1.65e-02 2.36e-03); |A*|=133 |B*|=135; E_elec=-32.980236, internal residual 1.4e-04; 44 s
+[   1325 s]   batch 2/4: sigma2 = 4.448e-02 (classes 1.69e-02 2.58e-02 1.82e-03); |A*|=118 |B*|=124; E_elec=-32.980236, internal residual 1.4e-04; 43 s
+[   1368 s]   batch 3/4: sigma2 = 4.296e-02 (classes 2.86e-02 1.27e-02 1.57e-03); |A*|=118 |B*|=116; E_elec=-32.980236, internal residual 1.4e-04; 43 s
+[   1411 s]   batch 4/4: sigma2 = 3.779e-02 (classes 1.68e-02 1.92e-02 1.78e-03); |A*|=131 |B*|=128; E_elec=-32.980236, internal residual 1.4e-04; 43 s
+[   1411 s] ctrl_ccsdocc: done, 6 points
+[   1411 s] ctrl_ccsdconf iteration 1: D = 619369 (787 x 787), E = -109.215072
+[   1418 s]   batch 1/4: sigma2 = 6.684e-02 (classes 1.94e-02 2.11e-02 2.63e-02); |A*|=239 |B*|=242; E_elec=-32.978184, internal residual 8.1e-05; 7 s
+[   1426 s]   batch 2/4: sigma2 = 5.458e-02 (classes 2.54e-02 1.28e-02 1.64e-02); |A*|=227 |B*|=243; E_elec=-32.978184, internal residual 8.1e-05; 7 s
+[   1433 s]   batch 3/4: sigma2 = 1.130e-01 (classes 1.76e-02 6.99e-02 2.56e-02); |A*|=249 |B*|=244; E_elec=-32.978184, internal residual 8.1e-05; 7 s
+[   1440 s]   batch 4/4: sigma2 = 4.367e-02 (classes 1.19e-02 1.27e-02 1.90e-02); |A*|=244 |B*|=258; E_elec=-32.978184, internal residual 8.1e-05; 7 s
+[   1440 s] ctrl_ccsdconf iteration 2: D = 4452100 (2110 x 2110), E = -109.217023
+[   1471 s]   batch 1/4: sigma2 = 4.310e-02 (classes 1.56e-02 1.70e-02 1.04e-02); |A*|=176 |B*|=196; E_elec=-32.980135, internal residual 8.1e-05; 31 s
+[   1502 s]   batch 2/4: sigma2 = 4.764e-02 (classes 2.31e-02 1.14e-02 1.32e-02); |A*|=173 |B*|=195; E_elec=-32.980135, internal residual 8.1e-05; 31 s
+[   1533 s]   batch 3/4: sigma2 = 8.166e-02 (classes 2.44e-02 4.61e-02 1.11e-02); |A*|=196 |B*|=178; E_elec=-32.980135, internal residual 8.1e-05; 31 s
+[   1564 s]   batch 4/4: sigma2 = 9.524e-02 (classes 4.54e-02 3.18e-02 1.80e-02); |A*|=187 |B*|=192; E_elec=-32.980135, internal residual 8.1e-05; 31 s
+[   1564 s] ctrl_ccsdconf iteration 3: D = 5697769 (2387 x 2387), E = -109.218701
+[   1600 s]   batch 1/4: sigma2 = 6.941e-02 (classes 3.17e-02 3.04e-02 7.23e-03); |A*|=159 |B*|=155; E_elec=-32.981813, internal residual 8.2e-05; 36 s
+[   1636 s]   batch 2/4: sigma2 = 4.101e-02 (classes 1.18e-02 2.13e-02 7.99e-03); |A*|=150 |B*|=151; E_elec=-32.981813, internal residual 8.2e-05; 36 s
+[   1671 s]   batch 3/4: sigma2 = 3.642e-02 (classes 1.54e-02 1.46e-02 6.44e-03); |A*|=151 |B*|=146; E_elec=-32.981813, internal residual 8.2e-05; 36 s
+[   1707 s]   batch 4/4: sigma2 = 4.206e-02 (classes 2.13e-02 1.49e-02 5.81e-03); |A*|=175 |B*|=155; E_elec=-32.981813, internal residual 8.2e-05; 36 s
+[   1707 s] ctrl_ccsdconf iteration 4: D = 6708100 (2590 x 2590), E = -109.220343
+[   1747 s]   batch 1/4: sigma2 = 5.570e-02 (classes 3.71e-02 1.25e-02 6.04e-03); |A*|=155 |B*|=146; E_elec=-32.983455, internal residual 6.5e-05; 40 s
+[   1788 s]   batch 2/4: sigma2 = 3.318e-02 (classes 2.01e-02 8.14e-03 4.98e-03); |A*|=147 |B*|=114; E_elec=-32.983455, internal residual 6.5e-05; 41 s
+[   1827 s]   batch 3/4: sigma2 = 5.551e-02 (classes 7.42e-03 4.45e-02 3.58e-03); |A*|=133 |B*|=134; E_elec=-32.983455, internal residual 6.5e-05; 39 s
+[   1867 s]   batch 4/4: sigma2 = 4.697e-02 (classes 1.95e-02 2.16e-02 5.90e-03); |A*|=138 |B*|=139; E_elec=-32.983455, internal residual 6.5e-05; 40 s
+[   1867 s] ctrl_ccsdconf iteration 5: D = 7767369 (2787 x 2787), E = -109.221285
+[   1911 s]   batch 1/4: sigma2 = 6.317e-02 (classes 2.13e-02 2.40e-02 1.79e-02); |A*|=131 |B*|=123; E_elec=-32.984397, internal residual 6.1e-05; 43 s
+[   1954 s]   batch 2/4: sigma2 = 8.488e-02 (classes 6.98e-02 1.23e-02 2.79e-03); |A*|=119 |B*|=130; E_elec=-32.984397, internal residual 6.1e-05; 43 s
+[   1997 s]   batch 3/4: sigma2 = 3.370e-02 (classes 1.94e-02 1.07e-02 3.67e-03); |A*|=143 |B*|=109; E_elec=-32.984397, internal residual 6.1e-05; 44 s
+[   2040 s]   batch 4/4: sigma2 = 3.820e-02 (classes 1.31e-02 1.90e-02 6.17e-03); |A*|=129 |B*|=114; E_elec=-32.984397, internal residual 6.1e-05; 43 s
+[   2041 s] ctrl_ccsdconf iteration 6: D = 8514724 (2918 x 2918), E = -109.222177
+[   2086 s]   batch 1/4: sigma2 = 2.827e-02 (classes 1.71e-02 9.54e-03 1.65e-03); |A*|=107 |B*|=107; E_elec=-32.985289, internal residual 5.5e-05; 46 s
+[   2133 s]   batch 2/4: sigma2 = 3.153e-02 (classes 1.26e-02 1.71e-02 1.79e-03); |A*|=126 |B*|=114; E_elec=-32.985289, internal residual 5.5e-05; 46 s
+[   2179 s]   batch 3/4: sigma2 = 5.076e-02 (classes 1.65e-02 3.22e-02 2.00e-03); |A*|=112 |B*|=109; E_elec=-32.985289, internal residual 5.5e-05; 46 s
+[   2225 s]   batch 4/4: sigma2 = 7.150e-02 (classes 2.89e-02 3.55e-02 7.09e-03); |A*|=115 |B*|=128; E_elec=-32.985289, internal residual 5.5e-05; 46 s
+[   2225 s] ctrl_ccsdconf: done, 6 points
+[   2225 s] ctrl_allvalid iteration 1: D = 3900625 (1975 x 1975), E = -106.952074
+[   2259 s]   batch 1/4: sigma2 = 7.495e-01 (classes 2.45e-01 1.09e-01 3.96e-01); |A*|=354 |B*|=359; E_elec=-30.715186, internal residual 1.4e-04; 34 s
+[   2292 s]   batch 2/4: sigma2 = 8.861e-01 (classes 3.26e-01 1.48e-01 4.12e-01); |A*|=357 |B*|=354; E_elec=-30.715186, internal residual 1.4e-04; 34 s
+[   2326 s]   batch 3/4: sigma2 = 1.078e+00 (classes 1.88e-01 2.84e-01 6.06e-01); |A*|=348 |B*|=356; E_elec=-30.715186, internal residual 1.4e-04; 33 s
+[   2359 s]   batch 4/4: sigma2 = 7.980e-01 (classes 3.71e-01 1.11e-01 3.16e-01); |A*|=361 |B*|=353; E_elec=-30.715186, internal residual 1.4e-04; 33 s
+[   2359 s] ctrl_allvalid iteration 2: D = 3948169 (1987 x 1987), E = -107.036089
+[   2393 s]   batch 1/4: sigma2 = 9.696e-01 (classes 1.89e-01 2.49e-01 5.32e-01); |A*|=353 |B*|=344; E_elec=-30.799201, internal residual 1.8e-04; 34 s
+[   2426 s]   batch 2/4: sigma2 = 8.822e-01 (classes 2.22e-01 1.05e-01 5.55e-01); |A*|=357 |B*|=346; E_elec=-30.799201, internal residual 1.8e-04; 34 s
+[   2459 s]   batch 3/4: sigma2 = 1.733e+00 (classes 2.06e-01 2.35e-01 1.29e+00); |A*|=346 |B*|=354; E_elec=-30.799201, internal residual 1.8e-04; 33 s
+[   2493 s]   batch 4/4: sigma2 = 1.170e+00 (classes 3.71e-01 1.70e-01 6.28e-01); |A*|=356 |B*|=356; E_elec=-30.799201, internal residual 1.8e-04; 33 s
+[   2493 s] ctrl_allvalid iteration 3: D = 4048144 (2012 x 2012), E = -107.129674
+[   2527 s]   batch 1/4: sigma2 = 8.478e-01 (classes 2.70e-01 1.66e-01 4.12e-01); |A*|=348 |B*|=357; E_elec=-30.892786, internal residual 9.0e-05; 34 s
+[   2561 s]   batch 2/4: sigma2 = 1.583e+00 (classes 2.43e-01 2.62e-01 1.08e+00); |A*|=346 |B*|=355; E_elec=-30.892786, internal residual 9.0e-05; 34 s
+[   2596 s]   batch 3/4: sigma2 = 8.681e-01 (classes 1.41e-01 1.87e-01 5.40e-01); |A*|=353 |B*|=350; E_elec=-30.892786, internal residual 9.0e-05; 34 s
+[   2630 s]   batch 4/4: sigma2 = 8.385e-01 (classes 1.37e-01 1.33e-01 5.69e-01); |A*|=354 |B*|=347; E_elec=-30.892786, internal residual 9.0e-05; 34 s
+[   2630 s] ctrl_allvalid: done, 3 points
+run rc=0
+ctrl_allvalid: E_inf = -107.757037 +/- nan (2 points; slope 0.606)
+ctrl_ccsdconf: E_inf = -109.226635 +/- 0.005992 (5 points; slope 0.133)
+ctrl_ccsdocc: E_inf = -109.227257 +/- 0.002196 (5 points; slope 0.235)
+ctrl_random: E_inf = -109.338898 +/- 0.112569 (5 points; slope 0.999)
+references: {'SCI 1e-4': -109.227824, 'SCI extrapolated': -109.228133, 'CCSD(T)': -109.226934}
+fit rc=0
+2026-09-08 03:27:39 variance extrapolation done

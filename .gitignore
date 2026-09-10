@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+sbd_work/
+*_localcheck.pdf
+.DS_Store
+Thumbs.db

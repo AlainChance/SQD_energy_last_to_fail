@@ -1,0 +1,11 @@
+[     9 s] R = 1.0975: (10e,12o), dim 627264, FCI -108.999490 (8.6 s)
+[    26 s]   LUCJ (1 rep): E -108.934146; {'distinct': 37, 'alpha': 16, 'beta': 16, 'strings_sym': 19, 'D_sym': 361, 'fci_weight': 0.9766, 'E_static': -108.9689, 'dE_mHa': np.float64(30.6273), 'E_state': -108.9341}
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/evolution_scan_small.py:51: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  t = time.time(); vec = expm_multiply(-1j * tt * lin, vec_hf.astype(complex)); dt = time.time() - t
+[    83 s]   t = 0.25: <H> -108.867774 (HF -108.867774); {'distinct': 143, 'alpha': 53, 'beta': 54, 'strings_sym': 61, 'D_sym': 3721, 'fci_weight': 0.994, 'E_static': -108.9944, 'dE_mHa': np.float64(5.1045), 'E_state': -108.8678, 'evolve_seconds': 55.0237}
+[   153 s]   t = 0.5: <H> -108.867774 (HF -108.867774); {'distinct': 274, 'alpha': 86, 'beta': 89, 'strings_sym': 104, 'D_sym': 10816, 'fci_weight': 0.9978, 'E_static': -108.9977, 'dE_mHa': np.float64(1.826), 'E_state': -108.8678, 'evolve_seconds': 66.2486}
+[   270 s]   t = 1.0: <H> -108.867774 (HF -108.867774); {'distinct': 547, 'alpha': 157, 'beta': 153, 'strings_sym': 190, 'D_sym': 36100, 'fci_weight': 0.9991, 'E_static': -108.9987, 'dE_mHa': np.float64(0.7759), 'E_state': -108.8678, 'evolve_seconds': 113.2695}
+[   455 s]   t = 2.0: <H> -108.867774 (HF -108.867774); {'distinct': 631, 'alpha': 162, 'beta': 178, 'strings_sym': 214, 'D_sym': 45796, 'fci_weight': 0.9983, 'E_static': -108.9989, 'dE_mHa': np.float64(0.5799), 'E_state': -108.8678, 'evolve_seconds': 180.8846}
+[   784 s]   t = 4.0: <H> -108.867774 (HF -108.867774); {'distinct': 756, 'alpha': 213, 'beta': 204, 'strings_sym': 263, 'D_sym': 69169, 'fci_weight': 0.9983, 'E_static': -108.9991, 'dE_mHa': np.float64(0.4255), 'E_state': -108.8678, 'evolve_seconds': 324.866}
+[  1414 s]   t = 8.0: <H> -108.867774 (HF -108.867774); {'distinct': 832, 'alpha': 229, 'beta': 223, 'strings_sym': 277, 'D_sym': 76729, 'fci_weight': 0.9983, 'E_static': -108.999, 'dE_mHa': np.float64(0.4822), 'E_state': -108.8678, 'evolve_seconds': 628.1755}
+[  1414 s] done

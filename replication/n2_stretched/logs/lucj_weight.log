@@ -1,0 +1,8 @@
+[     15 s] R = 1.0975: RHF -108.867774413, CCSD -109.093516418 (converged True), sector 19079424
+[     28 s]   142 distinct configurations; LUCJ weight on them 0.999148
+[    217 s]   FCI -109.102886689 in 189 s; full-CI weight on the sampled configurations 0.962237; |<FCI|LUCJ>|^2 0.946304
+[    314 s] R = 2.195: RHF -108.218585051, CCSD -108.919375903 (converged True), sector 19079424
+[    327 s]   384 distinct configurations; LUCJ weight on them 0.997328
+[   1252 s]   FCI -108.847747266 in 925 s; full-CI weight on the sampled configurations 0.730135; |<FCI|LUCJ>|^2 0.282938
+[   1737 s] R = 2.7437: RHF -108.038392091, CCSD -108.445121578 (converged False), sector 19079424
+[   1750 s]   55 distinct configurations; LUCJ weight on them 0.999543

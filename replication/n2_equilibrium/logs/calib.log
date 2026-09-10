@@ -1,0 +1,9 @@
+[      0 s] RHF E = -108.929838386 (SQD_Alain notebook: -108.929838); active 26 orbitals, nelec (5, 5), ecore -76.236888
+[      0 s] RHF properties: {'E': np.float64(-108.929838), 'N_electrons': 14.0, 'r2': 35.604289, 'x2': 21.067793, 'y2': 7.268248, 'Theta_xx': -1.300818, 'Theta_yy': 0.650409, 'rho_N': 197.19089}
+[      2 s] CCSD E = -109.217788419 (notebook -109.217788), CCSD(T) E = -109.226934298; properties: {'N_electrons': 14.0, 'r2': 35.538971, 'x2': 21.166051, 'y2': 7.18646, 'Theta_xx': -1.480864, 'Theta_yy': 0.740432, 'rho_N': 197.124144}
+[    114 s] SCI cutoff 0.001: E = -109.219708599 (notebook 'exact' -109.226902), dets = 774400, 112 s; {'N_electrons': 14.0, 'r2': 35.559597, 'x2': 21.164358, 'y2': 7.197618, 'Theta_xx': -1.468011, 'Theta_yy': 0.734008, 'rho_N': 197.126554}
+[    116 s] bit array: 50000 shots x 52 bits
+[    142 s] SQD spb=50: D = 9216, E = -108.932273042, 27 s; {'N_electrons': 14.0, 'r2': 35.609575, 'x2': 21.068387, 'y2': 7.270589, 'Theta_xx': -1.299066, 'Theta_yy': 0.64954, 'rho_N': 197.187289}
+[    209 s] SQD spb=100: D = 35721, E = -108.934736570, 67 s; {'N_electrons': 14.0, 'r2': 35.610591, 'x2': 21.068782, 'y2': 7.27233, 'Theta_xx': -1.299151, 'Theta_yy': 0.647436, 'rho_N': 197.187309}
+[    209 s] done
+rc=True

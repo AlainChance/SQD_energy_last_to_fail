@@ -1,0 +1,22 @@
+[     2 s]   LUCJ 1 layer                           all-to-all                         CZ    1712  2q-depth    156  survival Heron r2 1.38e-02, Nighthawk 3.26e-02
+[     3 s]   LUCJ 1 layer                           heavy-hex (FakeFez, 156 q)         CZ    5705  2q-depth   1157  survival Heron r2 6.40e-07, Nighthawk 1.11e-05
+[     3 s]   LUCJ 1 layer                           square 12x10 (Nighthawk-like)      CZ    4009  2q-depth    856  survival Heron r2 4.44e-05, Nighthawk 3.29e-04
+[    13 s]   Trotter tol 0.01 (33 terms) t=1.0 1 step o1 all-to-all                         CZ   72712  2q-depth   6990  survival Heron r2 1.13e-79, Nighthawk 6.97e-64
+[    34 s]   Trotter tol 0.01 (33 terms) t=1.0 1 step o1 heavy-hex (FakeFez, 156 q)         CZ  330044  2q-depth  74732  survival Heron r2 0.00e+00, Nighthawk 2.13e-287
+[    50 s]   Trotter tol 0.01 (33 terms) t=1.0 1 step o1 square 12x10 (Nighthawk-like)      CZ  221000  2q-depth  60136  survival Heron r2 1.13e-240, Nighthawk 1.10e-192
+[    59 s]   Trotter tol 0.01 (33 terms) t=4.0 1 step o1 all-to-all                         CZ   72712  2q-depth   6990  survival Heron r2 1.13e-79, Nighthawk 6.97e-64
+[    80 s]   Trotter tol 0.01 (33 terms) t=4.0 1 step o1 heavy-hex (FakeFez, 156 q)         CZ  330044  2q-depth  74732  survival Heron r2 0.00e+00, Nighthawk 2.13e-287
+[    97 s]   Trotter tol 0.01 (33 terms) t=4.0 1 step o1 square 12x10 (Nighthawk-like)      CZ  221000  2q-depth  60136  survival Heron r2 1.13e-240, Nighthawk 1.10e-192
+[   117 s]   Trotter tol 0.0001 (81 terms) t=1.0 1 step o1 all-to-all                         CZ  150328  2q-depth  15270  survival Heron r2 6.07e-164, Nighthawk 2.67e-131
+[   166 s]   Trotter tol 0.0001 (81 terms) t=1.0 1 step o1 heavy-hex (FakeFez, 156 q)         CZ  791392  2q-depth 176910  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   204 s]   Trotter tol 0.0001 (81 terms) t=1.0 1 step o1 square 12x10 (Nighthawk-like)      CZ  520042  2q-depth 137155  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   227 s]   Trotter tol 0.0001 (81 terms) t=4.0 1 step o1 all-to-all                         CZ  150328  2q-depth  15270  survival Heron r2 6.07e-164, Nighthawk 2.67e-131
+[   296 s]   Trotter tol 0.0001 (81 terms) t=4.0 1 step o1 heavy-hex (FakeFez, 156 q)         CZ  791392  2q-depth 176910  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   345 s]   Trotter tol 0.0001 (81 terms) t=4.0 1 step o1 square 12x10 (Nighthawk-like)      CZ  520042  2q-depth 137155  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   386 s]   Trotter tol 1e-08 (121 terms) t=1.0 1 step o1 all-to-all                         CZ  200708  2q-depth  20500  survival Heron r2 1.21e-218, Nighthawk 4.65e-175
+[   458 s]   Trotter tol 1e-08 (121 terms) t=1.0 1 step o1 heavy-hex (FakeFez, 156 q)         CZ 1157530  2q-depth 256972  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   508 s]   Trotter tol 1e-08 (121 terms) t=1.0 1 step o1 square 12x10 (Nighthawk-like)      CZ  753734  2q-depth 194904  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   545 s]   Trotter tol 1e-08 (121 terms) t=4.0 1 step o1 all-to-all                         CZ  200764  2q-depth  20500  survival Heron r2 1.06e-218, Nighthawk 4.16e-175
+[   642 s]   Trotter tol 1e-08 (121 terms) t=4.0 1 step o1 heavy-hex (FakeFez, 156 q)         CZ 1157586  2q-depth 256982  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   722 s]   Trotter tol 1e-08 (121 terms) t=4.0 1 step o1 square 12x10 (Nighthawk-like)      CZ  753790  2q-depth 194923  survival Heron r2 0.00e+00, Nighthawk 0.00e+00
+[   722 s] done

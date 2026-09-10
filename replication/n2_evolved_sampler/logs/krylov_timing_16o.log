@@ -1,0 +1,44 @@
+[     2 s] dim 19079424
+[    36 s] one matvec (complex): 33.3 s; <HF|H|HF> = -108.867774
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/krylov_timing_16o.py:23: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  t = time.time(); vt = expm_multiply(-1j * args.t * op, v0); dt = time.time() - t
+Traceback (most recent call last):
+  File "/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/krylov_timing_16o.py", line 23, in <module>
+    t = time.time(); vt = expm_multiply(-1j * args.t * op, v0); dt = time.time() - t
+                          ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_expm_multiply.py", line 207, in expm_multiply
+    X = _expm_multiply_simple(A, B, traceA=traceA)
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_expm_multiply.py", line 270, in _expm_multiply_simple
+    A_1_norm = onenormest(A) if is_linear_operator else _exact_1_norm(A)
+               ~~~~~~~~~~^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_onenormest.py", line 107, in onenormest
+    est, v, w, nmults, nresamples = _onenormest_core(A, A.H, t, itmax)
+                                    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_onenormest.py", line 436, in _onenormest_core
+    Z = np.asarray(AT_linear_operator.matmat(S))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 370, in matmat
+    Y = self._matmat(X)
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 716, in _matmat
+    return self.args[0].matmat(x) + self.args[1].matmat(x)
+           ~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 370, in matmat
+    Y = self._matmat(X)
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 778, in _matmat
+    return self.args[1] * self.args[0].matmat(x)
+                          ~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 370, in matmat
+    Y = self._matmat(X)
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 617, in _matmat
+    return super()._matmat(X)
+           ~~~~~~~~~~~~~~~^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 217, in _matmat
+    return np.hstack([self.matvec(col.reshape(-1,1)) for col in X.T])
+                      ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 262, in matvec
+    y = self._matvec(x)
+  File "/home/alain/miniconda3/lib/python3.13/site-packages/scipy/sparse/linalg/_interface.py", line 620, in _matvec
+    return self.__matvec_impl(x)
+           ~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not callable
+2026-09-09 19:26:34 krylov timing done

@@ -1,0 +1,173 @@
+2026-09-08 21:17:37 4Fe-4S sbd controls start
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      5 s] 3163742 hardware shots loaded from the archive (all distinct)
+[      5 s] top-5000 CCSD determinants (|amp| 1 .. 0.0104) -> 833 strings forced in (alpha = beta)
+[     24 s] iteration 1: 1694 valid strings after post-selection (no recovery)
+[    747 s]   batch 0: 2825 strings, D = 7980625, E = -326.741663 (722 s), carry-over 845 strings, Davidson last ('2.4', '9.731755582211877e-06'), |c|max 0.7764
+[   1475 s]   batch 1: 2825 strings, D = 7980625, E = -326.741695 (728 s), carry-over 843 strings, Davidson last ('2.4', '9.706584155545121e-06'), |c|max 0.7765
+[   1475 s] 4Fe-4S ccsdconf iteration 1: D = 7980625, E = -326.741695 (vs DMRG 498 mHa, vs CCSD 96 mHa, vs RHF -194 mHa)
+[   2240 s] iteration 2: 3163533 strings after recovery
+[   3099 s]   batch 0: 2790 strings, D = 7784100, E = -326.742127 (859 s), carry-over 965 strings, Davidson last ('2.4', '9.844618595596717e-06'), |c|max 0.7757
+[   3974 s]   batch 1: 2798 strings, D = 7828804, E = -326.742702 (874 s), carry-over 967 strings, Davidson last ('2.4', '9.707756111907867e-06'), |c|max 0.7758
+[   3974 s] 4Fe-4S ccsdconf iteration 2: D = 7828804, E = -326.742702 (vs DMRG 497 mHa, vs CCSD 95 mHa, vs RHF -195 mHa)
+[   4722 s] iteration 3: 3163556 strings after recovery
+[   5731 s]   batch 0: 2910 strings, D = 8468100, E = -326.743196 (1009 s), carry-over 1084 strings, Davidson last ('2.4', '9.833473722606043e-06'), |c|max 0.7756
+[   6733 s]   batch 1: 2931 strings, D = 8590761, E = -326.743247 (1002 s), carry-over 1090 strings, Davidson last ('2.4', '9.953930851984389e-06'), |c|max 0.7746
+[   6733 s] 4Fe-4S ccsdconf iteration 3: D = 8590761, E = -326.743247 (vs DMRG 496 mHa, vs CCSD 94 mHa, vs RHF -196 mHa)
+[   6733 s] FINAL 4Fe-4S ccsdconf: E = -326.743247, 3 iterations, 6727 s
+ccsdconf rc=0
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      6 s] 3163742 hardware shots loaded from the archive (all distinct)
+[     25 s] iteration 1: 1694 valid strings after post-selection (no recovery)
+[     44 s]   batch 0: 1995 strings, D = 3980025, E = -325.781839 (19 s), carry-over 15 strings, Davidson last ('0.6', '8.700098097678126e-06'), |c|max 0.7684, <S^2> = 0.73992 (0 s)
+[     58 s]   batch 1: 1996 strings, D = 3984016, E = -326.079180 (13 s), carry-over 7 strings, Davidson last ('0.2', '3.808541542988816e-06'), |c|max 1.0000, <S^2> = 0.00006 (0 s)
+[     58 s] 4Fe-4S hardware iteration 1: D = 3984016, E = -326.079180 (vs DMRG 1160 mHa, vs CCSD 758 mHa, vs RHF 468 mHa), <S^2> = 0.00006
+[    794 s] iteration 2: 3163708 strings after recovery
+[    817 s]   batch 0: 2004 strings, D = 4016016, E = -326.446759 (23 s), carry-over 74 strings, Davidson last ('0.7', '9.152169058660773e-06'), |c|max 0.7961, <S^2> = 0.02899 (0 s)
+[    844 s]   batch 1: 2002 strings, D = 4008004, E = -326.301664 (27 s), carry-over 95 strings, Davidson last ('0.9', '2.599150856119201e-06'), |c|max 0.7515, <S^2> = 0.05095 (0 s)
+[    844 s] 4Fe-4S hardware iteration 2: D = 4016016, E = -326.446759 (vs DMRG 793 mHa, vs CCSD 391 mHa, vs RHF 101 mHa), <S^2> = 0.02899
+[   1586 s] iteration 3: 3163585 strings after recovery
+[   1629 s]   batch 0: 2058 strings, D = 4235364, E = -326.452138 (43 s), carry-over 190 strings, Davidson last ('1.1', '8.3641194281542e-06'), |c|max 0.8014, <S^2> = 0.05570 (0 s)
+[   1666 s]   batch 1: 2063 strings, D = 4255969, E = -326.576532 (37 s), carry-over 158 strings, Davidson last ('0.8', '7.453591382448014e-06'), |c|max 0.9171, <S^2> = 0.02277 (0 s)
+[   1666 s] 4Fe-4S hardware iteration 3: D = 4255969, E = -326.576532 (vs DMRG 663 mHa, vs CCSD 261 mHa, vs RHF -29 mHa), <S^2> = 0.02277
+[   1666 s] FINAL 4Fe-4S hardware: E = -326.576532, 3 iterations, 1660 s
+hardware rc=0
+2026-09-08 23:37:37 4Fe-4S sbd controls done
+2026-09-08 23:38:57 4Fe-4S sbd controls 2 (ccsdocc, allvalid) start
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      5 s] 3163742 hardware shots loaded from the archive (all distinct)
+[      5 s] first recovery primed with CCSD occupations
+[    781 s] iteration 1: 3163382 strings after recovery
+[    809 s]   batch 0: 1981 strings, D = 3924361, E = -326.552830 (28 s), carry-over 90 strings, Davidson last ('0.6', '5.465507447310814e-06'), |c|max 0.9943, <S^2> = 0.00915 (0 s)
+[    837 s]   batch 1: 1986 strings, D = 3944196, E = -326.549727 (28 s), carry-over 91 strings, Davidson last ('0.6', '8.057771997600962e-06'), |c|max 0.9982, <S^2> = 0.00386 (0 s)
+[    837 s] 4Fe-4S ccsdocc iteration 1: D = 3924361, E = -326.552830 (vs DMRG 687 mHa, vs CCSD 285 mHa, vs RHF -5 mHa), <S^2> = 0.00915
+[   1576 s] iteration 2: 3163535 strings after recovery
+[   1617 s]   batch 0: 2074 strings, D = 4301476, E = -326.559949 (40 s), carry-over 197 strings, Davidson last ('0.9', '4.384464762313192e-06'), |c|max 0.9877, <S^2> = 0.03208 (0 s)
+[   1659 s]   batch 1: 2075 strings, D = 4305625, E = -326.579086 (42 s), carry-over 207 strings, Davidson last ('0.9', '6.274616536304772e-06'), |c|max 0.9263, <S^2> = 0.03450 (0 s)
+[   1659 s] 4Fe-4S ccsdocc iteration 2: D = 4305625, E = -326.579086 (vs DMRG 661 mHa, vs CCSD 259 mHa, vs RHF -32 mHa), <S^2> = 0.03450
+[   2392 s] iteration 3: 3163554 strings after recovery
+[   2471 s]   batch 0: 2184 strings, D = 4769856, E = -326.588560 (78 s), carry-over 333 strings, Davidson last ('1.2', '8.860720470245082e-06'), |c|max 0.9294, <S^2> = 0.07571 (0 s)
+[   2545 s]   batch 1: 2181 strings, D = 4756761, E = -326.583273 (74 s), carry-over 302 strings, Davidson last ('1.3', '5.132330748775889e-06'), |c|max 0.9247, <S^2> = 0.05297 (0 s)
+[   2545 s] 4Fe-4S ccsdocc iteration 3: D = 4769856, E = -326.588560 (vs DMRG 651 mHa, vs CCSD 249 mHa, vs RHF -41 mHa), <S^2> = 0.07571
+[   2545 s] FINAL 4Fe-4S ccsdocc: E = -326.588560, 3 iterations, 2540 s
+ccsdocc rc=0
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[     68 s] 3163742 uniformly random in-sector strings
+[     90 s] iteration 1: 3163742 valid strings after post-selection (no recovery)
+[    102 s]   batch 0: 2000 strings, D = 4000000, E = -323.929451 (11 s), carry-over 1 strings, Davidson last ('0.0', '0'), |c|max 1.0000, <S^2> = 0.00000 (0 s)
+[    115 s]   batch 1: 2000 strings, D = 4000000, E = -323.956507 (13 s), carry-over 2 strings, Davidson last ('0.1', '2.397044045782747e-08'), |c|max 1.0000, <S^2> = 0.00000 (0 s)
+[    115 s] 4Fe-4S allvalid iteration 1: D = 4000000, E = -323.956507 (vs DMRG 3283 mHa, vs CCSD 2881 mHa, vs RHF 2591 mHa), <S^2> = 0.00000
+[    361 s] iteration 2: 3163742 strings after recovery
+[    373 s]   batch 0: 2002 strings, D = 4008004, E = -323.956507 (12 s), carry-over 2 strings, Davidson last ('0.1', '5.846625079829745e-07'), |c|max 1.0000, <S^2> = 0.00000 (0 s)
+[    387 s]   batch 1: 2002 strings, D = 4008004, E = -323.956507 (13 s), carry-over 2 strings, Davidson last ('0.1', '2.397044045782747e-08'), |c|max 1.0000, <S^2> = 0.00000 (0 s)
+[    387 s] 4Fe-4S allvalid iteration 2: D = 4008004, E = -323.956507 (vs DMRG 3283 mHa, vs CCSD 2881 mHa, vs RHF 2591 mHa), <S^2> = 0.00000
+[    632 s] iteration 3: 3163742 strings after recovery
+[    646 s]   batch 0: 2002 strings, D = 4008004, E = -323.956507 (13 s), carry-over 2 strings, Davidson last ('0.1', '3.713205109713496e-08'), |c|max 1.0000, <S^2> = 0.00000 (0 s)
+[    659 s]   batch 1: 2002 strings, D = 4008004, E = -323.956507 (13 s), carry-over 3 strings, Davidson last ('0.1', '1.532900213184305e-07'), |c|max 1.0000, <S^2> = 0.00000 (0 s)
+[    659 s] 4Fe-4S allvalid iteration 3: D = 4008004, E = -323.956507 (vs DMRG 3283 mHa, vs CCSD 2881 mHa, vs RHF 2591 mHa), <S^2> = 0.00000
+[    659 s] FINAL 4Fe-4S allvalid: E = -323.956507, 3 iterations, 592 s
+allvalid rc=0
+2026-09-09 00:32:22 4Fe-4S sbd controls 2 done
+2026-09-09 03:08:21 4Fe-4S equal-D start (ccsdconf spb 600, hardware spb 2000)
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      6 s] 3163742 hardware shots loaded from the archive (all distinct)
+[      6 s] top-5000 CCSD determinants (|amp| 1 .. 0.0104) -> 833 strings forced in (alpha = beta)
+[     25 s] iteration 1: 1694 valid strings after post-selection (no recovery)
+[    561 s]   batch 0: 2029 strings, D = 4116841, E = -326.741644 (535 s), carry-over 836 strings, Davidson last ('2.4', '9.728639989940831e-06'), |c|max 0.7765, <S^2> = 0.68241 (1 s)
+[   1094 s]   batch 1: 2027 strings, D = 4108729, E = -326.741648 (532 s), carry-over 836 strings, Davidson last ('2.4', '9.708937723777704e-06'), |c|max 0.7765, <S^2> = 0.68242 (1 s)
+[   1094 s] 4Fe-4S ccsdconf_spb600 iteration 1: D = 4108729, E = -326.741648 (vs DMRG 498 mHa, vs CCSD 96 mHa, vs RHF -194 mHa), <S^2> = 0.68242
+[   1833 s] iteration 2: 3163546 strings after recovery
+[   2408 s]   batch 0: 2007 strings, D = 4028049, E = -326.742181 (574 s), carry-over 906 strings, Davidson last ('2.4', '9.658034223279472e-06'), |c|max 0.7764, <S^2> = 0.68292 (1 s)
+[   2994 s]   batch 1: 2023 strings, D = 4092529, E = -326.742042 (585 s), carry-over 910 strings, Davidson last ('2.4', '9.759478727978719e-06'), |c|max 0.7761, <S^2> = 0.68355 (1 s)
+[   2994 s] 4Fe-4S ccsdconf_spb600 iteration 2: D = 4028049, E = -326.742181 (vs DMRG 497 mHa, vs CCSD 95 mHa, vs RHF -195 mHa), <S^2> = 0.68292
+[   3729 s] iteration 3: 3163554 strings after recovery
+[   4411 s]   batch 0: 2088 strings, D = 4359744, E = -326.742329 (681 s), carry-over 981 strings, Davidson last ('2.5', '7.041217800117984e-06'), |c|max 0.7762, <S^2> = 0.68388 (1 s)
+[   5040 s]   batch 1: 2077 strings, D = 4313929, E = -326.742796 (627 s), carry-over 977 strings, Davidson last ('2.4', '9.659415801480885e-06'), |c|max 0.7761, <S^2> = 0.68448 (1 s)
+[   5040 s] 4Fe-4S ccsdconf_spb600 iteration 3: D = 4313929, E = -326.742796 (vs DMRG 497 mHa, vs CCSD 95 mHa, vs RHF -195 mHa), <S^2> = 0.68448
+[   5040 s] FINAL 4Fe-4S ccsdconf_spb600: E = -326.742796, 3 iterations, 5034 s
+ccsdconf_spb600 rc=0
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      5 s] 3163742 hardware shots loaded from the archive (all distinct)
+[     24 s] iteration 1: 1694 valid strings after post-selection (no recovery)
+[     67 s]   batch 0: 3375 strings, D = 11390625, E = -326.079559 (42 s), carry-over 17 strings, Davidson last ('0.4', '1.293159145664731e-06'), |c|max 0.9980, <S^2> = 0.00793 (1 s)
+[    110 s]   batch 1: 3375 strings, D = 11390625, E = -326.079559 (42 s), carry-over 17 strings, Davidson last ('0.4', '1.293159145664731e-06'), |c|max 0.9980, <S^2> = 0.00793 (1 s)
+[    110 s] 4Fe-4S hardware_spb2000 iteration 1: D = 11390625, E = -326.079559 (vs DMRG 1160 mHa, vs CCSD 758 mHa, vs RHF 468 mHa), <S^2> = 0.00793
+[    875 s] iteration 2: 3163701 strings after recovery
+[    989 s]   batch 0: 4001 strings, D = 16008001, E = -326.423746 (113 s), carry-over 149 strings, Davidson last ('0.8', '2.469286559154032e-06'), |c|max 0.7852, <S^2> = 0.01048 (1 s)
+[   1114 s]   batch 1: 3999 strings, D = 15992001, E = -326.578361 (124 s), carry-over 184 strings, Davidson last ('0.8', '4.584451516224629e-06'), |c|max 0.9158, <S^2> = 0.02738 (1 s)
+[   1114 s] 4Fe-4S hardware_spb2000 iteration 2: D = 15992001, E = -326.578361 (vs DMRG 661 mHa, vs CCSD 259 mHa, vs RHF -31 mHa), <S^2> = 0.02738
+[   1863 s] iteration 3: 3163540 strings after recovery
+[   2178 s]   batch 0: 4138 strings, D = 17123044, E = -326.603274 (313 s), carry-over 455 strings, Davidson last ('1.4', '7.121702253794451e-06'), |c|max 0.9108, <S^2> = 0.08535 (1 s)
+[   2425 s]   batch 1: 4143 strings, D = 17164449, E = -326.589710 (245 s), carry-over 418 strings, Davidson last ('1.1', '5.251767534998456e-06'), |c|max 0.9199, <S^2> = 0.06796 (1 s)
+[   2425 s] 4Fe-4S hardware_spb2000 iteration 3: D = 17123044, E = -326.603274 (vs DMRG 636 mHa, vs CCSD 234 mHa, vs RHF -56 mHa), <S^2> = 0.08535
+[   2425 s] FINAL 4Fe-4S hardware_spb2000: E = -326.603274, 3 iterations, 2420 s
+hardware_spb2000 rc=0
+2026-09-09 05:12:47 4Fe-4S equal-D done
+2026-09-09 10:39:37 4Fe-4S control C with penalty 0.2 start
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      6 s] 3163742 hardware shots loaded from the archive (all distinct)
+[      6 s] top-5000 CCSD determinants (|amp| 1 .. 0.0104) -> 833 strings forced in (alpha = beta)
+[     25 s] iteration 1: 1694 valid strings after post-selection (no recovery)
+[    643 s]   batch 0: 2029 strings, D = 4116841, E = -326.865912 (617 s), carry-over 833 strings, Davidson last ('2.6', '7.309617620823654e-06'), |c|max 0.7911, <S^2> = 0.65028 (1 s)
+[   1777 s]   batch 1: 2027 strings, D = 4108729, E = -326.865917 (1134 s), carry-over 832 strings, Davidson last ('2.6', '7.293524786519126e-06'), |c|max 0.7911, <S^2> = 0.65030 (1 s)
+[   1777 s] 4Fe-4S ccsdconf_spb600_pen02 iteration 1: D = 4108729, E = -326.865917 (vs DMRG 374 mHa, vs CCSD -28 mHa, vs RHF -319 mHa), <S^2> = 0.65030
+[   2711 s] iteration 2: 3163546 strings after recovery
+[   3447 s]   batch 0: 2008 strings, D = 4032064, E = -326.866395 (735 s), carry-over 892 strings, Davidson last ('2.6', '7.330477810560859e-06'), |c|max 0.7910, <S^2> = 0.65097 (1 s)
+[   4092 s]   batch 1: 2010 strings, D = 4040100, E = -326.866592 (644 s), carry-over 887 strings, Davidson last ('2.6', '7.34263291304423e-06'), |c|max 0.7909, <S^2> = 0.65171 (1 s)
+[   4092 s] 4Fe-4S ccsdconf_spb600_pen02 iteration 2: D = 4040100, E = -326.866592 (vs DMRG 373 mHa, vs CCSD -29 mHa, vs RHF -319 mHa), <S^2> = 0.65171
+[   4849 s] iteration 3: 3163535 strings after recovery
+[   5544 s]   batch 0: 2059 strings, D = 4239481, E = -326.867219 (694 s), carry-over 947 strings, Davidson last ('2.6', '7.425146709683353e-06'), |c|max 0.7907, <S^2> = 0.65315 (1 s)
+[   6242 s]   batch 1: 2060 strings, D = 4243600, E = -326.866792 (697 s), carry-over 941 strings, Davidson last ('2.6', '7.386956622839605e-06'), |c|max 0.7907, <S^2> = 0.65205 (1 s)
+[   6242 s] 4Fe-4S ccsdconf_spb600_pen02 iteration 3: D = 4239481, E = -326.867219 (vs DMRG 372 mHa, vs CCSD -30 mHa, vs RHF -320 mHa), <S^2> = 0.65315
+[   6242 s] FINAL 4Fe-4S ccsdconf_spb600_pen02: E = -326.867219, 3 iterations, 6236 s
+ccsdconf_spb600_pen02 rc=0
+[      0 s] 4Fe-4S: (54e,36o); CCSD amplitudes loaded (E = -326.835936, converged False); sbd /home/alain/src/sbd/build/linux-cpu/apps/chemistry_tpb_selected_basis_diagonalization/diag
+[      5 s] 3163742 hardware shots loaded from the archive (all distinct)
+[      6 s] top-5000 CCSD determinants (|amp| 1 .. 0.0104) -> 833 strings forced in (alpha = beta)
+[     25 s] iteration 1: 1694 valid strings after post-selection (no recovery)
+[    827 s]   batch 0: 2825 strings, D = 7980625, E = -326.738709 (801 s), carry-over 842 strings, Davidson last ('2.6', '7.317123716055647e-06'), |c|max 0.7910, <S^2> = 0.01419 (1 s)
+[   1630 s]   batch 1: 2825 strings, D = 7980625, E = -326.738747 (801 s), carry-over 838 strings, Davidson last ('2.6', '7.278658588029325e-06'), |c|max 0.7911, <S^2> = 0.01418 (1 s)
+[   1630 s] 4Fe-4S ccsdconf_pen02 iteration 1: D = 7980625, E = -326.738747 (vs DMRG 501 mHa, vs CCSD 99 mHa, vs RHF -191 mHa), <S^2> = 0.01418
+[   2366 s] iteration 2: 3163534 strings after recovery
+[   3311 s]   batch 0: 2788 strings, D = 7772944, E = -326.739043 (943 s), carry-over 939 strings, Davidson last ('2.6', '7.468784533562547e-06'), |c|max 0.7908, <S^2> = 0.01433 (1 s)
+[   4285 s]   batch 1: 2801 strings, D = 7845601, E = -326.739613 (972 s), carry-over 953 strings, Davidson last ('2.6', '7.288621394129546e-06'), |c|max 0.7901, <S^2> = 0.01441 (1 s)
+[   4285 s] 4Fe-4S ccsdconf_pen02 iteration 2: D = 7845601, E = -326.739613 (vs DMRG 500 mHa, vs CCSD 98 mHa, vs RHF -192 mHa), <S^2> = 0.01441
+[   5020 s] iteration 3: 3163549 strings after recovery
+[   6155 s]   batch 0: 2910 strings, D = 8468100, E = -326.740004 (1133 s), carry-over 1066 strings, Davidson last ('2.6', '7.389159729435889e-06'), |c|max 0.7896, <S^2> = 0.01451 (1 s)
+[   7255 s]   batch 1: 2898 strings, D = 8398404, E = -326.740078 (1098 s), carry-over 1048 strings, Davidson last ('2.6', '7.431844610527809e-06'), |c|max 0.7897, <S^2> = 0.01462 (1 s)
+[   7255 s] 4Fe-4S ccsdconf_pen02 iteration 3: D = 8398404, E = -326.740078 (vs DMRG 500 mHa, vs CCSD 98 mHa, vs RHF -193 mHa), <S^2> = 0.01462
+[   7255 s] FINAL 4Fe-4S ccsdconf_pen02: E = -326.740078, 3 iterations, 7250 s
+ccsdconf_pen02 rc=0
+2026-09-09 14:24:34 4Fe-4S control C with penalty done
+2026-09-09 14:24:57 recompute S2 start
+[     0 s] == hardware: penalty 0.0, 3 iterations
+[    14 s]   it1 b1: D 3984016, eigenvalue -326.079180, <S^2> 0.00006 (was 5.918234942107246e-05), 14 s
+[    38 s]   it2 b0: D 4016016, eigenvalue -326.446759, <S^2> 0.00181 (was 0.02898984033127465), 24 s
+[    75 s]   it3 b1: D 4255969, eigenvalue -326.576532, <S^2> 0.00642 (was 0.022766822342662384), 36 s
+[    75 s] == ccsdocc: penalty 0.0, 3 iterations
+[   103 s]   it1 b0: D 3924361, eigenvalue -326.552830, <S^2> 0.00859 (was 0.009147070878756533), 28 s
+[   145 s]   it2 b1: D 4305625, eigenvalue -326.579086, <S^2> 0.02646 (was 0.034495174104202636), 42 s
+[   224 s]   it3 b0: D 4769856, eigenvalue -326.588560, <S^2> 0.04992 (was 0.07571119997032028), 80 s
+[   224 s] == allvalid: penalty 0.0, 3 iterations
+[   238 s]   it1 b1: D 4000000, eigenvalue -323.956507, <S^2> 0.00000 (was 1.0941366535097465e-07), 14 s
+[   251 s]   it2 b0: D 4008004, eigenvalue -323.956507, <S^2> 0.00000 (was 1.0941366535097465e-07), 13 s
+[   265 s]   it3 b1: D 4008004, eigenvalue -323.956507, <S^2> 0.00000 (was 1.6024008298157102e-07), 14 s
+[   265 s] == hardware_spb2000: penalty 0.0, 3 iterations
+[   308 s]   it1 b0: D 11390625, eigenvalue -326.079559, <S^2> 0.00793 (was 0.007933924642565591), 43 s
+[   435 s]   it2 b1: D 15992001, eigenvalue -326.578361, <S^2> 0.01135 (was 0.027380466269422803), 127 s
+[   842 s]   it3 b0: D 17123044, eigenvalue -326.603274, <S^2> 0.06559 (was 0.08535425468713143), 407 s
+[   842 s] == ccsdconf_spb600: penalty 0.0, 3 iterations
+[  1704 s]   it1 b1: D 4108729, eigenvalue -326.741648, <S^2> 0.06628 (was 0.6824227833331061), 862 s
+[  2647 s]   it2 b0: D 4028049, eigenvalue -326.742181, <S^2> 0.06681 (was 0.682918350939556), 942 s
+[  3650 s]   it3 b1: D 4313929, eigenvalue -326.742796, <S^2> 0.06726 (was 0.6844813244693179), 1004 s
+[  3650 s] == ccsdconf: penalty 0.0, 3 iterations
+[  4774 s]   it1 b1: D 7980625, eigenvalue -326.741695, <S^2> 0.06614 (was None), 1124 s
+[  6141 s]   it2 b1: D 7828804, eigenvalue -326.742702, <S^2> 0.06729 (was None), 1366 s
+[  7775 s]   it3 b1: D 8590761, eigenvalue -326.743247, <S^2> 0.06780 (was None), 1634 s
+[  7775 s] == ccsdconf_spb600_pen02: penalty 0.2, 3 iterations
+[  8684 s]   it1 b1: D 4108729, eigenvalue -326.735857, <H> -326.738694, <S^2> 0.01418 (was 0.6502972612839918), 909 s
+[  9665 s]   it2 b1: D 4040100, eigenvalue -326.736251, <H> -326.739088, <S^2> 0.01418 (was 0.651706222239679), 981 s
+[ 10736 s]   it3 b0: D 4239481, eigenvalue -326.736588, <H> -326.739431, <S^2> 0.01422 (was 0.6531545787278001), 1071 s
+[ 10736 s] done
+recompute rc=0
+2026-09-09 17:23:54 recompute S2 done

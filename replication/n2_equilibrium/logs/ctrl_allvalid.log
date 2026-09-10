@@ -1,0 +1,12 @@
+[      0 s] RHF E = -108.929838386 (SQD_Alain notebook: -108.929838); active 26 orbitals, nelec (5, 5), ecore -76.236888
+[      0 s] RHF properties: {'E': np.float64(-108.929838), 'N_electrons': 14.0, 'r2': 35.604289, 'x2': 21.067793, 'y2': 7.268248, 'Theta_xx': -1.300818, 'Theta_yy': 0.650409, 'rho_N': 197.19089}
+[      0 s] CCSD E = -109.217788419 (notebook -109.217788), CCSD(T) E = -109.226934298; properties: {'N_electrons': 14.0, 'r2': 35.538971, 'x2': 21.166051, 'y2': 7.18646, 'Theta_xx': -1.480864, 'Theta_yy': 0.740432, 'rho_N': 197.124144}
+[     93 s] SCI cutoff 0.001: E = -109.219708599 (notebook 'exact' -109.226902), dets = 774400, 93 s; {'N_electrons': 14.0, 'r2': 35.559597, 'x2': 21.164358, 'y2': 7.197618, 'Theta_xx': -1.468011, 'Theta_yy': 0.734008, 'rho_N': 197.126554}
+[     94 s] SCI solver: spin_sq = 0.0 (penalty H + lambda (S^2 - s(s+1))^2 via pyscf fix_spin_ when not None), max_cycle = 200
+[     94 s] bit array: 50000 shots x 52 bits
+[     95 s] CONTROL: hardware samples replaced by 50000 uniformly random 52-bit strings, 50000 of them uniformly random in-sector (5, 5) strings
+[   1776 s] SQD spb=1000 iteration 1: D = 3900625, E = -106.952074000; {'N_electrons': 14.0, 'r2': 41.932058, 'x2': 22.994951, 'y2': 10.422483, 'Theta_xx': -1.027671, 'Theta_yy': -0.91706, 'rho_N': 196.737903, 'S2': 0.006826}
+[   3281 s] SQD spb=1000 iteration 2: D = 3948169, E = -107.036089162; {'N_electrons': 14.0, 'r2': 39.425563, 'x2': 22.00532, 'y2': 9.280128, 'Theta_xx': -0.796471, 'Theta_yy': -0.456774, 'rho_N': 196.722453, 'S2': 0.008913}
+[   5184 s] SQD spb=1000 iteration 3: D = 4048144, E = -107.129674371; {'N_electrons': 14.0, 'r2': 39.974585, 'x2': 22.2557, 'y2': 9.521077, 'Theta_xx': -0.89753, 'Theta_yy': -0.543687, 'rho_N': 196.180384, 'S2': 0.004456}
+[   5184 s] SQD spb=1000 FINAL: D = 4048144, E = -107.129674371, 5089 s; {'N_electrons': 14.0, 'r2': 39.974585, 'x2': 22.2557, 'y2': 9.521077, 'Theta_xx': -0.89753, 'Theta_yy': -0.543687, 'rho_N': 196.180384}
+[   5184 s] done

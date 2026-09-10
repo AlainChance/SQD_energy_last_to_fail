@@ -1,0 +1,7 @@
+[      0 s] RHF E = -108.929838386 (SQD_Alain notebook: -108.929838); active 26 orbitals, nelec (5, 5), ecore -76.236888
+[      0 s] RHF properties: {'E': np.float64(-108.929838), 'N_electrons': 14.0, 'r2': 35.604289, 'x2': 21.067793, 'y2': 7.268248, 'Theta_xx': -1.300818, 'Theta_yy': 0.650409, 'rho_N': 197.19089}
+[      0 s] CCSD E = -109.217788419 (notebook -109.217788), CCSD(T) E = -109.226934298; properties: {'N_electrons': 14.0, 'r2': 35.538971, 'x2': 21.166051, 'y2': 7.18646, 'Theta_xx': -1.480864, 'Theta_yy': 0.740432, 'rho_N': 197.124144}
+[    973 s] SCI cutoff 0.0003: E = -109.226519799 (notebook 'exact' -109.226902), dets = 13995081, 972 s; {'N_electrons': 14.0, 'r2': 35.566906, 'x2': 21.172894, 'y2': 7.197014, 'Theta_xx': -1.477162, 'Theta_yy': 0.738568, 'rho_N': 197.120691}
+[   4782 s] SCI cutoff 0.0001: E = -109.227824288 (notebook 'exact' -109.226902), dets = 74356129, 3809 s; {'N_electrons': 14.0, 'r2': 35.568084, 'x2': 21.174017, 'y2': 7.197034, 'Theta_xx': -1.478257, 'Theta_yy': 0.739127, 'rho_N': 197.119627}
+[   4782 s] done
+rc=0

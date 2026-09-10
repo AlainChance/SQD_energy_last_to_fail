@@ -1,0 +1,20 @@
+[    18 s] R = 2.195: (10e,12o), dim 627264, FCI -108.780590 (18.4 s)
+[    21 s]   LUCJ (1 rep): E -108.349603; {'distinct': 234, 'alpha': 46, 'beta': 48, 'strings_sym': 53, 'D_sym': 2809, 'fci_weight': 0.7427, 'E_static': -108.7575, 'dE_mHa': np.float64(23.1223), 'E_state': -108.3496}
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/evolution_scan_small.py:51: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  t = time.time(); vec = expm_multiply(-1j * tt * lin, vec_hf.astype(complex)); dt = time.time() - t
+[    42 s]   t = 0.25: <H> -108.218585 (HF -108.218585); {'distinct': 171, 'alpha': 54, 'beta': 62, 'strings_sym': 70, 'D_sym': 4900, 'fci_weight': 0.7756, 'E_static': -108.746, 'dE_mHa': np.float64(34.6193), 'E_state': -108.2186, 'evolve_seconds': 20.3703}
+[    68 s]   t = 0.5: <H> -108.218585 (HF -108.218585); {'distinct': 473, 'alpha': 120, 'beta': 128, 'strings_sym': 156, 'D_sym': 24336, 'fci_weight': 0.8645, 'E_static': -108.7671, 'dE_mHa': np.float64(13.522), 'E_state': -108.2186, 'evolve_seconds': 23.9391}
+[   115 s]   t = 1.0: <H> -108.218585 (HF -108.218585); {'distinct': 1444, 'alpha': 262, 'beta': 262, 'strings_sym': 313, 'D_sym': 97969, 'fci_weight': 0.9653, 'E_static': -108.7761, 'dE_mHa': np.float64(4.4959), 'E_state': -108.2186, 'evolve_seconds': 40.6769}
+[   189 s]   t = 2.0: <H> -108.218585 (HF -108.218585); {'distinct': 2351, 'alpha': 379, 'beta': 376, 'strings_sym': 440, 'D_sym': 193600, 'fci_weight': 0.9894, 'E_static': -108.7777, 'dE_mHa': np.float64(2.8558), 'E_state': -108.2186, 'evolve_seconds': 64.4185}
+[   312 s]   t = 4.0: <H> -108.218585 (HF -108.218585); {'distinct': 2511, 'alpha': 407, 'beta': 404, 'strings_sym': 480, 'D_sym': 230400, 'fci_weight': 0.9905, 'E_static': -108.7793, 'dE_mHa': np.float64(1.2906), 'E_state': -108.2186, 'evolve_seconds': 112.9409}
+[   781 s]   t = 8.0: <H> -108.218585 (HF -108.218585); {'distinct': 3204, 'alpha': 484, 'beta': 490, 'strings_sym': 567, 'D_sym': 321489, 'fci_weight': 0.9912, 'E_static': -108.7802, 'dE_mHa': np.float64(0.4115), 'E_state': -108.2186, 'evolve_seconds': 456.8539}
+[   817 s] R = 2.7437: (10e,12o), dim 627264, FCI -108.770907 (36.0 s)
+[   819 s]   LUCJ (1 rep): E -108.083128; {'distinct': 229, 'alpha': 43, 'beta': 41, 'strings_sym': 48, 'D_sym': 2304, 'fci_weight': 0.5848, 'E_static': -108.7541, 'dE_mHa': np.float64(16.7574), 'E_state': -108.0831}
+[   841 s]   t = 0.25: <H> -108.038392 (HF -108.038392); {'distinct': 173, 'alpha': 59, 'beta': 63, 'strings_sym': 72, 'D_sym': 5184, 'fci_weight': 0.5617, 'E_static': -108.745, 'dE_mHa': np.float64(25.8673), 'E_state': -108.0384, 'evolve_seconds': 20.6943}
+[   867 s]   t = 0.5: <H> -108.038392 (HF -108.038392); {'distinct': 498, 'alpha': 115, 'beta': 126, 'strings_sym': 146, 'D_sym': 21316, 'fci_weight': 0.8641, 'E_static': -108.7644, 'dE_mHa': np.float64(6.5193), 'E_state': -108.0384, 'evolve_seconds': 24.289}
+[   914 s]   t = 1.0: <H> -108.038392 (HF -108.038392); {'distinct': 1484, 'alpha': 260, 'beta': 268, 'strings_sym': 310, 'D_sym': 96100, 'fci_weight': 0.8735, 'E_static': -108.7693, 'dE_mHa': np.float64(1.5871), 'E_state': -108.0384, 'evolve_seconds': 41.5425}
+[   994 s]   t = 2.0: <H> -108.038392 (HF -108.038392); {'distinct': 2642, 'alpha': 408, 'beta': 389, 'strings_sym': 463, 'D_sym': 214369, 'fci_weight': 0.9867, 'E_static': -108.7699, 'dE_mHa': np.float64(1.0351), 'E_state': -108.0384, 'evolve_seconds': 65.1547}
+[  1130 s]   t = 4.0: <H> -108.038392 (HF -108.038392); {'distinct': 2729, 'alpha': 436, 'beta': 435, 'strings_sym': 516, 'D_sym': 266256, 'fci_weight': 0.9897, 'E_static': -108.7702, 'dE_mHa': np.float64(0.7343), 'E_state': -108.0384, 'evolve_seconds': 114.7413}
+[  1626 s]   t = 8.0: <H> -108.038392 (HF -108.038392); {'distinct': 3050, 'alpha': 472, 'beta': 478, 'strings_sym': 552, 'D_sym': 304704, 'fci_weight': 0.9906, 'E_static': -108.7704, 'dE_mHa': np.float64(0.5015), 'E_state': -108.0384, 'evolve_seconds': 469.9705}
+[  1626 s] done
+2026-09-09 19:23:10 stretched scans done
