@@ -1,0 +1,38 @@
+[     3 s] R = 1.0975: (10e,12o), dim 627264, FCI -108.999490, HF -108.867774
+[     4 s] LUCJ t2, 1 layer, all-to-all E -108.934146 (+65.34 mHa)  distinct    37  alpha   16  weight 0.9766  static loop +30.63 mHa  |<FCI|psi>|^2 0.9632
+[     4 s] LUCJ t2, 1 layer, local      E -108.891421 (+108.07 mHa)  distinct    18  alpha   10  weight 0.9576  static loop +43.14 mHa  |<FCI|psi>|^2 0.9387
+[   546 s]     optimized local 1 layer: iteration 1  E -108.935943 (+63.55 mHa above FCI)
+[   790 s]     optimized local 1 layer: iteration 2  E -108.940167 (+59.32 mHa above FCI)
+[  1008 s]     optimized local 1 layer: iteration 3  E -108.942151 (+57.34 mHa above FCI)
+[  1230 s]     optimized local 1 layer: iteration 4  E -108.944975 (+54.51 mHa above FCI)
+[  1461 s]     optimized local 1 layer: iteration 5  E -108.948094 (+51.40 mHa above FCI)
+[  1674 s]     optimized local 1 layer: iteration 6  E -108.950573 (+48.92 mHa above FCI)
+[  1896 s]     optimized local 1 layer: iteration 7  E -108.951781 (+47.71 mHa above FCI)
+[  2116 s]     optimized local 1 layer: iteration 8  E -108.952425 (+47.06 mHa above FCI)
+[  2348 s]     optimized local 1 layer: iteration 9  E -108.952743 (+46.75 mHa above FCI)
+[  2567 s]     optimized local 1 layer: iteration 10  E -108.953175 (+46.32 mHa above FCI)
+[  2783 s]     optimized local 1 layer: iteration 11  E -108.953635 (+45.86 mHa above FCI)
+[  2994 s]     optimized local 1 layer: iteration 12  E -108.954199 (+45.29 mHa above FCI)
+[  3224 s]     optimized local 1 layer: iteration 13  E -108.954598 (+44.89 mHa above FCI)
+[  3470 s]     optimized local 1 layer: iteration 14  E -108.954843 (+44.65 mHa above FCI)
+[  3499 s]     optimized local 1 layer: iteration 15  E -108.955023 (+44.47 mHa above FCI)
+[  3499 s]   optimized local 1 layer: 311 parameters, 15 iterations, E -108.955023 (3495 s)
+[  3500 s] optimized, 1 layer, local    E -108.955023 (+44.47 mHa)  distinct   204  alpha   62  weight 0.9870  static loop +7.81 mHa  |<FCI|psi>|^2 0.9717
+[  4160 s]     optimized all-to-all 1 layer: iteration 1  E -108.954099 (+45.39 mHa above FCI)
+[  4481 s]     optimized all-to-all 1 layer: iteration 2  E -108.955425 (+44.07 mHa above FCI)
+[  4801 s]     optimized all-to-all 1 layer: iteration 3  E -108.957419 (+42.07 mHa above FCI)
+[  5109 s]     optimized all-to-all 1 layer: iteration 4  E -108.961378 (+38.11 mHa above FCI)
+[  5417 s]     optimized all-to-all 1 layer: iteration 5  E -108.971249 (+28.24 mHa above FCI)
+[  5729 s]     optimized all-to-all 1 layer: iteration 6  E -108.976966 (+22.52 mHa above FCI)
+[  6033 s]     optimized all-to-all 1 layer: iteration 7  E -108.977979 (+21.51 mHa above FCI)
+[  6340 s]     optimized all-to-all 1 layer: iteration 8  E -108.978571 (+20.92 mHa above FCI)
+[  6645 s]     optimized all-to-all 1 layer: iteration 9  E -108.979103 (+20.39 mHa above FCI)
+[  6963 s]     optimized all-to-all 1 layer: iteration 10  E -108.979599 (+19.89 mHa above FCI)
+[  7278 s]     optimized all-to-all 1 layer: iteration 11  E -108.980654 (+18.84 mHa above FCI)
+[  7610 s]     optimized all-to-all 1 layer: iteration 12  E -108.982451 (+17.04 mHa above FCI)
+[  7918 s]     optimized all-to-all 1 layer: iteration 13  E -108.984107 (+15.38 mHa above FCI)
+[  8234 s]     optimized all-to-all 1 layer: iteration 14  E -108.985549 (+13.94 mHa above FCI)
+[  8259 s]     optimized all-to-all 1 layer: iteration 15  E -108.986509 (+12.98 mHa above FCI)
+[  8259 s]   optimized all-to-all 1 layer: 444 parameters, 15 iterations, E -108.986509 (4759 s)
+[  8260 s] optimized, 1 layer, all-to-all E -108.986509 (+12.98 mHa)  distinct   206  alpha   65  weight 0.9920  static loop +3.90 mHa  |<FCI|psi>|^2 0.9912
+[  8260 s] done

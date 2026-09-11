@@ -124,7 +124,11 @@
 | n2_evolved_sampler/logs/evolution_scan_small_R1.log | 2178 | a590ff3f97e533f7f6980109714ae57d |
 | n2_evolved_sampler/logs/evolution_scan_small_R2R3.log | 4091 | 0c7f7ce4c49f0e741f899d245e63780b |
 | n2_evolved_sampler/logs/krylov_timing_16o.log | 3263 | 4390a17c6cd74bfa205f3d42fc2e0b11 |
+| n2_evolved_sampler/logs/lucj_optimized_small.log | 3695 | 2611ec6736a4d9fb38c8536aa09f705c |
 | n2_evolved_sampler/logs/trotter_gate_count.log | 3567 | 1c2d3268cca039cb6df5d5bc248d6d15 |
+| n2_evolved_sampler/lucj_optimized_small.json | 2259 | ba91ae6da767122911a49a0f2c250398 |
+| n2_evolved_sampler/lucj_optimized_small.py | 6303 | 5f5fe6b94992aa1b430ef02190723b54 |
+| n2_evolved_sampler/run_lucj_opt.sh | 446 | 5ef68ef7029c0d3b9a0396e592567564 |
 | n2_evolved_sampler/run_scan_chain.sh | 726 | 1787da3ca906cfb35101d769eb499526 |
 | n2_evolved_sampler/trotter_gate_count.json | 6023 | 41bbc6725740d998365ebd371ccec8f1 |
 | n2_evolved_sampler/trotter_gate_count.py | 4060 | c8a6af50447c209c9bf4f272302cbc5c |

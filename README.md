@@ -2,7 +2,7 @@
 
 **The energy is the last thing to fail: properties, spin and controls for sample-based quantum diagonalization, from N₂ to an iron–sulfur cluster**
 
-📄 **Full paper:** [docs/Energy_last_to_fail.pdf](docs/Energy_last_to_fail.pdf) — pre-print DOI [10.5281/zenodo.22690163](https://doi.org/10.5281/zenodo.22690163)
+📄 **Full paper:** [docs/Energy_last_to_fail.pdf](docs/Energy_last_to_fail.pdf) — pre-print DOI [10.5281/zenodo.22707517](https://doi.org/10.5281/zenodo.22707517)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22690379.svg)](https://doi.org/10.5281/zenodo.22690379)
 
@@ -49,10 +49,10 @@ Boost, built in user space as recorded in `replication/sbd_fork/build/sqd_hpc_ad
 
 The paper: A. Chancé, *The energy is the last thing to fail: properties, spin and controls for
 sample-based quantum diagonalization, from N₂ to an iron–sulfur cluster*, Zenodo pre-print (2026),
-https://doi.org/10.5281/zenodo.22690163.
+https://doi.org/10.5281/zenodo.22707517.
 
-This package: A. Chancé, *SQD_energy_last_to_fail: replication package*, version 1.0.0, Zenodo (2026),
-https://doi.org/10.5281/zenodo.22690380. `CITATION.cff` carries both.
+This package: A. Chancé, *SQD_energy_last_to_fail: replication package*, version 1.1.0, Zenodo (2026),
+https://doi.org/10.5281/zenodo.22707547. `CITATION.cff` carries both.
 
 ## License
 
