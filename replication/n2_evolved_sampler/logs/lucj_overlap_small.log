@@ -1,0 +1,24 @@
+[     3 s] R = 1.0975: (10e,12o), dim 627264, FCI -108.999490, HF -108.867774
+/home/alain/Notebooks/ECG/study/quantum_simulations/n2_property_fidelity/lucj_overlap_small.py:90: UserWarning: Trace of LinearOperator not available, it will be estimated. Provide `traceA` to ensure performance.
+  vE = expm_multiply(-1j * args.t * lin, vec_hf.astype(complex)); eE = float(np.vdot(vE, lin @ vE).real)
+[    75 s] sets: local 256, all-to-all 256, evolved t = 4.0: 756 (E -108.867774)
+[    76 s] optimization: {"local": {"iterations": 75, "converged": true, "message": "Convergence: Relative reduction of objective function <= ftol.", "n_params": 311}, "all": {"iterations": 56, "converged": true, "message": "Convergence: Relative reduction of objective function <= ftol.", "n_params": 444}}
+[    76 s]   local (A)              n  256  weight 0.9886  static loop    6.73 mHa on  93 strings  top50  36 top200  82 top756 103  median rank 79037.5
+[    76 s]   all-to-all (B)         n  256  weight 0.9967  static loop    2.29 mHa on  90 strings  top50  50 top200 149 top756 196  median rank 145.0
+[    77 s]   evolved (E)            n  756  weight 0.9983  static loop    0.43 mHa on 263 strings  top50  50 top200 182 top756 382  median rank 724.5
+[    77 s]   A ∩ B                  n   93  weight 0.9883  static loop   10.12 mHa on  42 strings  top50  36 top200  74 top756  81  median rank 76.0
+[    77 s]   A ∪ B                  n  419  weight 0.9970  static loop    1.65 mHa on 123 strings  top50  50 top200 157 top756 218  median rank 484.0
+[    77 s]   A \ B                  n  163  weight 0.0003  static loop   10.96 mHa on  84 strings  top50   0 top200   8 top756  22  median rank 80358.0
+[    77 s]   B \ A                  n  163  weight 0.0084  static loop    3.71 mHa on  85 strings  top50  14 top200  75 top756 115  median rank 206.0
+[    77 s]   A ∩ E                  n   94  weight 0.9884  static loop   12.53 mHa on  43 strings  top50  36 top200  81 top756  93  median rank 76.5
+[    77 s]   B ∩ E                  n  169  weight 0.9960  static loop    3.73 mHa on  64 strings  top50  50 top200 141 top756 162  median rank 90.0
+[    77 s]   A \ E                  n  162  weight 0.0001  static loop   12.22 mHa on  80 strings  top50   0 top200   1 top756  10  median rank 120761.0
+[    77 s]   B \ E                  n   87  weight 0.0007  static loop   13.10 mHa on  70 strings  top50   0 top200   8 top756  34  median rank 1486.0
+[    77 s]   (A ∪ B) \ E            n  232  weight 0.0007  static loop    8.73 mHa on 103 strings  top50   0 top200   8 top756  38  median rank 82836.5
+[    78 s]   E \ (A ∪ B)            n  569  weight 0.0020  static loop    0.72 mHa on 262 strings  top50   0 top200  33 top756 202  median rank 1336.0
+[    78 s]   A ∪ B ∪ E              n  988  weight 0.9990  static loop    0.39 mHa on 277 strings  top50  50 top200 190 top756 420  median rank 1154.5
+[    78 s]   FCI top-204            n  204  weight 0.9983  static loop    3.09 mHa on  65 strings  top50  50 top200 200 top756 204  median rank 101.5
+[    78 s]   FCI top-206            n  206  weight 0.9983  static loop    3.09 mHa on  65 strings  top50  50 top200 200 top756 206  median rank 102.5
+[    78 s]   FCI top-756            n  756  weight 0.9997  static loop    0.58 mHa on 158 strings  top50  50 top200 200 top756 756  median rank 377.5
+[    78 s] strings: {"local": 93, "all": 90, "evolved": 263, "A\u2229B": 60, "A\u222aB": 123, "A\\E": 12, "B\\E": 2, "E\\(A\u222aB)": 154}
+[    78 s] written lucj_overlap_small.json

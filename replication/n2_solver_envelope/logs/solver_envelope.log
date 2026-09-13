@@ -1,0 +1,32 @@
+[      0 s] N2 cc-pVDZ: norb 26, nelec (5, 5), ecore -76.236888; threads OMP=16 ; RSS 0.15 GB
+[      1 s] qiskit-addon-sqd 0.12.1
+[    240 s] native ctrl_allvalid it1           D    3900625 (1975 x 1975)  E -106.952074000     238.9 s  RSS 3.01 GB
+[    558 s] native ctrl_allvalid it2           D    3948169 (1987 x 1987)  E -107.036089162     318.3 s  RSS 3.16 GB
+[   1168 s] native ctrl_allvalid it3           D    4048144 (2012 x 2012)  E -107.129674371     609.6 s  RSS 3.56 GB
+[   1251 s] native ctrl_ccsdconf it1           D     619369 (787 x 787)  E -109.215072202 (ref -109.215072202, Δ +1.3e-13)      83.9 s  RSS 3.56 GB
+[   1719 s] native ctrl_ccsdconf it2           D    4452100 (2110 x 2110)  E -109.217023283 (ref -109.217023283, Δ +5.7e-14)     468.1 s  RSS 3.56 GB
+[   2332 s] native ctrl_ccsdconf it3           D    5697769 (2387 x 2387)  E -109.218700818 (ref -109.218700818, Δ -2.8e-14)     612.3 s  RSS 3.56 GB
+[   2931 s] native ctrl_ccsdconf it4           D    6708100 (2590 x 2590)  E -109.220343189 (ref -109.220343189, Δ +5.7e-14)     599.4 s  RSS 3.56 GB
+[   3568 s] native ctrl_ccsdconf it5           D    7767369 (2787 x 2787)  E -109.221284649 (ref -109.221284649, Δ -1.4e-14)     636.8 s  RSS 3.56 GB
+[   4268 s] native ctrl_ccsdconf it6           D    8514724 (2918 x 2918)  E -109.222176821 (ref -109.222176821, Δ +0.0e+00)     700.2 s  RSS 3.62 GB
+[   4521 s] native ctrl_ccsdocc it1            D    2486929 (1577 x 1577)  E -109.174994279 (ref -109.174994279, Δ +1.4e-14)     253.4 s  RSS 3.62 GB
+[   4887 s] native ctrl_ccsdocc it2            D    3880900 (1970 x 1970)  E -109.191845613 (ref -109.191845613, Δ +1.6e-13)     365.6 s  RSS 3.62 GB
+[   5305 s] native ctrl_ccsdocc it3            D    4756761 (2181 x 2181)  E -109.202372520 (ref -109.202372520, Δ +5.7e-14)     418.3 s  RSS 3.62 GB
+[   5827 s] native ctrl_ccsdocc it4            D    5943844 (2438 x 2438)  E -109.208212229 (ref -109.208212229, Δ +2.8e-14)     521.9 s  RSS 3.62 GB
+[   6416 s] native ctrl_ccsdocc it5            D    6832996 (2614 x 2614)  E -109.213252890 (ref -109.213252890, Δ +4.3e-14)     588.3 s  RSS 3.62 GB
+[   7047 s] native ctrl_ccsdocc it6            D    7772944 (2788 x 2788)  E -109.217124154 (ref -109.217124154, Δ +8.5e-14)     631.1 s  RSS 3.62 GB
+[   7265 s] native ctrl_random it2             D    2598544 (1612 x 1612)  E -105.696153308 (ref -105.696153308, Δ +0.0e+00)     218.8 s  RSS 3.62 GB
+[   7523 s] native ctrl_random it3             D    2812329 (1677 x 1677)  E -108.960279628 (ref -108.960279628, Δ +0.0e+00)     257.3 s  RSS 3.62 GB
+[   7825 s] native ctrl_random it4             D    3229209 (1797 x 1797)  E -109.173517162 (ref -109.173517162, Δ +0.0e+00)     302.2 s  RSS 3.62 GB
+[   8209 s] native ctrl_random it5             D    4165681 (2041 x 2041)  E -109.197816023 (ref -109.197816023, Δ -7.1e-14)     383.8 s  RSS 3.62 GB
+[   8670 s] native ctrl_random it6             D    5438224 (2332 x 2332)  E -109.206033969 (ref -109.206033969, Δ +1.4e-14)     461.2 s  RSS 3.62 GB
+[   8670 s] union of saved strings: 19884 alpha x 19884 beta = 395373456 determinants
+[   8785 s] union subset D~1e+06               D    1000000 (1000 x 1000)  E -107.453077571     115.3 s  RSS 3.62 GB
+[   9019 s] union subset D~3e+06               D    2999824 (1732 x 1732)  E -107.501547050     234.2 s  RSS 3.62 GB
+[   9421 s] union subset D~6e+06               D    5997601 (2449 x 2449)  E -108.446439220     402.0 s  RSS 3.99 GB
+[  10043 s] union subset D~1e+07               D    9998244 (3162 x 3162)  E -108.395672779     621.6 s  RSS 5.83 GB
+[  10767 s] union subset D~2e+07               D   15000129 (3873 x 3873)  E -107.934288061     724.3 s  RSS 7.49 GB
+[  11785 s] union subset D~2e+07               D   19998784 (4472 x 4472)  E -108.538533992    1017.3 s  RSS 7.76 GB
+[  13256 s] union subset D~3e+07               D   29997529 (5477 x 5477)  E -108.095145450    1471.0 s  RSS 9.94 GB
+[  15267 s] union subset D~5e+07               D   49999041 (7071 x 7071)  E -109.002080508    2011.7 s  RSS 13.32 GB
+[  15267 s] done

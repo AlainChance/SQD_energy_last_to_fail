@@ -2,7 +2,7 @@
 
 | file | bytes | md5 |
 |---|---|---|
-| README.md | 2943 | a76acaa57bfdf9c4d0b44ca8db0d7b35 |
+| README.md | 3523 | 31dda1374158ed89cf505774eac4d378 |
 | fe4s4_sbd/fe4s4_ccsd_amps.npz | 443128 | acf737904e4df4c81a452eeada7f0582 |
 | fe4s4_sbd/fe4s4_sbd_allvalid.json | 3577 | bf53aaaa5d1e7e43aed49ae562e567ea |
 | fe4s4_sbd/fe4s4_sbd_ccsdconf.json | 3616 | e5944ab2a3fa7bd0fb94f692f56b50a8 |
@@ -124,11 +124,37 @@
 | n2_evolved_sampler/logs/evolution_scan_small_R1.log | 2178 | a590ff3f97e533f7f6980109714ae57d |
 | n2_evolved_sampler/logs/evolution_scan_small_R2R3.log | 4091 | 0c7f7ce4c49f0e741f899d245e63780b |
 | n2_evolved_sampler/logs/krylov_timing_16o.log | 3263 | 4390a17c6cd74bfa205f3d42fc2e0b11 |
+| n2_evolved_sampler/logs/lucj_converge_all.log | 3159 | 7ae8dab7feeb52bc62c7854b02181e45 |
+| n2_evolved_sampler/logs/lucj_converge_all_run2.log | 2473 | ebf6997e6c0bd443f4a6ff173e250c85 |
+| n2_evolved_sampler/logs/lucj_converge_all_run3.log | 2605 | 3bbe8b3cf4c6851b087646da5c62a208 |
+| n2_evolved_sampler/logs/lucj_converge_all_run4.log | 3235 | e5241e58de486817b98b9e3eeaccb662 |
+| n2_evolved_sampler/logs/lucj_converge_local.log | 4368 | ca128d0d8382939cbd762d9499b5ca29 |
+| n2_evolved_sampler/logs/lucj_converge_local_run2.log | 4786 | 047376747fd023a8ef3e2aa0feff1fa0 |
+| n2_evolved_sampler/logs/lucj_converge_local_run3.log | 7564 | ee1c749d264589a026f411ab983f8aab |
 | n2_evolved_sampler/logs/lucj_optimized_small.log | 3695 | 2611ec6736a4d9fb38c8536aa09f705c |
+| n2_evolved_sampler/logs/lucj_overlap_small.log | 3542 | 2a07741e3554c687969c1a3223046ec4 |
+| n2_evolved_sampler/logs/lucj_overlap_small_run2.log | 3546 | 4b56551b515fe903028fb41f51b7d10d |
+| n2_evolved_sampler/logs/lucj_overlap_small_run3.log | 3548 | 0c5d4c15a5258c5b720c7b4685ff3ef6 |
+| n2_evolved_sampler/logs/lucj_overlap_small_run4.log | 3664 | 2d0fcfc41166decbc7126a56f4c3b209 |
 | n2_evolved_sampler/logs/trotter_gate_count.log | 3567 | 1c2d3268cca039cb6df5d5bc248d6d15 |
 | n2_evolved_sampler/lucj_optimized_small.json | 2259 | ba91ae6da767122911a49a0f2c250398 |
 | n2_evolved_sampler/lucj_optimized_small.py | 6303 | 5f5fe6b94992aa1b430ef02190723b54 |
+| n2_evolved_sampler/lucj_overlap_all.npz | 14960 | 6889b494b79e4f7cddfb89456ef6b242 |
+| n2_evolved_sampler/lucj_overlap_all_run2.npz | 13640 | 0c2d86270867cbed9b70801b0634cda3 |
+| n2_evolved_sampler/lucj_overlap_all_run3.npz | 13560 | a8fa72b7759d3eb72d2946a3b56840fb |
+| n2_evolved_sampler/lucj_overlap_all_run4.npz | 16926 | 58e33277b15c3857ed1de860beec684e |
+| n2_evolved_sampler/lucj_overlap_local.npz | 12648 | b8c17602a2651b7cb33e057b80d1ce62 |
+| n2_evolved_sampler/lucj_overlap_local_run2.npz | 12192 | 7490750693b75cce742c50e99a39f08c |
+| n2_evolved_sampler/lucj_overlap_local_run3.npz | 13096 | 4dfd9befc4977b3547b35f0dfec55aa9 |
+| n2_evolved_sampler/lucj_overlap_small.json | 6708 | dcb1f75c6712b0c3403a92896f7b63d0 |
+| n2_evolved_sampler/lucj_overlap_small.py | 12678 | 248ba8997438c68eb4388595b86c0b6b |
+| n2_evolved_sampler/lucj_overlap_small_run2.json | 6699 | cf9825f7420ca6c39e93a9c98bd057ab |
+| n2_evolved_sampler/lucj_overlap_small_run3.json | 6698 | 6bcb9aa061ff797908de242890df237f |
+| n2_evolved_sampler/lucj_overlap_small_run4.json | 6772 | 202928ffa7050ec7787c4c6ea6398324 |
+| n2_evolved_sampler/run_lucj_converge.sh | 2100 | 08e811f3b28739698eb133b7cb3d0cab |
 | n2_evolved_sampler/run_lucj_opt.sh | 446 | 5ef68ef7029c0d3b9a0396e592567564 |
+| n2_evolved_sampler/run_lucj_run3.sh | 1440 | c7193ddcc24359b83864eb170404a1b9 |
+| n2_evolved_sampler/run_lucj_run4.sh | 1448 | 2c1a2ef38826223c6d8928ea0df72673 |
 | n2_evolved_sampler/run_scan_chain.sh | 726 | 1787da3ca906cfb35101d769eb499526 |
 | n2_evolved_sampler/trotter_gate_count.json | 6023 | 41bbc6725740d998365ebd371ccec8f1 |
 | n2_evolved_sampler/trotter_gate_count.py | 4060 | c8a6af50447c209c9bf4f272302cbc5c |
@@ -137,6 +163,10 @@
 | n2_prior_diagnostic/prior_diagnostic.md | 1679 | 253df20e21272a3e75c65c390215226b |
 | n2_prior_diagnostic/prior_diagnostic.py | 11860 | f19b7aaf98898484021e4a8bce43e9bd |
 | n2_prior_diagnostic/prior_diagnostic_beh2.json | 3836 | 8865780320e25161b1307381eca73f01 |
+| n2_solver_envelope/logs/solver_envelope.log | 4086 | 0886ab39cc060712e6595b3aa558ace6 |
+| n2_solver_envelope/run_solver_envelope.sh | 700 | 076cec1203d5ca3c2fb0f2d0c05fdbe7 |
+| n2_solver_envelope/solver_envelope.json | 7742 | 318b43db78fe194c0a7ec935095bf906 |
+| n2_solver_envelope/solver_envelope.py | 5425 | c88b6bb254dc79fc3421d10d80bf22b4 |
 | n2_stretched/logs/lucj_weight.log | 753 | 4bfc0a191045e4780b084301dfe9565a |
 | n2_stretched/logs/n2_stretch.log | 66442 | ddb76179cc7494fbecd542a20b16bcb2 |
 | n2_stretched/lucj_weight.json | 586 | 8fc6f7e02c81ee09c6dcbb223a2257ec |
