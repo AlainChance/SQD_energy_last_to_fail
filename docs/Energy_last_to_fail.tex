@@ -141,8 +141,8 @@ LUCJ & local unitary cluster Jastrow circuit, the state-preparation circuit of t
 \begin{table}[htbp]
 \centering
 \caption{Energies in hartree; $\Delta E$ against the selected-CI reference at cutoff $10^{-4}$.}\label{tab:2}
-\small
-\renewcommand{\arraystretch}{1.3}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\linewidth}{@{}>{\hsize=1.000\hsize\raggedright\arraybackslash}Xll@{}}
 \toprule
 method & E (Ha) & $\Delta E$ (mHa) \\
@@ -175,10 +175,10 @@ The energy descends monotonically with the iteration (Figure 1, first panel), pa
 \centering
 \caption{One-body properties in atomic units; the last three columns give the deviation from the selected-CI reference as a percentage of the property's correlation shift (reference minus RHF: $-$0.036 for $\langle r^{2}\rangle$, $-$0.178 for $\Theta_{xx}$, $-$0.071 for $\rho(\mathrm{N})$).}\label{tab:3}
 \footnotesize
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.15}
 \begin{tabular}{@{}lllllll@{}}
 \toprule
-state & $\langle r^{2}\rangle$ & $\Theta_{xx}$ & $\rho(\mathrm{N})$ & $\langle r^{2}\rangle$ error (\%) & $\Theta_{xx}$ error (\%) & $\rho(\mathrm{N})$ error (\%) \\
+state & $\langle r^{2}\rangle$ & $\Theta_{xx}$ & $\rho(\mathrm{N})$ & \begin{tabular}[b]{@{}l@{}}$\langle r^{2}\rangle$\\error (\%)\end{tabular} & \begin{tabular}[b]{@{}l@{}}$\Theta_{xx}$\\error (\%)\end{tabular} & \begin{tabular}[b]{@{}l@{}}$\rho(\mathrm{N})$\\error (\%)\end{tabular} \\
 \midrule
 RHF & 35.6043 & $-$1.3008 & 197.1909 & 100 & 100 & 100 \\
 CCSD (unrelaxed 1-RDM) & 35.5390 & $-$1.4809 & 197.1241 & 80 & 1.5 & 6.3 \\
@@ -256,7 +256,7 @@ iteration & hardware samples & random strings, five valid seeds & CCSD-occupatio
 \renewcommand{\arraystretch}{1.3}
 \begin{tabularx}{\linewidth}{@{}>{\hsize=1.000\hsize\raggedright\arraybackslash}Xllll@{}}
 \toprule
-samples & $\Delta E$ (mHa) & $\langle r^{2}\rangle$ error (\%) & $\Theta_{xx}$ error (\%) & $\rho(\mathrm{N})$ error (\%) \\
+samples & $\Delta E$ (mHa) & \begin{tabular}[b]{@{}l@{}}$\langle r^{2}\rangle$\\error (\%)\end{tabular} & \begin{tabular}[b]{@{}l@{}}$\Theta_{xx}$\\error (\%)\end{tabular} & \begin{tabular}[b]{@{}l@{}}$\rho(\mathrm{N})$\\error (\%)\end{tabular} \\
 \midrule
 hardware samples & 16.6 & 19 & 7.1 & 6.7 \\
 random strings, 5 random seeds & 21.8 & 24 & 14.9 & 14.3 \\
@@ -289,7 +289,7 @@ The recovery loop repairs strings toward a product of orbital occupations, and w
 \centering
 \caption{The product prior against the exact weights, sorted by the Hartree--Fock weight. Active spaces in cc-pVDZ with frozen cores unless stated (H$_6$ and H$_8$ in STO-3G; the 8-site Hubbard ring at half filling in the site basis); N$_2$, C$_2$ and F$_2$ at selected-CI cutoff $10^{-3}$, the rest exact. $\rho$ is the Spearman rank correlation; * = zero by symmetry.}\label{tab:6}
 \footnotesize
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.15}
 \begin{tabular}{@{}llllllll@{}}
 \toprule
 system & space & KL (bits) & KL/pair & $\rho$ & $w_{\mathrm{HF}}$ & NOONs & T1 \\
@@ -392,8 +392,8 @@ The [4Fe-4S] run of Table 7 is the case the diagnostics rank hardest for a produ
 \begin{table}[htbp]
 \centering
 \caption{The four seeds of \S\ref{sec:3.4} on the archived [4Fe-4S] run \cite{IBMdata} ((54e, 36o), 3.16 million hardware shots of which 1 694 are in the sector): energy in hartree after each of three recovery iterations with two batches of 1 000 samples, the sbd eigensolver, no spin penalty unless stated; final subspace dimension and $\langle S^{2}\rangle$ of the final state, computed from the saved eigenvector in the alpha-first convention (\S\ref{sec:3.7}). Rows five and six are the equal-size pair: the configuration prior at the hardware seed's subspace size, and the hardware seed at the archive's 16 M size. The last two rows repeat the configuration prior with the spin penalty of \S\ref{sec:3.7}, $\lambda$ = 0.2; their energies are $\langle$H$\rangle$ of the eigenvector of H + $\lambda$$S^{2}$. Archive references: RHF $-$326.547, CISD $-$326.742, CCSD $-$326.838, HCI $-$326.794, DMRG $-$327.240; the archive's own hardware batches $-$326.556 at 4 M, $-$326.592 at 9 M and $-$326.603 at 16 M determinants, its uniform in-sector control $-$324.768 at 4 M.}\label{tab:9}
-\small
-\renewcommand{\arraystretch}{1.3}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\linewidth}{@{}>{\hsize=1.000\hsize\raggedright\arraybackslash}Xlllll@{}}
 \toprule
 seed & iteration 1 & iteration 2 & iteration 3 & final D & final $\langle S^{2}\rangle$ \\
@@ -419,23 +419,25 @@ The clean-circuit result asks for a state whose exact samples are numerous and b
 
 \begin{table}[htbp]
 \centering
-\caption{Exact samples of the LUCJ circuit and of the time-evolved state in the (10e, 12o) window of N$_2$ at 1.0975 \AA{}, 50 000 shots each, and the static loop on them; full CI $-$108.999490 Ha, Hartree--Fock $-$108.867774 Ha. The hardware pattern keeps the alpha--alpha interactions between neighbouring orbitals and the alpha--beta ones on the same orbital, as the heavy-hex layout does; ``parameters optimized to convergence'' means the circuit's parameters minimized against the exact energy of the window (linear method, run to its convergence test of a $10^{-8}$ relative reduction per step) instead of being read from the coupled-cluster amplitudes; those two rows give ranges over independent optimizations, three of each circuit from the same start and a fourth of the all-to-all circuit from a perturbed start, because a fifteen-iteration snapshot of either was not reproducible.}\label{tab:10}
-\small
-\renewcommand{\arraystretch}{1.3}
-\begin{tabularx}{\linewidth}{@{}>{\hsize=1.386\hsize\raggedright\arraybackslash}Xlll>{\hsize=0.614\hsize\raggedright\arraybackslash}X@{}}
+\caption{Exact samples of the one-layer LUCJ circuit and of the time-evolved state in the (10e, 12o) window of N$_2$ at 1.0975 \AA{}, 50 000 shots each, and the static loop on them, given as its energy above full CI; full CI $-$108.999490 Ha, Hartree--Fock $-$108.867774 Ha. ``CCSD amplitudes'': parameters read from the coupled-cluster amplitudes; ``optimized to convergence'': parameters minimized against the exact energy of the window (linear method, $10^{-8}$ relative test), as ranges over the independent optimizations described in the text. 1 $-$ W(U$\times$U): the full-CI weight missing from the product space of the sample's $\alpha$ and $\beta$ strings, the space the static loop diagonalizes in. The two closing rows take full CI's own largest determinants as the sample.}\label{tab:10}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}>{\hsize=1.000\hsize\raggedright\arraybackslash}Xlllll@{}}
 \toprule
-state sampled & distinct configurations & $\alpha$ strings & full-CI weight captured & static loop above full CI (mHa) \\
+state sampled & \begin{tabular}[b]{@{}l@{}}distinct\\configurations\end{tabular} & $\alpha$ strings & \begin{tabular}[b]{@{}l@{}}full-CI weight\\captured\end{tabular} & \begin{tabular}[b]{@{}l@{}}static\\loop (mHa)\end{tabular} & 1 $-$ W(U$\times$U) \\
 \midrule
-LUCJ, one layer, from CCSD amplitudes & 37 & 16 & 0.977 & 30.63 \\
-LUCJ, one layer, hardware pattern, from CCSD amplitudes & 18 & 10 & 0.958 & 43.14 \\
-LUCJ, one layer, hardware pattern, parameters optimized to convergence & 233--269 & 68--70 & 0.987--0.989 & 6.0--7.6 \\
-LUCJ, one layer, all-to-all, parameters optimized to convergence & 177--256 & 47--74 & 0.988--0.997 & 2.3--16.4 \\
-evolved HF, t = 0.25 & 143 & 53 & 0.994 & 5.10 \\
-evolved HF, t = 0.5 & 274 & 86 & 0.998 & 1.83 \\
-evolved HF, t = 1.0 & 547 & 157 & 0.999 & 0.78 \\
-evolved HF, t = 2.0 & 631 & 162 & 0.998 & 0.58 \\
-evolved HF, t = 4.0 & 756 & 213 & 0.998 & 0.43 \\
-evolved HF, t = 8.0 & 832 & 229 & 0.998 & 0.48 \\
+LUCJ, all-to-all, CCSD amplitudes & 37 & 16 & 0.977 & 30.63 & $1.8\times10^{-2}$ \\
+LUCJ, hardware pattern, CCSD amplitudes & 18 & 10 & 0.958 & 43.14 & $2.4\times10^{-2}$ \\
+LUCJ, hardware pattern, optimized to convergence & 233--269 & 68--70 & 0.987--0.989 & 6.0--7.6 & $2.4\times10^{-3}$ to $3.9\times10^{-3}$ \\
+LUCJ, all-to-all, optimized to convergence & 177--256 & 47--74 & 0.988--0.997 & 2.3--16.4 & $8.0\times10^{-4}$ to $1.1\times10^{-2}$ \\
+evolved HF, t = 0.25 & 143 & 53 & 0.994 & 5.10 & $1.9\times10^{-3}$ \\
+evolved HF, t = 0.5 & 274 & 86 & 0.998 & 1.83 & $6.3\times10^{-4}$ \\
+evolved HF, t = 1.0 & 547 & 157 & 0.999 & 0.78 & $2.3\times10^{-4}$ \\
+evolved HF, t = 2.0 & 631 & 162 & 0.998 & 0.58 & $1.5\times10^{-4}$ \\
+evolved HF, t = 4.0 & 756 & 213 & 0.998 & 0.43 & $1.1\times10^{-4}$ \\
+evolved HF, t = 8.0 & 832 & 229 & 0.998 & 0.48 & $1.2\times10^{-4}$ \\
+full CI, 204 largest determinants & 204 & 65 & 0.998 & 3.09 & $9.4\times10^{-4}$ \\
+full CI, 756 largest determinants & 756 & 158 & 1.000 & 0.58 & $1.5\times10^{-4}$ \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -443,9 +445,11 @@ evolved HF, t = 8.0 & 832 & 229 & 0.998 & 0.48 \\
 
 Time evolution broadens the support by an order of magnitude over the one-layer LUCJ state, from 37 distinct configurations to 547 at t = 1 and 756 at t = 4, captures more of the full-CI weight, 0.977 against 0.998, and the all-valid static loop that stalled 31 mHa short on the LUCJ samples reaches half a millihartree. The evolved state's own energy stays at the Hartree--Fock value throughout, so it is a broad sampler rather than a good energy state, which is exactly the point: what the loop needs from the sampler is coverage, and the energy of the sampled state says nothing about it. Two cautions belong here. The static loop's subspace grows with t, from 361 to 69,169 determinants, so the captured weight per shot is the fair figure, and the gain saturates beyond t $\approx$ 2. And this is a twelve-orbital window; the same measurement in the sixteen-orbital space of Table 8, where a Krylov step costs minutes rather than seconds, is the next step.
 
-The circuit's parameters are a variable the demonstrations do not use, and Table 10 measures it. The circuits sampled on hardware take their parameters from the coupled-cluster amplitudes without optimization, and the configuration prior of \S\ref{sec:3.4} is not that input but coupled cluster's output, the largest determinants of its wavefunction; the 2.3 mHa of Table 11 is what a sampled one-layer circuit loses against the amplitudes that parametrized it. Optimizing the parameters is the missing rung between the 142 and the 2 146 configurations of Table 8. In the window, the hardware pattern read from the amplitudes holds 18 configurations and its static loop stops 43 mHa short; optimized to convergence against the exact energy it holds 233--269 configurations, captures 0.987--0.989 of the full-CI weight and stops 6.0--7.6 mHa short, at an energy 42.5--43.7 mHa above full CI over three independent optimizations from the same start. For the hardware pattern the converged optimum is therefore reproducible to chemical accuracy in energy and to within a millihartree in what the loop does with its samples. The all-to-all circuit goes from 37 configurations and 30.6 mHa to 177--256 configurations and 2.3--16.4 mHa, but its three optimizations from the same start land in three optima, 9.2, 15.1 and 17.9 mHa above full CI, so its row is a range and not a value. A fourth optimization, started from the coupled-cluster parameters displaced by Gaussian noise of a tenth of their root-mean-square, which moves the start state from 37 to 215 sampled configurations, converged back to the third optimum, 18.0 mHa above full CI with a state overlap of 0.9996 with the third run's, so the three optima are the set the optimizer reaches from this neighbourhood and not an open-ended one; a fifteen-iteration snapshot of either circuit was not reproducible between runs. Optimization broadens a one-layer circuit's support by an order of magnitude and leaves it a factor of three to four below the evolved state's 756 configurations, with a static-loop error 5 to 38 times the evolved state's. The ordering of Table 10 is therefore one of circuit families, not of parameters: what the loop needs is support --- the strings whose product it diagonalizes in --- and a one-layer cluster-Jastrow circuit, however parametrized, concentrates its samples on a few hundred configurations.
+The circuit's parameters are a variable the demonstrations do not use, and Table 10 measures it; its hardware pattern keeps the alpha--alpha interactions between neighbouring orbitals and the alpha--beta ones on the same orbital, as the heavy-hex layout does. The circuits sampled on hardware take their parameters from the coupled-cluster amplitudes without optimization, and the configuration prior of \S\ref{sec:3.4} is not that input but coupled cluster's output, the largest determinants of its wavefunction; the 2.3 mHa of Table 11 is what a sampled one-layer circuit loses against the amplitudes that parametrized it. Optimizing the parameters is the missing rung between the 142 and the 2 146 configurations of Table 8. In the window, the hardware pattern read from the amplitudes holds 18 configurations and its static loop stops 43 mHa short; optimized to convergence against the exact energy it holds 233--269 configurations, captures 0.987--0.989 of the full-CI weight and stops 6.0--7.6 mHa short, at an energy 42.5--43.7 mHa above full CI over three independent optimizations from the same start. For the hardware pattern the converged optimum is therefore reproducible to chemical accuracy in energy and to within a millihartree in what the loop does with its samples. The all-to-all circuit goes from 37 configurations and 30.6 mHa to 177--256 configurations and 2.3--16.4 mHa, but its three optimizations from the same start land in three optima, 9.2, 15.1 and 17.9 mHa above full CI, so its row is a range and not a value. A fourth optimization, started from the coupled-cluster parameters displaced by Gaussian noise of a tenth of their root-mean-square, which moves the start state from 37 to 215 sampled configurations, converged back to the third optimum, 18.0 mHa above full CI with a state overlap of 0.9996 with the third run's, so the three optima are the set the optimizer reaches from this neighbourhood and not an open-ended one; a fifteen-iteration snapshot of either circuit was not reproducible between runs. Optimization broadens a one-layer circuit's support by an order of magnitude and leaves it a factor of three to four below the evolved state's 756 configurations, with a static-loop error 5 to 38 times the evolved state's. The ordering of Table 10 is therefore one of circuit families, not of parameters: what the loop needs is support --- the strings whose product it diagonalizes in --- and a one-layer cluster-Jastrow circuit, however parametrized, concentrates its samples on a few hundred configurations.
 
 The two circuits order differently by the state's energy and by the loop's, and both orderings have a reason. The all-to-all state lands closer to full CI in every run, by 25 to 34 mHa, its worst basin included. That is a containment, not a discrepancy: a one-layer circuit is an orbital rotation, a diagonal-Coulomb evolution and a second rotation, and setting the couplings the hardware pattern lacks to zero recovers it exactly, so the all-to-all manifold contains the hardware pattern's and its minimum cannot lie higher. The correlation the window holds is carried by double excitations between orbitals that are not neighbours in the ordering, which the restricted Jastrow cannot write directly; the 30 mHa between the two families is the price of the connectivity constraint, measured. The constraint is the processor's: the pattern is what a heavy-hex lattice executes without routing, and the reference tutorial, run on the square-lattice Nighthawk r2 processor ibm\_phoenix, switches the circuit's pass manager from heavy-hex to square connectivity \cite{Huang2026}, a pattern with more couplings per orbital that sits between the two rows of Table 10 and is a measurement for the next version; the same report puts a million samples in a minute on that processor, five times the rate of Heron r3 at similar result quality, which is the sampling budget a broader sampler would draw on. The larger manifold is also the rougher one: with 444 parameters against 311 and a local optimizer, the all-to-all circuit converges to three optima 9 mHa apart where the hardware pattern converges to one, and a perturbed start returns to one of the three. The loop's ordering is another matter, because the loop does not consume the state but its strings: it diagonalizes in the product of the $\alpha$ and $\beta$ strings the samples contain. Lowering the state's energy means getting the coefficients of the leading determinants right, which concentrates the samples. The two all-to-all optima at 15.1 and 17.9 mHa, the second reached twice, hold 177--186 configurations on 59--64 strings and their loops stop 12--16 mHa short, worse than the hardware pattern's 6 to 8 mHa on 88 to 93 strings; only the basin at 9.2 mHa, which spread over 256 configurations and 90 strings, hands the loop a better start at 2.3 mHa. A lower variational energy buys amplitude accuracy on the same few hundred configurations, not string diversity, and string diversity is what the loop pays for. The state's ordering is fixed by the family; the loop's is not fixed within this rung at all, which is the finding.
+
+The quantity that does fix it is the last column of Table 10. The loop diagonalizes in the product space U $\times$ U of the $\alpha$ and $\beta$ strings a sample contains, and the full-CI weight that space misses, 1 $-$ W, orders every set in the table and every set of the exchange behind it: $1.1\times10^{-4}$ for the evolved state at t = 4 and 0.43 mHa; $1.5\times10^{-4}$ for full CI's own 756 largest determinants and 0.58; $8.0\times10^{-4}$ for the best all-to-all optimum and 2.3; $9.4\times10^{-4}$ for full CI's 204 largest determinants, whose 65 strings beat the hardware pattern's 88 to 93 strings at $2.4\times10^{-3}$ to $3.9\times10^{-3}$; $8.5\times10^{-3}$ to $1.1\times10^{-2}$ for the two narrow all-to-all optima and 12 to 16 mHa; $1.8\times10^{-2}$ and $2.4\times10^{-2}$ for the two circuits read from the amplitudes and 31 and 44. Neither the number of configurations nor the number of strings carries this ordering; the missing weight does, with one near-tie exchanged, the union of the two converged circuits at $1.2\times10^{-3}$ and 2.9 mHa against full CI's 204 at $9.4\times10^{-4}$ and 3.1. Two facts fix its meaning. The static loop's energy lies within 0.3 mHa of the energy of the normalized projection of the full-CI vector onto U $\times$ U for every converged set, and within 0.6 mHa for the two amplitude-read circuits, so the loop's diagonalization adds nothing the weight has not already decided. And the error divided by the missing weight runs from 1.4 to 4.1 Ha over the sets, an excitation-energy scale, so a static loop within a millihartree of full CI needs a string product that misses less than about $3\times10^{-4}$ of the weight: the evolved state has it from t = 1 on, and no one-layer circuit, whatever its parameters, does. The product space also misses three to four times less weight than the sampled configurations themselves, which is what the symmetric string product buys the loop, and why the loop is read here as consuming strings rather than configurations.
 
 That step is now taken at equilibrium (Table 8, two added rows). In the sixteen-orbital space, 50 000 exact samples of the t = 4 state contain 2,146 distinct configurations against 142 for the LUCJ state, the first diagonalization on them stands 4.7 mHa above full CI against 50 mHa, and, because a batch of 1 000 holds only part of that support, the loop is no longer static: it keeps adding strings and converges within the sampled support at 2.1 mHa after 9 iterations. Passed through a bit-flip channel that leaves 6 \% of the strings valid, ten times the hardware's fraction, the same samples run the full loop and end at 1.2 mHa on 884 thousand determinants after ten iterations, where the hardware seed ends at 0.22 mHa on 3.4 million. At equal iteration the noisy evolved seed trails; at equal subspace size it leads, reaching at 533 thousand determinants the error the hardware seed reaches at 2.3 million. A broad sampler buys the loop accuracy per determinant; the hardware seed, with more to repair, buys it subspace growth.
 
@@ -465,10 +469,10 @@ The reference implementation's documentation places its solver at about twenty-f
 \centering
 \caption{The classical solver of the loop on a sixteen-thread laptop (AMD Ryzen 7 6800H, 47 GB): qiskit-addon-sqd 0.12.1's \texttt{solve\_sci}, the selected-CI Davidson behind \texttt{solve\_fermion}, on the (10e, 26o) Hamiltonian of \S\ref{sec:3.1}, sixteen OpenMP threads, Davidson limit 200 cycles. The first block is the subspaces the CCSD-configuration control of \S\ref{sec:3.4} recovered at each iteration, where the recorded energy validates the solve; the second is symmetric subspaces cut at random from the union of every $\alpha$ and $\beta$ string the controls saved, up to the largest dimension the machine was asked to hold. Peak memory is the process's resident maximum after the solve.}\label{tab:12}
 \footnotesize
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.15}
 \begin{tabular}{@{}lllllll@{}}
 \toprule
-subspace & strings per spin & D & seconds & s per 1$0^{6}$ & peak GB & $\Delta$ vs recorded (Ha) \\
+subspace & \begin{tabular}[b]{@{}l@{}}strings\\per spin\end{tabular} & D & seconds & s per 1$0^{6}$ & peak GB & \begin{tabular}[b]{@{}l@{}}$\Delta$ vs recorded\\(Ha)\end{tabular} \\
 \midrule
 control, iteration 1 & 787 & 619 369 & 84 & 135 & 3.6 & +1e-13 \\
 control, iteration 2 & 2 110 & 4 452 100 & 468 & 105 & 3.6 & +6e-14 \\
@@ -503,8 +507,8 @@ Table 11 collects, from Tables 4, 8 and 9, every reading at matched subspace siz
 \begin{table}[htbp]
 \centering
 \caption{Readings at matched subspace size, seed by seed, the subspace dimension after the @ sign: for N$_2$ the error above the reference of the section in mHa (selected CI at cutoff $10^{-4}$ in cc-pVDZ, full CI in the (10e, 16o) window); for the iron--sulfur cluster the energy in hartree and $\langle S^{2}\rangle$ at 4.0 to 4.3 million determinants, the configuration prior's spin given without and with the penalty. The in-sector strings are static at N$_2$ equilibrium in the large space and on the cluster.}\label{tab:11}
-\small
-\renewcommand{\arraystretch}{1.3}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\linewidth}{@{}>{\hsize=1.000\hsize\raggedright\arraybackslash}Xlllll@{}}
 \toprule
 system & hardware & random, 5 seeds & occupation prior & configuration prior & in-sector \\
@@ -567,7 +571,7 @@ The outlook is therefore not that the device has nothing to add, but that the qu
 \section{Data and code availability}\label{sec:5}
 
 
-The scripts that rebuild the Hamiltonian, compute the references, rerun the recovery loop from the archived samples with per-iteration density matrices, evaluate the properties and draw Figures 1 and 2, together with the per-iteration density matrices and result files, are held with this manuscript and will be deposited with it, as are the driver that runs the recovery loop on the sbd eigensolver, the local fork of sbd with the spin penalty as a patch script against the upstream commit, the sign conversion between sbd's interleaved operator ordering and the alpha-first convention of pyscf and the addon, the exact projected-operator check used to validate the penalty, the two-string unit test that exposes the convention mismatch, the multi-start tests on the recovered and raw iron--sulfur subspaces, the transpilation script behind the gate counts quoted with Table 10, the optimizations of the circuit parameters behind Table 10 with their converged parameters, energies and sampled sets, and the solver-envelope measurement of Table 12. The archived hardware samples and the pipeline of the run of record are those of the open SQD\_Alain repository \cite{SQDAlain}; the iron--sulfur samples, integrals and reference energies are those of IBM's data archive, Zenodo record 10.5281/zenodo.15324153 \cite{IBMdata}, accessed September 2026; the sbd fork is a patch against upstream commit 293b409 of github.com/r-ccs-cms/sbd \cite{sbd}. The package is deposited as Zenodo record 10.5281/zenodo.22734603 and mirrored at github.com/AlainChance/SQD\_energy\_last\_to\_fail.
+The scripts that rebuild the Hamiltonian, compute the references, rerun the recovery loop from the archived samples with per-iteration density matrices, evaluate the properties and draw Figures 1 and 2, together with the per-iteration density matrices and result files, are held with this manuscript and will be deposited with it, as are the driver that runs the recovery loop on the sbd eigensolver, the local fork of sbd with the spin penalty as a patch script against the upstream commit, the sign conversion between sbd's interleaved operator ordering and the alpha-first convention of pyscf and the addon, the exact projected-operator check used to validate the penalty, the two-string unit test that exposes the convention mismatch, the multi-start tests on the recovered and raw iron--sulfur subspaces, the transpilation script behind the gate counts quoted with Table 10, the optimizations of the circuit parameters behind Table 10 with their converged parameters, energies and sampled sets, the solver-envelope measurement of Table 12, and the string-product coverages behind the last column of Table 10. The archived hardware samples and the pipeline of the run of record are those of the open SQD\_Alain repository \cite{SQDAlain}; the iron--sulfur samples, integrals and reference energies are those of IBM's data archive, Zenodo record 10.5281/zenodo.15324153 \cite{IBMdata}, accessed September 2026; the sbd fork is a patch against upstream commit 293b409 of github.com/r-ccs-cms/sbd \cite{sbd}. The package is deposited as Zenodo record 10.5281/zenodo.22735428 and mirrored at github.com/AlainChance/SQD\_energy\_last\_to\_fail.
 
 
 \begingroup\small\raggedright

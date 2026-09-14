@@ -8,9 +8,9 @@ authors:
     orcid: "https://orcid.org/0009-0004-3619-2267"
     affiliation: "MOLKET SAS"
 license: MIT
-version: 1.2.0
+version: 1.3.0
 date-released: "2026-09-13"
-doi: 10.5281/zenodo.22734603
+doi: 10.5281/zenodo.22735428
 repository-code: "https://github.com/AlainChance/SQD_energy_last_to_fail"
 preferred-citation:
   type: article
@@ -21,5 +21,5 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0004-3619-2267"
       affiliation: "MOLKET SAS"
   year: 2026
-  doi: 10.5281/zenodo.22734605
+  doi: 10.5281/zenodo.22737055
   notes: "Preprint (Zenodo)"

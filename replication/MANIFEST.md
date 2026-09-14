@@ -2,7 +2,7 @@
 
 | file | bytes | md5 |
 |---|---|---|
-| README.md | 3523 | 31dda1374158ed89cf505774eac4d378 |
+| README.md | 3601 | 3e9d5d14ac39c09178f1736ee276c11a |
 | fe4s4_sbd/fe4s4_ccsd_amps.npz | 443128 | acf737904e4df4c81a452eeada7f0582 |
 | fe4s4_sbd/fe4s4_sbd_allvalid.json | 3577 | bf53aaaa5d1e7e43aed49ae562e567ea |
 | fe4s4_sbd/fe4s4_sbd_ccsdconf.json | 3616 | e5944ab2a3fa7bd0fb94f692f56b50a8 |
@@ -156,6 +156,8 @@
 | n2_evolved_sampler/run_lucj_run3.sh | 1440 | c7193ddcc24359b83864eb170404a1b9 |
 | n2_evolved_sampler/run_lucj_run4.sh | 1448 | 2c1a2ef38826223c6d8928ea0df72673 |
 | n2_evolved_sampler/run_scan_chain.sh | 726 | 1787da3ca906cfb35101d769eb499526 |
+| n2_evolved_sampler/string_coverage_small.json | 4948 | 3ecbc8108f36e494562c0019b6e64be4 |
+| n2_evolved_sampler/string_coverage_small.py | 5783 | f1823d7f63e5cf4d038b3094ccedea18 |
 | n2_evolved_sampler/trotter_gate_count.json | 6023 | 41bbc6725740d998365ebd371ccec8f1 |
 | n2_evolved_sampler/trotter_gate_count.py | 4060 | c8a6af50447c209c9bf4f272302cbc5c |
 | n2_prior_diagnostic/prior_diagnostic.json | 9556 | 0b9a07fd4e7a3dc62409cd56f151a0ff |
