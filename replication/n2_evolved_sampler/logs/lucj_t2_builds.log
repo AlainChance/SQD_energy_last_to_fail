@@ -1,0 +1,79 @@
+t1a (1 threads): hardware pattern 18 / 10 / 0.957 / 41.48 mHa / 2.2e-02
+t1b (1 threads): hardware pattern 18 / 10 / 0.957 / 41.48 mHa / 2.2e-02
+t2a (2 threads): hardware pattern 21 / 9 / 0.972 / 44.05 mHa / 2.3e-02
+t2b (2 threads): hardware pattern 14 / 8 / 0.958 / 44.57 mHa / 2.4e-02
+t4a (4 threads): hardware pattern 16 / 8 / 0.959 / 43.09 mHa / 2.3e-02
+t4b (4 threads): hardware pattern 15 / 10 / 0.957 / 42.66 mHa / 2.3e-02
+t8a (8 threads): hardware pattern 16 / 8 / 0.958 / 43.09 mHa / 2.3e-02
+t8b (8 threads): hardware pattern 14 / 8 / 0.958 / 44.57 mHa / 2.4e-02
+t16a (16 threads): hardware pattern 15 / 8 / 0.964 / 44.57 mHa / 2.4e-02
+t16b (16 threads): hardware pattern 29 / 10 / 0.973 / 41.32 mHa / 2.1e-02
+{
+ "builds": 10,
+ "threads": [
+  1,
+  1,
+  2,
+  2,
+  4,
+  4,
+  8,
+  8,
+  16,
+  16
+ ],
+ "hardware_pattern": {
+  "distinct": [
+   14,
+   29
+  ],
+  "alpha": [
+   8,
+   10
+  ],
+  "fci_weight": [
+   0.9572708607788065,
+   0.9734536137883146
+  ],
+  "dE_static_mHa": [
+   41.32015137965084,
+   44.56556275660262
+  ],
+  "one_minus_W_UxU": [
+   0.02138151263075283,
+   0.02383164074880717
+  ],
+  "E_state_above_fci_mHa": [
+   107.83361802850777,
+   108.11402318655894
+  ],
+  "distinct_values_of_static_loop": 6
+ },
+ "all_to_all": {
+  "distinct": [
+   37,
+   37
+  ],
+  "alpha": [
+   16,
+   16
+  ],
+  "fci_weight": [
+   0.9765903217690812,
+   0.9765903217690826
+  ],
+  "dE_static_mHa": [
+   30.62731214313885,
+   30.627312143167273
+  ],
+  "one_minus_W_UxU": [
+   0.017869480895917333,
+   0.017869480895918444
+  ],
+  "E_state_above_fci_mHa": [
+   65.34466450780485,
+   65.34466450932541
+  ],
+  "distinct_values_of_static_loop": 1
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "tag": "t4a",
+ "threads": "4",
+ "E_FCI": -108.99949030779891,
+ "E_CCSD": -108.99651140139767,
+ "all_to_all": {
+  "E_state_above_fci_mHa": 65.34466450803222,
+  "distinct": 37,
+  "alpha": 16,
+  "fci_weight": 0.9765903217690819,
+  "dE_static_mHa": 30.627312143167273,
+  "one_minus_W_UxU": 0.01786948089591789
+ },
+ "hardware_pattern": {
+  "E_state_above_fci_mHa": 108.11402318655894,
+  "distinct": 16,
+  "alpha": 8,
+  "fci_weight": 0.9586298268563374,
+  "dE_static_mHa": 43.09486858609546,
+  "one_minus_W_UxU": 0.02341914428338876
+ },
+ "wall_s": 9.117961645126343
+}

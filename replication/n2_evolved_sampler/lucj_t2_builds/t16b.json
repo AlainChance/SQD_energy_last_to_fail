@@ -1,0 +1,23 @@
+{
+ "tag": "t16b",
+ "threads": "16",
+ "E_FCI": -108.99949030779885,
+ "E_CCSD": -108.99651140139764,
+ "all_to_all": {
+  "E_state_above_fci_mHa": 65.34466450848697,
+  "distinct": 37,
+  "alpha": 16,
+  "fci_weight": 0.9765903217690812,
+  "dE_static_mHa": 30.627312143167273,
+  "one_minus_W_UxU": 0.017869480895918444
+ },
+ "hardware_pattern": {
+  "E_state_above_fci_mHa": 108.086257444441,
+  "distinct": 29,
+  "alpha": 10,
+  "fci_weight": 0.9734536137883146,
+  "dE_static_mHa": 41.32015137965084,
+  "one_minus_W_UxU": 0.02138151263075283
+ },
+ "wall_s": 42.157891273498535
+}
